@@ -105,6 +105,37 @@ rest_bw:["Rest: {n} sec","आराम: {n} सेकंड","ਆਰਾਮ: {n} 
 tap_vid:["Watch HD Video & Details ›","HD वीडियो और पूरी जानकारी देखें ›","HD ਵੀਡੀਓ ਅਤੇ ਪੂਰੀ ਜਾਣਕਾਰੀ ਵੇਖੋ ›"],
 today_ex_h:["Today's Exercises (Step-by-Step)","आज की एक्सरसाइज़ (कदम-दर-कदम)","ਅੱਜ ਦੀਆਂ ਕਸਰਤਾਂ (ਕਦਮ-ਦਰ-ਕਦਮ)"],
 view_day:["Open Day {d}","दिन {d} खोलें","ਦਿਨ {d} ਖੋਲ੍ਹੋ"],
+hub_yoga:["Yoga & Recovery Studio","योग व रिकवरी स्टूडियो","ਯੋਗ ਅਤੇ ਰਿਕਵਰੀ ਸਟੂਡੀਓ"],
+hub_yoga_s:["Surya Namaskar, Post-workout cool-down, spine relief & Pranayama breathwork","सूर्य नमस्कार, स्ट्रेचिंग, कमर दर्द निवारण व प्राणायाम","ਸੂਰਜ ਨਮਸਕਾਰ, ਸਟ੍ਰੈਚਿੰਗ, ਕਮਰ ਦਰਦ ਤੇ ਪ੍ਰਾਣਾਯਾਮ"],
+yoga_h:["Yoga & Recovery Studio","🧘‍♀️ योग व रिकवरी स्टूडियो","🧘‍♀️ ਯੋਗ ਅਤੇ ਰਿਕਵਰੀ ਸਟੂਡੀਓ"],
+yoga_sub:["Flexibility, spine health, post-workout cool-down & mindful breathwork.","लचीलापन, रीढ़ की हड्डी, वर्कआउट के बाद की रिकवरी और प्राणायाम।","ਲਚਕੀਲਾਪਣ, ਰੀੜ੍ਹ ਦੀ ਹੱਡੀ, ਵਰਕਆਊਟ ਤੋਂ ਬਾਅਦ ਰਿਕਵਰੀ ਅਤੇ ਪ੍ਰਾਣਾਯਾਮ।"],
+hub_title:["Main Hubs & Stores","प्रमुख हब्स व स्टोर (अलग-अलग खाने)","ਮੁੱਖ ਹੱਬਾਂ ਅਤੇ ਸਟੋਰ"],
+hub_ex:["Exercise Chart Store","एक्सरसाइज़ चार्ट स्टोर","ਕਸਰਤ ਚਾਰਟ ਸਟੋਰ"],
+hub_ex_s:["Chest, Back, Arms, Legs & Abs — Beginner to Pro","छाती, पीठ, बाँहें, पेट व टाँगें — शुरुआती से प्रो तक","ਛਾਤੀ, ਪਿੱਠ, ਬਾਹਾਂ, ਪੇਟ ਤੇ ਲੱਤਾਂ — ਸ਼ੁਰੂਆਤੀ ਤੋਂ ਪ੍ਰੋ ਤੱਕ"],
+hub_diet:["Diet & Nutrition Store","डाइट व न्यूट्रिशन स्टोर","ਡਾਈਟ ਅਤੇ ਨਿਊਟ੍ਰੀਸ਼ਨ ਸਟੋਰ"],
+hub_diet_s:["5 daily meals, winter menu, desi food swaps & macros","5 टाइम का खाना, साग-मक्की, देसी स्वैप्स व कैलोरी","5 ਵੇਲੇ ਦਾ ਖਾਣਾ, ਸਾਗ-ਮੱਕੀ, ਦੇਸੀ ਬਦਲ ਤੇ ਕੈਲੋਰੀ"],
+hub_coach:["Digital Coach Hub","डिजिटल कोच हब","ਡਿਜੀਟਲ ਕੋਚ ਹੱਬ"],
+hub_coach_s:["Instant advice for soreness, low time, outside food & form","थकान, कम समय, बाहर का खाना या दर्द पर तुरंत सलाह","ਥਕਾਵਟ, ਘੱਟ ਸਮਾਂ, ਬਾਹਰ ਦਾ ਖਾਣਾ ਜਾਂ ਦਰਦ 'ਤੇ ਤੁਰੰਤ ਸਲਾਹ"],
+hub_rep:["Progress & Weight Store","प्रोग्रेस व वज़न रिकॉर्ड","ਪ੍ਰੋਗਰੈੱਸ ਅਤੇ ਭਾਰ ਟਰੈਕਰ"],
+hub_rep_s:["Weight chart, workout streak & 90-day tracker","वज़न का ग्राफ़, लगातार दिन (Streak) और वर्कआउट रिकॉर्ड","ਭਾਰ ਦਾ ਚਾਰਟ, ਲਗਾਤਾਰ ਦਿਨ (Streak) ਤੇ ਕਸਰਤ ਰਿਕਾਰਡ"],
+pro_level_h:["Select Your Level","अपना ट्रेनिंग लेवल चुनें","ਆਪਣਾ ਟ੍ਰੇਨਿੰਗ ਲੈਵਲ ਚੁਣੋ"],
+lvl_beg_t:["Beginner","शुरुआती (Beginner)","ਸ਼ੁਰੂਆਤੀ (Beginner)"],
+lvl_int_t:["Intermediate","मध्यम (Intermediate)","ਵਿਚਕਾਰਲਾ (Intermediate)"],
+lvl_adv_t:["Pro / Advanced","प्रो / एडवांस (Pro)","ਪ੍ਰੋ / ਅਡਵਾਂਸ (Pro)"],
+pro_cues_h:["Coach Recommendation for {lvl}","{lvl} के लिए कोच की खास सलाह","{lvl} ਲਈ ਕੋਚ ਦੀ ਖਾਸ ਸਲਾਹ"],
+cue_beg_sets:["2–3 Sets × 8–10 Reps","2–3 सेट × 8–10 बार","2–3 ਸੈੱਟ × 8–10 ਵਾਰ"],
+cue_beg_rest:["Rest: 60–90 sec","आराम: 60–90 सेकंड","ਆਰਾਮ: 60–90 ਸਕਿੰਟ"],
+cue_beg_tip:["Focus strictly on form, slow controlled lowering, and joint safety. Stop 2 reps before failure.","सही फॉर्म, धीमी गति और जोड़ों की सुरक्षा पर ध्यान दें। बहुत भारी वजन न लें।","ਸਹੀ ਫਾਰਮ, ਹੌਲੀ ਗਤੀ ਅਤੇ ਜੋੜਾਂ ਦੀ ਸੁਰੱਖਿਆ 'ਤੇ ਧਿਆਨ ਦਿਓ।"],
+cue_int_sets:["3–4 Sets × 10–12 Reps","3–4 सेट × 10–12 बार","3–4 ਸੈੱਟ × 10–12 ਵਾਰ"],
+cue_int_rest:["Rest: 45–60 sec","आराम: 45–60 सेकंड","ਆਰਾਮ: 45–60 ਸਕਿੰਟ"],
+cue_int_tip:["Progressive Overload: 2-second negative lowering, explosive upward push. Focus on hypertrophy.","प्रोग्रेसिव ओवरलोड: 2 सेकंड धीरे नीचे लाएँ, ताकत से ऊपर उठाएँ। माँसपेशियों के विकास पर ज़ोर दें।","ਪ੍ਰੋਗ੍ਰੈਸਿਵ ਓਵਰਲੋਡ: 2 ਸਕਿੰਟ ਹੌਲੀ ਹੇਠਾਂ ਲਿਆਓ, ਤਾਕਤ ਨਾਲ ਉੱਪਰ ਚੁੱਕੋ।"],
+cue_adv_sets:["4–5 Sets × 12–15 Reps (Failure)","4–5 सेट × 12–15 बार (फेलियर तक)","4–5 ਸੈੱਟ × 12–15 ਵਾਰ (ਫੇਲੀਅਰ ਤੱਕ)"],
+cue_adv_rest:["Rest: 30–45 sec","आराम: 30–45 सेकंड","ਆਰਾਮ: 30–45 ਸਕਿੰਟ"],
+cue_adv_tip:["High Intensity & Tempo: 3-1-1 tempo with 2-second peak isometric hold. Add drop-sets on final set.","हाई इंटेंसिटी: 3-1-1 टेम्पो, ऊपर 2 सेकंड होल्ड करें, आखिरी सेट पर ड्रॉप-सेट लगाएँ।","ਹਾਈ ਇੰਟੈਂਸਿਟੀ: 3-1-1 ਟੈਂਪੋ, ਉੱਪਰ 2 ਸਕਿੰਟ ਹੋਲਡ ਕਰੋ, ਆਖ਼ਰੀ ਸੈੱਟ 'ਤੇ ਡ੍ਰੌਪ-ਸੈੱਟ ਲਗਾਓ।"],
+plan_tab_sched:["90-Day Schedule","📅 90-दिन का शेड्यूल","📅 90 ਦਿਨਾਂ ਦਾ ਸ਼ਡਿਊਲ"],
+plan_tab_lib:["Exercise Chart Store","🏋️‍♂️ एक्सरसाइज़ चार्ट स्टोर","🏋️‍♂️ ਕਸਰਤ ਚਾਰਟ ਸਟੋਰ"],
+quick_start_btn:["Start Day {d} Workout ›","दिन {d} की कसरत शुरू करें ›","ਦਿਨ {d} ਦੀ ਕਸਰਤ ਸ਼ੁਰੂ ਕਰੋ ›"],
+
 coach:["Coach","कोच","ਕੋਚ"],
 coach_h:["Digital Fitness Coach","डिजिटल फिटनेस कोच","ਡਿਜੀਟਲ ਫਿਟਨੈੱਸ ਕੋਚ"],
 coach_s:["Ask anything about your workout, diet, soreness or routine.","वर्कआउट, डाइट, दर्द या रूटीन से जुड़ा कोई भी सवाल पूछें।","ਵਰਕਆਊਟ, ਡਾਈਟ, ਦਰਦ ਜਾਂ ਰੂਟੀਨ ਬਾਰੇ ਕੋਈ ਵੀ ਸਵਾਲ ਪੁੱਛੋ।"],
@@ -199,6 +230,7 @@ WALK:["t_walk",["walk","stretch"]],CORE:["t_core",["birddog","deadbug","climber"
 const PAT=[["A","WALK","B","CORE","C","WALK"],["UA","LA","WALK","UB","LB","CORE"],["PUSH","PULL","LEGS","WALK","UP","LO"]];
 const FOCUS_EXTRA=[null,"curl","pushup","deadbug","lunge"];
 
+const backBtn=(act)=>`<button class="back-btn" data-a="${act}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg><span>${t("back")}</span></button>`;
 function triggerDownload(filename, text) {
  const blob = new Blob([text], {type: "text/plain;charset=utf-8"});
  const url = URL.createObjectURL(blob);
@@ -244,11 +276,17 @@ function dayPlan(d,p){
 /* ---------- state ---------- */
 const $app=document.getElementById("app");
 const todayStr=()=>new Date().toLocaleDateString("en-CA");
-const fresh=()=>({lang:0,setup:false,screen:"welcome",step:0,p:{name:"",goal:null,focus:null,lvl:null,eq:null},start:null,done:{},tab:"home",sel:null,mt:null,snd:true,voice:false,adjAt:{},log:{},fb:{},info:null,wt:[],wopen:false,winter:null,water:{},meals:{},dsel:null,cp:{age:"",sex:0,h:"",w:"",act:1,res:null},cal:{},run:null,tourDone:false,tour:0,coachQ:null,coachLog:[]});
+const fresh=()=>({lang:0,setup:false,screen:"welcome",step:0,p:{name:"",goal:null,focus:null,lvl:null,eq:null},start:null,done:{},tab:"home",sel:null,mt:null,snd:true,voice:false,adjAt:{},log:{},fb:{},info:null,wt:[],wopen:false,winter:null,water:{},meals:{},dsel:null,cp:{age:"",sex:0,h:"",w:"",act:1,res:null},cal:{},run:null,tourDone:false,tour:0,coachQ:null,coachLog:[],proLvl:0,planTab:0});
 let S=load();
 function load(){try{return Object.assign(fresh(),JSON.parse(localStorage.getItem("sudaul2")||"{}"))}catch(e){return fresh()}}
 function save(){try{localStorage.setItem("sudaul2",JSON.stringify(S))}catch(e){}}
-const t=(k,v)=>{let s=(TX[k]||[k,k,k])[S.lang];if(v)for(const x in v)s=s.split("{"+x+"}").join(v[x]);return s};
+const t=(k,v)=>{
+ const arr=TX[k]||[k,k,k];
+ let s=arr[S.lang];
+ if(s===undefined||s===null||s==="")s=arr[1]||arr[0]||k;
+ if(v)for(const x in v)s=s.split("{"+x+"}").join(v[x]);
+ return s;
+};
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 function curDay(){if(!S.start)return 1;const d=Math.floor((new Date(todayStr())-new Date(S.start))/864e5)+1;return Math.max(1,Math.min(90,d))}
 function streak(){let d=curDay();if(!S.done[d])d--;let n=0;while(d>=1&&S.done[d]){n++;d--}return n}
@@ -256,7 +294,10 @@ const doneCount=()=>Object.keys(S.done).filter(k=>S.done[k]).length;
 const P=()=>{const p=S.p;return{lvl:p.lvl||0,focus:p.focus||0,eq:p.eq||0}};
 /* ---------- views ---------- */
 const IC={coach:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><circle cx="12" cy="10" r="2"/><path d="M8 10h.01M16 10h.01"/></svg>',home:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3 11l9-8 9 8v10h-6v-6H9v6H3z"/></svg>',plan:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>',diet:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 12h18a9 9 0 0 1-18 0zM8 8c0-2 1.5-3 2.5-4M13 8c0-2 1.5-3 2.5-4"/></svg>',rep:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 20V11M12 20V4M19 20v-6"/></svg>',set:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/></svg>'};
-const langBar=(c)=>`<div class="top ${c||""}" id="tour-lang"><div class="brand"><svg viewBox="0 0 24 24"><g fill="currentColor"><rect x="1.5" y="9" width="3" height="6" rx="1"/><rect x="4.5" y="7" width="3" height="10" rx="1"/><rect x="16.5" y="7" width="3" height="10" rx="1"/><rect x="19.5" y="9" width="3" height="6" rx="1"/><rect x="7.5" y="11" width="9" height="2"/></g></svg><span>SUDA<b>UL</b></span></div><div class="langs">${S.setup?`<button data-a="tour_open" class="guidebtn">${t("tour_help")}</button>`:""}${["EN","हिं","ਪੰ"].map((l,i)=>`<button data-a="lang" data-v="${i}" class="${S.lang===i?"on":""}">${l}</button>`).join("")}</div></div>`;
+const langBar=(c)=>`<div class="top ${c||""}" id="tour-lang"><div class="brand">
+ <div class="brand-badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43 1.43 1.43 2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43 1.43-1.43zM6.29 4.86l1.41-1.41 1.41 1.41-1.41 1.41-1.41-1.41zm11.42 14.28l-1.41 1.41-1.41-1.41 1.41-1.41 1.41 1.41z"/></svg></div>
+ <div class="brand-text"><span>SUDA<b>UL</b></span><small>PRO COACH 90</small></div>
+</div><div class="langs">${S.setup?`<button data-a="tour_open" class="guidebtn">${t("tour_help")}</button>`:""}${["EN","हिं","ਪੰ"].map((l,i)=>`<button data-a="lang" data-v="${i}" class="${S.lang===i?"on":""}">${l}</button>`).join("")}</div></div>`;
 function vWelcome(){return `<div class="welcome" style="background-image:url(${IMG_GYM})">${langBar("clear")}<div class="wbody"><div class="coach"><img src="${IMG_COACH}" alt=""></div><h1>${t("welcome_h")}</h1><div class="sp2"></div><p class="muted">${t("welcome_s")}</p><div class="sp"></div><button class="btn" data-a="begin">${t("start_plan")}</button><p class="muted sm" style="margin-top:.8rem">${t("setup_note")}</p></div></div>`}
 const STEPS=[{k:"name"},{k:"goal",q:"q_goal",o:["g0","g1","g2"]},{k:"focus",q:"q_focus",o:["f0","f1","f2","f3","f4"]},{k:"lvl",q:"q_level",o:["l0","l1","l2"]},{k:"eq",q:"q_eq",o:["e0","e1","e2"]}];
 function vSetup(){
@@ -264,10 +305,18 @@ function vSetup(){
  if(st.k==="name")body=`<h1>${t("q_name")}</h1><div class="sp"></div><input class="inp" id="nm" maxlength="24" placeholder="${esc(t("name_ph"))}" value="${esc(S.p.name)}">`;
  else body=`<h1>${t(st.q)}</h1><div class="sp"></div>${st.o.map((o,i)=>`<button class="opt ${S.p[st.k]===i?"on":""}" data-a="pick" data-v="${i}">${t(o)}</button>`).join("")}`;
  const ok=st.k==="name"?S.p.name.trim().length>0:S.p[st.k]!==null;
- return `${langBar()}<div class="page"><div class="row" style="margin-bottom:1.2rem"><button class="back" data-a="sback">‹ ${t("back")}</button><span class="muted sm">${S.step+1} / ${STEPS.length}</span></div><div class="bar" style="margin-bottom:1.6rem"><i style="width:${pct}%"></i></div>${body}<div class="sp"></div><button class="btn" data-a="snext" ${ok?"":"disabled"}>${t("next")}</button></div>`;
+ return `${langBar()}<div class="page"><div class="row" style="margin-bottom:1.2rem">${backBtn("sback")}<span class="muted sm">${S.step+1} / ${STEPS.length}</span></div><div class="bar" style="margin-bottom:1.6rem"><i style="width:${pct}%"></i></div>${body}<div class="sp"></div><button class="btn" data-a="snext" ${ok?"":"disabled"}>${t("next")}</button></div>`;
 }
 function vReady(){const p=S.p;return `${langBar()}<div class="page" style="text-align:center"><div class="coach"><img src="${IMG_COACH}" alt=""></div><h1>${t("ready_h")}</h1><p class="muted" style="margin:.4rem 0 1.2rem">${t("ready_s")}</p><div class="card" style="text-align:left"><h2 class="blue">${t("days90")}</h2><div class="sp2"></div>${[["goal_l",t("g"+p.goal)],["foc_l",t("f"+p.focus)],["lvl_l",t("l"+p.lvl)],["eq_l",t("e"+p.eq)]].map(r=>`<div class="row" style="padding:.45rem 0;border-top:1px solid var(--line)"><span class="muted">${t(r[0])}</span><b>${r[1]}</b></div>`).join("")}<div class="sp2"></div>${["m1","m2","m3"].map(m=>`<p class="sm" style="padding:.15rem 0">• ${t(m)}</p>`).join("")}</div><div class="sp"></div><button class="btn" data-a="go" data-v="home">${t("start_now")}</button><div class="sp2"></div><button class="btn sec" data-a="go" data-v="home">${t("to_home")}</button></div>`}
-function nav(){return `<div class="nav"><div>${[["home","home"],["plan","plan"],["coach","coach"],["diet","diet"],["rep","report"],["set","settings"]].map(n=>`<button id="tour-nav-${n[0]}" data-a="tab" data-v="${n[0]}" class="${S.tab===n[0]?"on":""}">${IC[n[0]]}<span>${t(n[1])}</span></button>`).join("")}</div></div>`}
+function nav(){
+ return `<div class="nav"><div>${[
+  ["home","home"],
+  ["plan","hub_ex"],
+  ["diet","diet"],
+  ["coach","coach"],
+  ["rep","report"]
+ ].map(n=>`<button id="tour-nav-${n[0]}" data-a="tab" data-v="${n[0]}" class="${S.tab===n[0]?"on":""}">${IC[n[0]]}<span>${t(n[1]).split(" ")[0]}</span></button>`).join("")}</div></div>`;
+}
 
 function muscleSvg(mKey){
  const hi=k=>mKey===k?"#ff4d2d":"#334e6f";
@@ -288,7 +337,8 @@ function exRows(dp){
   const amt=e[3]==="m"?`${e[2]} ${t("min")}`:e[3]==="s"?t("sets_sec",{s:e[1],r:e[2]}):t("sets_lbl",{s:e[1],r:e[2]});
   const mus=I?I[0].map(k=>MU[k][S.lang]).join(" · "):"";
   const photoSrc=(PIMG[id]||VID[id])?`p_${id}.jpg`:(id==="tri"?"p_pushup.jpg":"");
-  const thumbHtml=photoSrc?`<div class="human-thumb-box"><img src="${photoSrc}" alt="" class="human-thumb-img">${VID[id]?`<span class="vplay-pill">▶ HD</span>`:""}</div>`:`<div class="exanim">${figSvg(id)}</div>`;
+  const thumbHtml=photoSrc?`<div class="human-thumb-box"><img src="${photoSrc}" alt="" class="human-thumb-img">${VID[id]?`<span class="vplay-pill">▶ HD</span>`:""}</div>`:`<div class="num">${i+1}</div>`;
+  const mName=MU[mKey]?MU[mKey][S.lang]:"Full body";
   return `<div class="excard" data-a="info" data-v="${id}">
    <div class="exhead">
     <div class="human-left-box">
@@ -304,7 +354,7 @@ function exRows(dp){
      ${mus?`<p class="exmus"><i class="rdot"></i> ${mus}</p>`:""}
     </div>
     <div class="exright">
-     <div class="musbox">${muscleSvg(mKey)}<span>${MU[mKey]?MU[mKey][S.lang]:""}</span></div>
+     <div class="target-badge"><span class="t-dot">🎯</span><b>${mName}</b></div>
      ${P2[id]?`<div class="exthumb mini2"><img src="p_${id}2.jpg" alt=""></div>`:""}
     </div>
    </div>
@@ -316,27 +366,98 @@ function exRows(dp){
 function dayTitle(dp){return dp.rest?t("rest_t"):t(dp.title)}
 function vHome(){
  const d=curDay(),p=P(),dp=dayPlan(d,p),w=week(d),m=month(d),isDone=!!S.done[d],pc=Math.round(doneCount()/90*100);
- const strip=[];const w0=(w-1)*7+1;for(let k=0;k<7;k++){const n=w0+k;if(n>90)break;const q=dayPlan(n,p);strip.push(`<button class="cell ${q.rest?"rest":""} ${S.done[n]?"done":""} ${n===d?"today":""}" data-a="open" data-v="${n}">${S.done[n]?"✓":n}</button>`)}
- const todayMini=dp.rest?"":`<div class="sp"></div><div class="card" id="tour-ex-card"><div class="row" style="margin-bottom:.6rem"><h3>${t("today_ex_h")}</h3><span class="chip">${dp.list.length} ${t("exs")}</span></div>${exRows(dp)}</div>`;
- return `${langBar()}<div class="page"><p class="muted sm">${t("dayof",{d})}</p><h1>${t("hello",{n:esc(S.p.name||"")})}</h1><div class="sp2"></div>
- <div class="card row" style="background:linear-gradient(135deg,#132a4a,#0a1b30);border:1px solid var(--blue);margin-bottom:.85rem;cursor:pointer" data-a="tab" data-v="coach">
-  <div class="row" style="gap:.75rem">
-   <div class="coach" style="width:3.2rem;height:3.2rem;margin:0;flex:none;border-color:var(--orange)"><img src="${IMG_COACH}" alt=""></div>
-   <div>
-    <h3 style="font-size:1rem;color:#fff">${t("coach_h")}</h3>
-    <p class="muted sm" style="font-size:.82rem">${t("coach_s")}</p>
-   </div>
+ const strip=[];const w0=(w-1)*7+1;
+ for(let k=0;k<7;k++){const n=w0+k;if(n>90)break;const q=dayPlan(n,p);strip.push(`<button class="cell ${q.rest?"rest":""} ${S.done[n]?"done":""} ${n===d?"today":""}" data-a="open" data-v="${n}">${S.done[n]?"✓":n}</button>`)}
+ 
+ const todayMini=dp.rest?"":`<div class="card" id="tour-ex-card" style="margin-bottom:1rem"><div class="row" style="margin-bottom:.65rem"><h3>${t("today_ex_h")}</h3><span class="chip">${dp.list.length} ${t("exs")}</span></div>${exRows(dp)}</div>`;
+ 
+ return `${langBar()}<div class="page">
+  <div class="row" style="margin-bottom:.25rem">
+   <p class="muted sm" style="font-weight:700">${t("dayof",{d})}</p>
+   <span class="chip" style="background:rgba(217,72,15,.15);border:1px solid rgba(217,72,15,.35);color:var(--orange)">🔥 ${streak()} ${t("streak")}</span>
   </div>
-  <span class="blue" style="font-size:1.2rem;font-weight:800">›</span>
- </div>
- <div class="card" id="tour-start-card"><div class="row"><span class="chip">${t("weekof",{w,m})}</span><span class="chip">${t("today")}</span></div><div class="sp2"></div><h2>${esc(dayTitle(dp))}</h2>
- <p class="muted">${dp.rest?t("rest_s"):`~${dp.mins} ${t("min")} · ${dp.list.length} ${t("exs")}`}</p>${dp.light?`<p class="sm blue" style="margin-top:.4rem">${t("light")}</p>`:""}<div class="sp"></div>
- <button class="btn" data-a="open" data-v="${d}">${isDone?t("undone").split(" (")[0]:t("start_day",{d})}</button></div>
- <div class="sp"></div><div class="grid7" style="margin-bottom:.4rem">${strip.join("")}</div>
- ${todayMini}
- <div class="sp"></div>
- <div class="card row"><div class="stat"><b>${streak()}</b><span class="muted sm">${t("streak")}</span></div><div class="stat"><b>${doneCount()}</b><span class="muted sm">${t("donec")}</span></div><div class="stat"><b>${pc}%</b><span class="muted sm">${t("days90")}</span></div></div>
- <div class="sp2"></div><div class="bar"><i style="width:${pc}%"></i></div>${doneCount()>=90?`<p class="blue" style="margin-top:.8rem">${t("done90")}</p>`:""}<p class="muted sm" style="margin-top:1.2rem">${t("warn")}</p></div>${nav()}`;
+  <h1 style="font-size:1.75rem">${t("hello",{n:esc(S.p.name||"")})}</h1>
+  <div class="sp2"></div>
+  
+  <!-- Today's Main Workout Card -->
+  <div class="card" id="tour-start-card" style="border:1.5px solid var(--blue);background:linear-gradient(145deg,#132847 0%,#0c1b33 100%);box-shadow:0 10px 28px rgba(0,0,0,.5);margin-bottom:1.15rem">
+   <div class="row">
+    <span class="chip" style="background:var(--blue);color:#06182b;font-weight:800">${t("weekof",{w,m})}</span>
+    <span class="chip">${t("m"+m).split(" · ")[1]||t("m"+m)}</span>
+   </div>
+   <div class="sp2"></div>
+   <h2 style="font-size:1.45rem">${esc(dayTitle(dp))}</h2>
+   <p class="muted sm" style="margin-top:.2rem">${dp.rest?t("rest_s"):`⏱ ~${dp.mins} ${t("min")} · 🏋️ ${dp.list.length} ${t("exs")} · 🔥 ~${dp.mins*6} kcal`}</p>
+   <div class="sp"></div>
+   <button class="btn startbig" data-a="open" data-v="${d}">${isDone?t("undone").split(" (")[0]:t("quick_start_btn",{d})}</button>
+  </div>
+
+  <!-- 3D Modular Category Stores / Hubs (साफ़-सुथरे अलग-अलग खाने) -->
+  <div class="hub-section-title">
+   <h3>🏛️ ${t("hub_title")}</h3>
+  </div>
+  <div class="hub-grid">
+   <!-- Hub 1: Exercise Chart Store -->
+   <div class="hub-card hub-blue" data-a="open_hub" data-v="ex">
+    <span class="hub-tag">Library</span>
+    <div class="hub-icon-3d">🏋️‍♂️</div>
+    <b>${t("hub_ex")}</b>
+    <span>${t("hub_ex_s")}</span>
+   </div>
+   
+   <!-- Hub 2: Diet & Nutrition Store -->
+   <div class="hub-card hub-green" data-a="open_hub" data-v="diet">
+    <span class="hub-tag">5 Meals</span>
+    <div class="hub-icon-3d">🥗</div>
+    <b>${t("hub_diet")}</b>
+    <span>${t("hub_diet_s")}</span>
+   </div>
+   
+   <!-- Hub 3: Digital Fitness Coach -->
+   <div class="hub-card hub-purple" data-a="open_hub" data-v="coach">
+    <span class="hub-tag">AI Guide</span>
+    <div class="hub-icon-3d">🤖</div>
+    <b>${t("hub_coach")}</b>
+    <span>${t("hub_coach_s")}</span>
+   </div>
+   
+   <!-- Hub 4: Progress & Weight Record -->
+   <div class="hub-card hub-gold" data-a="open_hub" data-v="rep">
+    <span class="hub-tag">Stats</span>
+    <div class="hub-icon-3d">📊</div>
+    <b>${t("hub_rep")}</b>
+    <span>${t("hub_rep_s")}</span>
+   </div>
+     <!-- Hub 5: Yoga & Recovery Studio -->
+   <div class="hub-card hub-teal hub-wide" data-a="open_hub" data-v="yoga">
+    <span class="hub-tag">Mind & Body</span>
+    <div style="display:flex;align-items:center;gap:.9rem">
+     <div class="hub-icon-3d" style="margin-bottom:0">🧘‍♀️</div>
+     <div>
+      <b style="font-size:1.02rem">${t("hub_yoga")}</b>
+      <div style="font-size:.78rem;color:var(--muted);margin-top:.2rem">${t("hub_yoga_s")}</div>
+     </div>
+    </div>
+   </div>
+   </div>
+
+  <!-- 7-Day Quick Strip -->
+  <div class="grid7" style="margin-bottom:1.15rem">${strip.join("")}</div>
+
+  <!-- Today's Exercise Step-by-Step List -->
+  ${todayMini}
+
+  <!-- Progress Overview -->
+  <div class="card row">
+   <div class="stat"><b>${streak()}</b><span class="muted sm">${t("streak")}</span></div>
+   <div class="stat"><b>${doneCount()}</b><span class="muted sm">${t("donec")}</span></div>
+   <div class="stat"><b>${pc}%</b><span class="muted sm">${t("days90")}</span></div>
+  </div>
+  <div class="sp2"></div>
+  <div class="bar"><i style="width:${pc}%"></i></div>
+  ${doneCount()>=90?`<p class="blue" style="margin-top:.8rem;font-weight:700">${t("done90")}</p>`:""}
+  <p class="muted sm" style="margin-top:1.2rem;text-align:center">${t("warn")}</p>
+ </div>${nav()}`;
 }
 function vPlan(){
  const p=P(),cur=curDay(),m=S.mt||month(cur);
@@ -344,53 +465,120 @@ function vPlan(){
  const wFirst=Math.ceil(mStart/7),wLast=Math.ceil(mEnd/7);
  const defW=(cur>=mStart&&cur<=mEnd)?week(cur):wFirst;
  const selW=(S.pw&&S.pw>=wFirst&&S.pw<=wLast)?S.pw:defW;
- let cells="";
- for(let n=mStart;n<=mEnd;n++){const q=dayPlan(n,p);cells+=`<button class="cell ${q.rest?"rest":""} ${S.done[n]?"done":""} ${n===cur?"today":""}" data-a="open" data-v="${n}">${S.done[n]?"✓":n}</button>`}
- let wTabs="";
- for(let w=wFirst;w<=wLast;w++){wTabs+=`<button class="pill ${w===selW?"on":""}" data-a="pw" data-v="${w}">${t("week_n",{w})}</button>`}
- const dStart=Math.max(mStart,(selW-1)*7+1),dEnd=Math.min(mEnd,selW*7);
- let dayCards="";
- for(let d=dStart;d<=dEnd;d++){
-  const dp=dayPlan(d,p),isDone=!!S.done[d],isToday=d===cur;
-  const exStrip=dp.rest?`<p class="muted sm" style="margin-top:.4rem">${t("rest_s")}</p>`:`<div class="dayexlist">${dp.list.map((e,idx)=>{
-   const id=e[0],x=EX[id],amt=e[3]==="m"?`${e[2]} ${t("min")}`:e[3]==="s"?`${e[1]}×${e[2]}s`:`${e[1]}×${e[2]}`;
-   const pImg=(PIMG[id]||VID[id])?`p_${id}.jpg`:(id==="tri"?"p_pushup.jpg":"");
-   const figOrImg=pImg?`<img src="${pImg}" alt="" style="width:100%;height:100%;object-fit:cover;display:block">`:`<div class="dayexfig">${figSvg(id)}</div>`;
-   return `<div class="dayexitem" data-a="info" data-v="${id}">
-    <div class="dayexfig" style="height:3.2rem">${figOrImg}</div>
-    <div class="dayextxt">
-     <b>${idx+1}. ${x[0][S.lang]}</b>
-     <span>${amt}</span>
-    </div>
-   </div>`;
-  }).join("")}</div>`;
-  dayCards+=`<div class="card daycard ${isToday?"todaycard":""}">
-   <div class="row">
-    <div>
-     <span class="chip ${isDone?"donechip":""}">${t("dayof",{d})}${isToday?" · "+t("today"):""}${isDone?" ✓":""}</span>
-     <h3 style="margin-top:.35rem">${esc(dayTitle(dp))}</h3>
-    </div>
-    ${dp.rest?"":`<span class="muted sm">~${dp.mins} ${t("min")}</span>`}
-   </div>
-   ${exStrip}
-   <div class="sp2"></div>
-   <button class="btn ${isToday?"":"sec"} smbtn" data-a="open" data-v="${d}">${t("view_day",{d})} ›</button>
-  </div>`;
- }
- const mFlts=[["all",t("flt_all")],["ch",MU.ch[S.lang]],["ba",MU.ba[S.lang]],["sh",MU.sh[S.lang]],["bi",MU.bi[S.lang]],["be",MU.be[S.lang]],["th",MU.th[S.lang]],["gl",MU.gl[S.lang]]];
+ const planTab=S.planTab||0;
+ const proLvl=S.proLvl!==undefined?S.proLvl:(S.p.lvl||0);
+ 
+ // Level suggestions text
+ const lvlNames=["lvl_beg_t","lvl_int_t","lvl_adv_t"];
+ const lvlSets=["cue_beg_sets","cue_int_sets","cue_adv_sets"];
+ const lvlRests=["cue_beg_rest","cue_int_rest","cue_adv_rest"];
+ const lvlTips=["cue_beg_tip","cue_int_tip","cue_adv_tip"];
+
+ // Exercise Library Filter
+ const mFlts=[
+  ["all",t("flt_all")],
+  ["ch",MU.ch[S.lang]],
+  ["ba",MU.ba[S.lang]],
+  ["sh",MU.sh[S.lang]],
+  ["bi",MU.bi[S.lang]],
+  ["tr",MU.tr[S.lang]],
+  ["be",MU.be[S.lang]],
+  ["th",MU.th[S.lang]],
+  ["gl",MU.gl[S.lang]]
+ ];
  const curFlt=S.mflt||"all";
  const fltBar=mFlts.map(([k,lbl])=>`<button class="pill ${curFlt===k?"on":""}" data-a="mflt" data-v="${k}">${lbl}</button>`).join("");
  const exLib=Object.keys(EX).filter(id=>curFlt==="all"||(INFO[id]&&INFO[id][0].includes(curFlt))).map(id=>{
   const x=EX[id],I=INFO[id],mKey=I&&I[0]?I[0][0]:"wb";
   const pImg=(PIMG[id]||VID[id])?`p_${id}.jpg`:(id==="tri"?"p_pushup.jpg":"");
-  const topVisual=pImg?`<div class="libtop" style="height:7rem"><img src="${pImg}" alt="" style="width:100%;height:100%;object-fit:cover;border-radius:.6rem;display:block">${VID[id]?`<span class="vcam">🎥 HD</span>`:""}</div>`:`<div class="libtop">${figSvg(id)}${VID[id]?`<span class="vcam">🎥</span>`:""}</div>`;
+  const topVisual=pImg?`<div class="libtop" style="height:7.2rem"><img src="${pImg}" alt="" style="width:100%;height:100%;object-fit:cover;border-radius:.6rem;display:block">${VID[id]?`<span class="vcam">🎥 HD</span>`:""}</div>`:`<div class="libtop">${figSvg(id)}${VID[id]?`<span class="vcam">🎥</span>`:""}</div>`;
   return `<div class="libcard" data-a="info" data-v="${id}">
    ${topVisual}
    <b>${x[0][S.lang]}</b>
    <span><i class="rdot"></i> ${MU[mKey]?MU[mKey][S.lang]:""}</span>
   </div>`;
  }).join("");
- return `${langBar()}<div class="page"><h1>${t("day_plan_h")}</h1><p class="muted sm" style="margin:.25rem 0 .8rem">${t("day_plan_s")}</p><div class="tabs">${[1,2,3].map(i=>`<button data-a="mt" data-v="${i}" class="${m===i?"on":""}">${t("mt"+i)}</button>`).join("")}</div><h3 class="blue" style="margin-bottom:.6rem">${t("m"+m)}</h3><div class="grid7">${cells}</div><div class="sp"></div><div class="chips" style="margin-bottom:.8rem">${wTabs}</div>${dayCards}<div class="sp"></div><div class="card"><h3>${t("all_ex_lib")}</h3><div class="chips" style="margin:.55rem 0 .75rem">${fltBar}</div><div class="libgrid">${exLib}</div></div><p class="muted sm" style="margin-top:1rem">${t("light")}</p></div>${nav()}`;
+
+ let mainContent="";
+ if(planTab===1){
+  // EXERCISE CHART STORE VIEW
+  mainContent=`
+   <!-- Level Selector (Beginner -> Pro) -->
+   <div class="pro-lvl-bar">
+    <button class="lvl-0 ${proLvl===0?"on":""}" data-a="set_pro_lvl" data-v="0">🟢 ${t("lvl_beg_t").split(" ")[0]}</button>
+    <button class="lvl-1 ${proLvl===1?"on":""}" data-a="set_pro_lvl" data-v="1">🟡 ${t("lvl_int_t").split(" ")[0]}</button>
+    <button class="lvl-2 ${proLvl===2?"on":""}" data-a="set_pro_lvl" data-v="2">🔴 ${t("lvl_adv_t").split(" ")[0]}</button>
+   </div>
+   
+   <!-- Pro Level Guidance Card -->
+   <div class="pro-guidance-card">
+    <div class="pro-guidance-header">
+     <h3 style="font-size:1.02rem;color:#fff">${t("pro_cues_h",{lvl:t(lvlNames[proLvl])})}</h3>
+    </div>
+    <div class="pro-stats-strip">
+     <span class="pro-stat-chip">🏋️ ${t(lvlSets[proLvl])}</span>
+     <span class="pro-stat-chip">⏱ ${t(lvlRests[proLvl])}</span>
+    </div>
+    <p class="muted sm" style="margin-top:.45rem;line-height:1.5;color:#d0e2f5">${t(lvlTips[proLvl])}</p>
+   </div>
+
+   <!-- Muscle Group Filter & Grid -->
+   <div class="chips" style="margin-bottom:.85rem">${fltBar}</div>
+   <div class="libgrid">${exLib}</div>
+  `;
+ } else {
+  // 90-DAY SCHEDULE VIEW
+  let cells="";
+  for(let n=mStart;n<=mEnd;n++){const q=dayPlan(n,p);cells+=`<button class="cell ${q.rest?"rest":""} ${S.done[n]?"done":""} ${n===cur?"today":""}" data-a="open" data-v="${n}">${S.done[n]?"✓":n}</button>`}
+  let wTabs="";
+  for(let w=wFirst;w<=wLast;w++){wTabs+=`<button class="pill ${w===selW?"on":""}" data-a="pw" data-v="${w}">${t("week_n",{w})}</button>`}
+  const dStart=Math.max(mStart,(selW-1)*7+1),dEnd=Math.min(mEnd,selW*7);
+  let dayCards="";
+  for(let d=dStart;d<=dEnd;d++){
+   const dp=dayPlan(d,p),isDone=!!S.done[d],isToday=d===cur;
+   const exStrip=dp.rest?`<p class="muted sm" style="margin-top:.4rem">${t("rest_s")}</p>`:`<div class="dayexlist">${dp.list.map((e,idx)=>{
+    const id=e[0],x=EX[id],amt=e[3]==="m"?`${e[2]} ${t("min")}`:e[3]==="s"?`${e[1]}×${e[2]}s`:`${e[1]}×${e[2]}`;
+    const pImg=(PIMG[id]||VID[id])?`p_${id}.jpg`:(id==="tri"?"p_pushup.jpg":"");
+    const figOrImg=pImg?`<img src="${pImg}" alt="" style="width:100%;height:100%;object-fit:cover;display:block">`:`<div class="dayexfig">${figSvg(id)}</div>`;
+    return `<div class="dayexitem" data-a="info" data-v="${id}">
+     <div class="dayexfig" style="height:3.2rem">${figOrImg}</div>
+     <div class="dayextxt">
+      <b>${idx+1}. ${x[0][S.lang]}</b>
+      <span>${amt}</span>
+     </div>
+    </div>`;
+   }).join("")}</div>`;
+   dayCards+=`<div class="card daycard ${isToday?"todaycard":""}">
+    <div class="row">
+     <div>
+      <span class="chip ${isDone?"donechip":""}">${t("dayof",{d})}${isToday?" · "+t("today"):""}${isDone?" ✓":""}</span>
+      <h3 style="margin-top:.35rem">${esc(dayTitle(dp))}</h3>
+     </div>
+     ${dp.rest?"":`<span class="muted sm">~${dp.mins} ${t("min")}</span>`}
+    </div>
+    ${exStrip}
+    <div class="sp2"></div>
+    <button class="btn ${isToday?"":"sec"} smbtn" data-a="open" data-v="${d}">${t("view_day",{d})} ›</button>
+   </div>`;
+  }
+  mainContent=`
+   <div class="tabs">${[1,2,3].map(i=>`<button data-a="mt" data-v="${i}" class="${m===i?"on":""}">${t("mt"+i)}</button>`).join("")}</div>
+   <h3 class="blue" style="margin-bottom:.6rem">${t("m"+m)}</h3>
+   <div class="grid7">${cells}</div>
+   <div class="sp"></div>
+   <div class="chips" style="margin-bottom:.8rem">${wTabs}</div>
+   ${dayCards}
+  `;
+ }
+
+ return `${langBar()}<div class="page">
+  <div class="itabs" style="margin-bottom:1rem">
+   <button class="${planTab===0?"on":""}" data-a="ptab" data-v="0">${t("plan_tab_sched")}</button>
+   <button class="${planTab===1?"on":""}" data-a="ptab" data-v="1">${t("plan_tab_lib")}</button>
+  </div>
+  ${mainContent}
+  <p class="muted sm" style="margin-top:1.2rem;text-align:center">${t("warn")}</p>
+ </div>${nav()}`;
 }
 function vDay(){
  const d=S.sel,p=P(),dp=dayPlan(d,p),isDone=!!S.done[d],kcal=dp.rest?0:dp.mins*6;
@@ -421,7 +609,7 @@ function vDay(){
   const skipBtn=!isDone?`<button class="btn sec smbtn" data-a="skip_day" data-v="${d}" style="margin-top:.5rem;border-color:var(--line);color:var(--muted)">⏭ ${t("skip_day")}</button>`:"";
   btns=shareBar + btns + skipBtn + `<div class="sp2"></div>`;
  }
- return `${langBar()}<div class="page"><button class="back" data-a="shut">‹ ${t("back")}</button>${hero}${dp.light?`<p class="sm blue" style="margin:.4rem 0">${t("light")}</p>`:""}<div class="sp2"></div>${body}<div class="sp"></div>${btns}<button class="btn ${isDone||!dp.rest?"sec":""}" data-a="toggle" data-v="${d}">${isDone?t("undone"):t("mark_done")}</button><p class="muted sm" style="margin-top:1rem">${t("warn")}</p></div>`;
+ return `${langBar()}<div class="page">${backBtn("shut")}${hero}${dp.light?`<p class="sm blue" style="margin:.4rem 0">${t("light")}</p>`:""}<div class="sp2"></div>${body}<div class="sp"></div>${btns}<button class="btn ${isDone||!dp.rest?"sec":""}" data-a="toggle" data-v="${d}">${isDone?t("undone"):t("mark_done")}</button><p class="muted sm" style="margin-top:1rem">${t("warn")}</p></div>`;
 }
 function vSettings(){return `${langBar()}<div class="page"><h1>${t("settings")}</h1><div class="sp"></div><div class="card"><h3>${t("lang_l")}</h3><div class="sp2"></div>${["English","हिंदी","ਪੰਜਾਬੀ"].map((l,i)=>`<button class="opt ${S.lang===i?"on":""}" data-a="lang" data-v="${i}">${l}</button>`).join("")}</div><div class="sp"></div><button class="btn" data-a="tour_open">${t("tour_replay")}</button><div class="sp"></div><div class="card"><p class="sm muted">${t("stay")}</p><div class="sp2"></div><a href="privacy.html" class="sm blue" style="font-weight:700;text-decoration:none">${t("priv_l")} ›</a></div><div class="sp"></div><button class="btn sec" data-a="reset">${t("reset")}</button></div>${nav()}`}
 
@@ -481,7 +669,18 @@ function vReport(){
  <div class="sp"></div><div class="card"><div class="row"><h3>${t("r_weight")}</h3><button class="pill on" data-a="wopen">${t("w_log")}</button></div>
  ${S.wopen?`<div class="gap" style="margin:.8rem 0"><input class="inp" id="wkg" inputmode="decimal" placeholder="${esc(t("w_ph"))}" style="flex:1"><button class="btn" data-a="wsave" style="width:auto;padding:1rem 1.3rem">${t("w_save")}</button></div>`:""}
  <div class="sp2"></div><div class="row"><div class="stat"><b>${cur}</b><span class="muted sm">${t("w_cur")}</span></div><div class="stat"><b>${mx}</b><span class="muted sm">${t("w_max")}</span></div><div class="stat"><b>${mn}</b><span class="muted sm">${t("w_min")}</span></div></div>
- ${wChart()}${recent?`<p class="sm muted" style="margin-top:.6rem">${t("w_hist")}</p>${recent}`:""}</div></div>${nav()}`;
+ ${wChart()}${recent?`<p class="sm muted" style="margin-top:.6rem">${t("w_hist")}</p>${recent}`:""}</div>
+ <div class="sp"></div>
+ <div class="card">
+  <h3>⚙️ ${t("settings")}</h3>
+  <div class="sp2"></div>
+  <p class="sm muted">${t("lang_l")}</p>
+  <div class="langs" style="margin:.45rem 0 .85rem">${["EN","हिं","ਪੰ"].map((l,i)=>`<button data-a="lang" data-v="${i}" class="${S.lang===i?"on":""}">${l}</button>`).join("")}</div>
+  <button class="btn sec smbtn" data-a="tour_open" style="margin-bottom:.6rem;width:100%">📖 ${t("tour_replay")}</button>
+  <div class="row" style="padding:.4rem 0;border-top:1px solid var(--line)"><a href="privacy.html" class="sm blue" style="font-weight:700;text-decoration:none">🔒 ${t("priv_l")} ›</a><span class="muted sm">SUDAUL PRO 90</span></div>
+  <button class="btn sec smbtn" data-a="reset" style="margin-top:.6rem;border-color:var(--line);color:var(--muted);width:100%">⚠️ ${t("reset")}</button>
+ </div>
+</div>${nav()}`;
 }
 
 const FD={daliya:["Warm daliya porridge (1 bowl)","गरम दलिया (1 कटोरी)","ਗਰਮ ਦਲੀਆ (1 ਕੌਲੀ)"],chane:["Soaked black chana (¼ cup)","भीगे काले चने (¼ कप)","ਭਿੱਜੇ ਕਾਲੇ ਛੋਲੇ (¼ ਕੱਪ)"],almonds:["Almonds (5)","बादाम (5)","ਬਦਾਮ (5)"],makhana:["Roasted makhana (1 handful)","भुना मखाना (1 मुट्ठी)","ਭੁੰਨੇ ਮਖਾਣੇ (1 ਮੁੱਠੀ)"],
@@ -538,7 +737,7 @@ function vCal(){
  const c=S.cp,r=c.res,dt=todayStr(),log=S.cal[dt]||[],eaten=log.reduce((n,x)=>n+x.k,0),w0=c.w||(S.wt.length?S.wt[S.wt.length-1].kg:"");
  const opt=(i,cur,key)=>`<option value="${i}" ${cur==i?"selected":""}>${t(key)}</option>`;
  const tgt=r&&r.kc?r.kc:0,left=tgt?tgt-eaten:0;
- return `${langBar()}<div class="page"><button class="back" data-a="cclose">‹ ${t("back")}</button><h1>${t("c_open")}</h1><p class="muted" style="margin:.3rem 0 1rem">${t("c_intro")}</p>
+ return `${langBar()}<div class="page">${backBtn("cclose")}<h1>${t("c_open")}</h1><p class="muted" style="margin:.3rem 0 1rem">${t("c_intro")}</p>
  <div class="card"><div class="gap"><label class="fl"><span>${t("c_age")}</span><input class="inp" id="c_age" inputmode="numeric" value="${c.age||""}"></label><label class="fl"><span>${t("c_sex")}</span><select class="inp" id="c_sex">${opt(0,c.sex,"c_m")}${opt(1,c.sex,"c_f")}</select></label></div><div class="sp2"></div>
  <div class="gap"><label class="fl"><span>${t("c_h")}</span><input class="inp" id="c_h" inputmode="numeric" value="${c.h||""}"></label><label class="fl"><span>${t("c_w")}</span><input class="inp" id="c_w" inputmode="decimal" value="${w0}"></label></div><div class="sp2"></div>
  <label class="fl"><span>${t("c_act")}</span><select class="inp" id="c_act">${opt(0,c.act,"a0")}${opt(1,c.act,"a1")}${opt(2,c.act,"a2")}</select></label><div class="sp"></div><button class="btn" data-a="ccalc">${t("c_calc")}</button></div>
@@ -629,7 +828,7 @@ sq:["Bending the knees too much, like a squat","घुटने ज़्या�
 const INFO={squat:[["th","gl"],["knin","heel"]],gsquat:[["th","gl"],["knin","heel"]],pushup:[["ch","sh","tr"],["sag","flare"]],bridge:[["gl","ha"],["arch","toes"]],plank:[["be","sh"],["hips","breath"]],lunge:[["th","gl"],["kpast","lean"]],row:[["ba","bi"],["round","jerk"]],rdl:[["ha","gl","lb"],["round","sq"]],ohp:[["sh","tr"],["lback","heavy"]],curl:[["bi"],["swing","elb"]],tri:[["tr"],["elbm","jerk"]],raise:[["sh"],["swingw","above"]],deadbug:[["be"],["lbup","fast"]],birddog:[["be","gl","lb"],["twist","legh"]],walk:[["he","th"],["tfast","tslow"]],stretch:[["wb"],["bounce","pain"]],cablerow:[["ba","bi"],["round","jerk"]],legpress:[["th","gl"],["knin","lock"]],incline:[["ch","sh","tr"],["flare","heavy"]],climber:[["be","he","sh"],["hips","breath"]],pullover:[["ba","ch"],["arch","heavy"]]};
 function vInfo(){
  const id=S.info,x=EX[id],I=INFO[id],itab=S.itab||0,mKey=I&&I[0]?I[0][0]:"wb";
- return `${langBar()}<div class="page"><button class="back" data-a="iback">‹ ${t("back")}</button>
+ return `${langBar()}<div class="page">${backBtn("iback")}
  <div class="infotitle"><h1>${x[0][S.lang]}</h1><span class="chip" style="background:var(--blue);color:#06182b;font-weight:800">HD Form</span></div>
  ${(VID[id]||PIMG[id]||POSES[id])?`<div style="width:min(26rem,100%);margin:.6rem auto">${figOrVid(id)}${P2[id]?`<div class="gap" style="margin-top:.5rem"><img class="vid" style="flex:1;max-height:22vh" src="p_${id}2.jpg" alt=""><img class="vid" style="flex:1;max-height:22vh" src="p_${id}.jpg" alt=""></div>`:""}</div>`:""}
  <div class="itabs">
@@ -641,8 +840,11 @@ function vInfo(){
    <h3>${t("focus_area")}</h3>
    <div class="chips" style="margin-top:.55rem">${I?I[0].map(k=>`<span class="fchip"><i class="rdot"></i>${MU[k][S.lang]}</span>`).join(""):""}</div>
    <div class="musshowcase">
-    <div class="musbig">${muscleSvg(mKey)}</div>
-    ${(PIMG[id]||VID[id])?`<div class="musbig" style="overflow:hidden;padding:0"><img src="p_${id}.jpg" alt="" style="width:100%;height:100%;max-height:8rem;object-fit:cover;border-radius:.8rem"></div>`:`<div class="musbig">${figSvg(id)}</div>`}
+    <div class="musbig-clean">
+     <span class="focus-title-tag">🎯 Target Muscles</span>
+     <div class="chips" style="margin-top:.4rem;justify-content:center">${I?I[0].map(k=>`<span class="chipb" style="background:#1d385e;color:#fff"><i class="rdot"></i>${MU[k][S.lang]}</span>`).join(""):""}</div>
+    </div>
+    ${(PIMG[id]||VID[id])?`<div class="musbig-clean" style="overflow:hidden;padding:0"><img src="p_${id}.jpg" alt="" style="width:100%;height:100%;max-height:8.5rem;object-fit:cover;border-radius:.85rem"></div>`:""}
    </div>
   </div>
   <div class="sp2"></div>
@@ -670,7 +872,7 @@ function vInfo(){
 }
 const VID={birddog:1,bridge:1,ohp:1,row:1,plank:1,lunge:1,curl:1,raise:1,walk:1,deadbug:1,rdl:1,cablerow:1,legpress:1,climber:1,pullover:1,bench:1},PIMG={squat:1,gsquat:1,pushup:1,incline:1,cablefly:1,stretch:1},P2={ohp:1,cablerow:1,rdl:1,lunge:1,curl:1,incline:1,stretch:1};
 const vidHtml=id=>`<video class="vid" src="v_${id}.mp4" poster="p_${id}.jpg" autoplay loop ${S.snd?"":"muted"} controls playsinline preload="metadata"></video>`;
-const figOrVid=id=>VID[id]?vidHtml(id):PIMG[id]?`<img class="vid" src="p_${id}.jpg" alt="">`:figSvg(id,"big");
+const figOrVid=id=>VID[id]?vidHtml(id):PIMG[id]?`<img class="vid" src="p_${id}.jpg" alt="">`:(id==="tri"?`<img class="vid" src="p_pushup.jpg" alt="">`:`<div class="vid-placeholder">🏋️</div>`);
 
 
 function vCoach(){
@@ -798,6 +1000,146 @@ function syncTourHighlight(){
   try{el.scrollIntoView({behavior:"smooth",block:"center"})}catch(e){}
  }
 }
+
+function vYoga(){
+ const curTab = S.yogaTab || "surya";
+ const tabs = [
+  ["surya", "☀️ Surya Namaskar", "☀️ सूर्य नमस्कार", "☀️ ਸੂਰਜ ਨਮਸਕਾਰ"],
+  ["cooldown", "🧘 Cool-Down", "🧘 कूलडाउन व रिकवरी", "🧘 ਕੂਲਡਾਊਨ"],
+  ["spine", "🦴 Spine & Back", "🦴 कमर व रीढ़", "🦴 ਕਮਰ ਤੇ ਰੀੜ੍ਹ"],
+  ["prana", "💨 Pranayama", "💨 प्राणायाम", "💨 ਪ੍ਰਾਣਾਯਾਮ"]
+ ];
+
+ let content = "";
+ if(curTab === "surya"){
+  const steps = [
+   ["1. Pranamasana (Prayer Pose)","1. प्रणामासन (प्रणाम मुद्रा)","1. ਪ੍ਰਣਾਮਾਸਨ","Stand tall with palms joined at chest center. Exhale slowly. Calms the mind.","छाती के सामने हाथ जोड़कर सीधे खड़े हों। धीरे साँस छोड़ें। मन को शांत करता है।","ਛਾਤੀ ਸਾਹਮਣੇ ਹੱਥ ਜੋੜ ਕੇ ਸਿੱਧੇ ਖੜ੍ਹੇ ਹੋਵੋ। ਹੌਲੀ ਸਾਹ ਛੱਡੋ।"],
+   ["2. Hastauttanasana (Raised Arms)","2. हस्तउत्तानासन (हस्त उत्थान)","2. ਹਸਤਉੱਤਾਨਾਸਨ","Inhale deeply, lift arms overhead, gentle backward arch. Stretches abdomen & chest.","गहरी साँस अंदर लेते हुए हाथ ऊपर उठाएँ, हल्की पीछे की ओर झुकें। छाती और पेट में खिंचाव।","ਡੂੰਘਾ ਸਾਹ ਅੰਦਰ ਲੈਂਦੇ ਹੋਏ ਬਾਹਾਂ ਉੱਪਰ ਚੁੱਕੋ, ਪਿੱਛੇ ਵੱਲ ਝੁਕੋ।"],
+   ["3. Hastapadasana (Forward Bend)","3. हस्तपादासन (पादहस्तासन)","3. ਹਸਤਪਾਦਾਸਨ","Exhale, fold forward from hips, touch toes. Lengthens spine, stretches hamstrings.","साँस छोड़ते हुए कमर से आगे झुकें और पंजों को छुएँ। रीढ़ व हैमस्ट्रिंग्स का लचीलापन।","ਸਾਹ ਛੱਡਦੇ ਹੋਏ ਕਮਰ ਤੋਂ ਅੱਗੇ ਝੁਕੋ। ਹੈਮਸਟ੍ਰਿੰਗ ਖਿੱਚੋ।"],
+   ["4. Ashwa Sanchalanasana (Equestrian)","4. अश्व संचालानासन","4. ਅਸ਼ਵ ਸੰਚਾਲਨਾਸਨ","Inhale, take right leg back, chest up, look forward. Strengthens legs and opens groin.","साँस अंदर, दायाँ पैर पीछे ले जाएँ, छाती ऊपर, आगे देखें। जाँघों को ताकत देता है।","ਸਾਹ ਅੰਦਰ, ਸੱਜਾ ਪੈਰ ਪਿੱਛੇ, ਛਾਤੀ ਉੱਪਰ। ਲੱਤਾਂ ਨੂੰ ਮਜ਼ਬੂਤ ਕਰਦਾ ਹੈ।"],
+   ["5. Dandasana (Stick / Plank)","5. दंडासन (प्लैंक पोज़)","5. ਡੰਡਾਸਨ","Hold breath briefly, bring left leg back. Full body in one strong straight line. Core fired up.","साँस रोकें, बायाँ पैर भी पीछे लाएँ। पूरा शरीर सिर से एड़ी तक एक सीधी रेखा में। कोर मजबूत।","ਸਾਹ ਰੋਕੋ, ਖੱਬਾ ਪੈਰ ਵੀ ਪਿੱਛੇ। ਪੂਰਾ ਸਰੀਰ ਸਿੱਧੀ ਲਾਈਨ ਵਿੱਚ।"],
+   ["6. Ashtanga Namaskara (8-Limb Pose)","6. अष्टांग नमस्कार","6. ਅਸ਼ਟਾਂਗ ਨਮਸਕਾਰ","Exhale, lower knees, chest, and chin to floor. Hips slightly raised. Builds upper body control.","साँस छोड़ते हुए घुटने, छाती व ठोड़ी ज़मीन पर लगाएँ। कूल्हे हल्के ऊपर। बाहों व कंधों की ताकत।","ਸਾਹ ਛੱਡਦੇ ਹੋਏ ਗੋਡੇ, ਛਾਤੀ ਤੇ ਠੋਡੀ ਜ਼ਮੀਨ 'ਤੇ ਲਗਾਓ।"],
+   ["7. Bhujangasana (Cobra Pose)","7. भुजंगासन (कोबरा पोज़)","7. ਭੁਜੰਗਾਸਨ","Inhale, slide forward, lift chest up like a cobra. Shoulders rolled back. Opens heart & lungs.","साँस अंदर, नाभि तक छाती ऊपर उठाएँ। कंधे पीछे, कोहनियाँ हल्की मुड़ी। फेफड़े व रीढ़ मजबूत।","ਸਾਹ ਅੰਦਰ, ਛਾਤੀ ਉੱਪਰ ਚੁੱਕੋ। ਮੋਢੇ ਪਿੱਛੇ ਰੱਖੋ।"],
+   ["8. Adho Mukha Svanasana (Downward Dog)","8. अधोमुख श्वानासन","8. ਅਧੋਮੁਖ ਸ਼ਵਾਨਾਸਨ","Exhale, lift hips high forming an inverted 'V'. Press heels down. Decompresses entire spine.","साँस छोड़ते हुए कूल्हे ऊपर उठाएँ, उल्टा 'V' बनाएँ। एड़ियाँ ज़मीन की तरफ़। रीढ़ को राहत।","ਸਾਹ ਛੱਡਦੇ ਹੋਏ ਕੁੱਲ੍ਹੇ ਉੱਪਰ ਚੁੱਕੋ, ਉਲਟਾ 'V' ਬਣਾਓ। ਪਿੱਠ ਨੂੰ ਰਾਹਤ।"],
+   ["9. Ashwa Sanchalanasana (Left)","9. अश्व संचालानासन (बायाँ पैर)","9. ਅਸ਼ਵ ਸੰਚਾਲਨਾਸਨ","Inhale, step left foot forward between hands. Right knee down, look up. Balances hip flexibility.","साँस अंदर लेते हुए बायाँ पैर आगे हथेलियों के बीच लाएँ। दायाँ घुटना ज़मीन पर, ऊपर देखें।","ਸਾਹ ਅੰਦਰ, ਖੱਬਾ ਪੈਰ ਅੱਗੇ ਲਿਆਓ। ਸੰਤੁਲਨ ਬਣਾਓ।"],
+   ["10. Hastapadasana (Forward Bend)","10. हस्तपादासन","10. ਹਸਤਪਾਦਾਸਨ","Exhale, bring right foot forward alongside left, bend and touch feet. Complete lower body release.","साँस छोड़ते हुए दायाँ पैर भी आगे लाएँ, आगे झुककर पैर छुएँ। पीठ व हैमस्ट्रिंग्स का खिंचाव।","ਸਾਹ ਛੱਡਦੇ ਹੋਏ ਦੋਵੇਂ ਪੈਰ ਨਾਲ ਰੱਖੋ, ਅੱਗੇ ਝੁਕੋ।"],
+   ["11. Hastauttanasana (Raised Arms)","11. हस्तउत्तानासन","11. ਹਸਤਉੱਤਾਨਾਸਨ","Inhale deeply, sweep arms overhead and gently arch back. Re-energizes blood circulation.","साँस अंदर, हाथ सिर के ऊपर उठाते हुए पीछे खिंचाव दें। रक्त संचार और ऊर्जा बढ़ाता है।","ਸਾਹ ਅੰਦਰ, ਬਾਹਾਂ ਉੱਪਰ ਚੁੱਕਦੇ ਹੋਏ ਪਿੱਛੇ ਝੁਕੋ।"],
+   ["12. Pranamasana (Prayer & Gratitude)","12. प्रणामासन (विश्राम)","12. ਪ੍ਰਣਾਮਾਸਨ","Exhale smoothly, bring palms to chest. Close eyes for 3 steady breaths. Full round complete.","साँस सामान्य, हाथ छाती के सामने जोड़ें। 3 शांत गहरी साँसें लें। एक चक्र पूरा हुआ।","ਸਾਹ ਆਮ, ਹੱਥ ਛਾਤੀ ਸਾਹਮਣੇ। ਸ਼ਾਂਤ ਹੋਵੋ।"]
+  ];
+  content = `
+   <div class="yoga-card">
+    <span class="yoga-badge">12-Step Daily Flow</span>
+    <h4 style="margin:.2rem 0 .4rem;color:#fff">${S.lang===1?"सूर्य नमस्कार के 12 चरण (श्वास व लाभ सहित)":S.lang===2?"ਸੂਰਜ ਨਮਸਕਾਰ ਦੇ 12 ਕਦਮ":"Surya Namaskar 12-Step Flow"}</h4>
+    <p class="muted sm">${S.lang===1?"जिम वर्कआउट से पहले या सुबह खाली पेट 3 से 5 चक्र करें। यह शरीर के हर जोड़ को खोलता है।":S.lang===2?"ਸਵੇਰੇ ਖਾਲੀ ਪੇਟ ਜਾਂ ਕਸਰਤ ਤੋਂ ਪਹਿਲਾਂ 3-5 ਗੇੜ ਕਰੋ।":"Perform 3–5 rounds every morning or as a pre-workout mobility warmup."}</p>
+    <div style="margin-top:1rem">
+     ${steps.map((st,idx)=>`
+      <div class="yoga-step">
+       <div class="yoga-step-num">${idx+1}</div>
+       <div>
+        <b style="color:#fff;font-size:.92rem">${st[S.lang]}</b>
+        <div style="font-size:.82rem;color:var(--muted);margin-top:.2rem">${st[S.lang+3]}</div>
+       </div>
+      </div>
+     `).join("")}
+    </div>
+   </div>
+  `;
+ } else if(curTab === "cooldown"){
+  const cool = [
+   ["Bhujangasana (Cobra)", "भुजंगासन (कोबरा)", "ਭੁਜੰਗਾਸਨ", "Hold 30 sec x 2", "30 सेकंड x 2 बार", "30 ਸਕਿੰਟ x 2", "Relieves chest & core tension after bench press or pushups. Breathe deeply into abdomen.", "बेंच प्रेस व पुश-अप्स के बाद छाती व पेट की माँसपेशियों को खोलता है। पेट में गहरी साँस लें।", "ਬੈਂਚ ਪ੍ਰੈੱਸ ਤੋਂ ਬਾਅਦ ਛਾਤੀ ਅਤੇ ਪੇਟ ਨੂੰ ਖੋਲ੍ਹਦਾ ਹੈ।"],
+   ["Balasana (Child's Pose)", "बालासन (शिशु आसन)", "ਬਾਲਾਸਨ", "Hold 60 sec", "1 मिनट होल्ड", "1 ਮਿੰਟ ਹੋਲਡ", "Lowers heart rate and decompresses lower back and shoulders. Total relaxation.", "दिल की धड़कन सामान्य करता है और पीठ के निचले हिस्से का तनाव पूरी तरह मिटाता है।", "ਦਿਲ ਦੀ ਧੜਕਣ ਆਮ ਕਰਦਾ ਹੈ ਅਤੇ ਪਿੱਠ ਨੂੰ ਆਰਾਮ ਦਿੰਦਾ ਹੈ।"],
+   ["Adho Mukha Svanasana", "अधोमुख श्वानासन", "ਅਧੋਮੁਖ ਸ਼ਵਾਨਾਸਨ", "Hold 45 sec x 2", "45 सेकंड x 2 बार", "45 ਸਕਿੰਟ x 2", "Deep stretch for calves, hamstrings, and lats after squats or leg day.", "लेग डे व स्क्वाट्स के बाद पिंडलियों, हैमस्ट्रिंग्स और बैक की गहरी स्ट्रेचिंग।", "ਲੱਤਾਂ ਅਤੇ ਪਿੱਠ ਦੀ ਡੂੰਘੀ ਸਟ੍ਰੈਚਿੰਗ ਲਈ ਬਿਹਤਰੀਨ।"],
+   ["Paschimottanasana", "पश्चिमोत्तानासन", "ਪਸ਼ਚਿਮੋਤਾਨਾਸਨ", "Hold 40 sec x 2", "40 सेकंड x 2 बार", "40 ਸਕਿੰਟ x 2", "Lengthens posterior chain, calms nervous system and boosts digestion.", "पीठ की सभी नसों को खोलता है, नर्वस सिस्टम शांत करता है और पाचन सुधारता है।", "ਪਿੱਠ ਦੀਆਂ ਨਸਾਂ ਖੋਲ੍ਹਦਾ ਹੈ ਤੇ ਹਾਜ਼ਮਾ ਸੁਧਾਰਦਾ ਹੈ।"]
+  ];
+  content = `
+   <div class="yoga-card">
+    <span class="yoga-badge">Post-Workout Cool-Down</span>
+    <h4 style="margin:.2rem 0 .4rem;color:#fff">${S.lang===1?"कसरत के बाद रिकवरी आसन":S.lang===2?"ਕਸਰਤ ਤੋਂ ਬਾਅਦ ਰਿਕਵਰੀ ਆਸਨ":"Post-Workout Recovery & Cool-Down"}</h4>
+    <p class="muted sm">${S.lang===1?"जिम में हेवी वेट ट्रेनिंग के बाद मांसपेशियों में लैक्टिक एसिड कम करने और अकड़न से बचने के लिए।":S.lang===2?"ਭਾਰੀ ਕਸਰਤ ਤੋਂ ਬਾਅਦ ਮਾਸਪੇਸ਼ੀਆਂ ਦੀ ਅਕੜਾਅ ਦੂਰ ਕਰਨ ਲਈ।":"Essential cool-down poses to prevent muscle soreness and promote rapid recovery."}</p>
+    <div style="margin-top:1rem">
+     ${cool.map(c=>`
+      <div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:1rem;padding:.9rem;margin-bottom:.8rem">
+       <div style="display:flex;justify-content:space-between;align-items:center">
+        <b style="color:#fff;font-size:.95rem">${c[S.lang]}</b>
+        <span style="font-size:.78rem;font-weight:800;color:#22d3ee;background:rgba(6,182,212,.15);padding:.2rem .5rem;border-radius:.4rem">${c[S.lang+3]}</span>
+       </div>
+       <div style="font-size:.82rem;color:var(--muted);margin-top:.4rem">${c[S.lang+6]}</div>
+      </div>
+     `).join("")}
+    </div>
+   </div>
+  `;
+ } else if(curTab === "spine"){
+  const spine = [
+   ["Marjaryasana-Bitilasana (Cat-Cow)", "मार्जरी-बितिलासन (कैट-काउ)", "ਕੈਟ-ਕਾਉ ਪੋਜ਼", "10 Slow Cycles", "10 धीमी साँसें", "10 ਗੇੜ", "Rhythmic spinal flexion & extension. Excellent for office desk sitters and heavy lifters.", "रीढ़ को लचीला बनाता है। लगातार कुर्सी पर बैठने वालों और डेडलिफ्ट करने वालों के लिए रामबाण।", "ਰੀੜ੍ਹ ਦੀ ਹੱਡੀ ਨੂੰ ਲਚਕੀਲਾ ਬਣਾਉਂਦਾ ਹੈ।"],
+   ["Setu Bandhasana (Bridge)", "सेतुबंधासन (ब्रिज पोज़)", "ਸੇਤੂਬੰਧਾਸਨ", "Hold 30 sec x 3", "30 सेकंड x 3 बार", "30 ਸਕਿੰਟ x 3", "Strengthens glutes and lumbar spine while releasing anterior pelvic tilt tightness.", "कमर के निचले हिस्से और हिप्स को मजबूत करता है, कमर दर्द में तुरंत राहत।", "ਕਮਰ ਦੇ ਹੇਠਲੇ ਹਿੱਸੇ ਨੂੰ ਮਜ਼ਬੂਤ ਕਰਦਾ ਹੈ।"],
+   ["Supta Matsyendrasana", "सुप्त मत्स्येन्द्रासन (स्पाइनल ट्विस्ट)", "ਸਪਾਈਨਲ ਟਵਿਸਟ", "Hold 45 sec each side", "45 सेकंड दोनों तरफ़", "45 ਸਕਿੰਟ ਹਰੇਕ ਪਾਸੇ", "Gently wrings out spinal stiffness, hydrates vertebral discs, and improves mobility.", "रीढ़ की अकड़न को धीरे-धीरे निचोड़कर खत्म करता है और कमर को हल्का महसूस कराता है।", "ਰੀੜ੍ਹ ਦੀ ਅਕੜਾਅ ਦੂਰ ਕਰਦਾ ਹੈ।"]
+  ];
+  content = `
+   <div class="yoga-card">
+    <span class="yoga-badge">Spine & Lower Back Care</span>
+    <h4 style="margin:.2rem 0 .4rem;color:#fff">${S.lang===1?"कमर दर्द व रीढ़ की सेहत":S.lang===2?"ਕਮਰ ਦਰਦ ਅਤੇ ਰੀੜ੍ਹ ਦੀ ਸਿਹਤ":"Spine & Lower Back Therapy"}</h4>
+    <p class="muted sm">${S.lang===1?"अगर भारी लिफ्टिंग या बैठने से कमर में दर्द या जकड़न रहती है, तो रोज़ यह 3 आसन करें।":S.lang===2?"ਕਮਰ ਦਰਦ ਤੇ ਅਕੜਾਅ ਲਈ ਰੋਜ਼ਾਨਾ ਅਭਿਆਸ।":"Alleviate stiffness and build a bulletproof, flexible spine."}</p>
+    <div style="margin-top:1rem">
+     ${spine.map(c=>`
+      <div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:1rem;padding:.9rem;margin-bottom:.8rem">
+       <div style="display:flex;justify-content:space-between;align-items:center">
+        <b style="color:#fff;font-size:.95rem">${c[S.lang]}</b>
+        <span style="font-size:.78rem;font-weight:800;color:#f59e0b;background:rgba(245,158,11,.15);padding:.2rem .5rem;border-radius:.4rem">${c[S.lang+3]}</span>
+       </div>
+       <div style="font-size:.82rem;color:var(--muted);margin-top:.4rem">${c[S.lang+6]}</div>
+      </div>
+     `).join("")}
+    </div>
+   </div>
+  `;
+ } else {
+  content = `
+   <div class="yoga-card">
+    <span class="yoga-badge">Mindful Breathwork</span>
+    <h4 style="margin:.2rem 0 .4rem;color:#fff">${S.lang===1?"प्राणायाम व ध्यान (मानसिक शांति व स्टैमिना)":S.lang===2?"ਪ੍ਰਾਣਾਯਾਮ ਅਤੇ ਧਿਆਨ":"Pranayama & Breathwork Studio"}</h4>
+    <p class="muted sm">${S.lang===1?"फेफड़ों की क्षमता बढ़ाने, तनाव घटाने और नर्वस सिस्टम को रीसेट करने का प्राचीन विज्ञान।":S.lang===2?"ਤਣਾਅ ਦੂਰ ਕਰਨ ਅਤੇ ਫੇਫੜਿਆਂ ਦੀ ਤਾਕਤ ਵਧਾਉਣ ਲਈ।":"Ancient breathing techniques to expand lung capacity, slash cortisol and heighten focus."}</p>
+    
+    <div class="yoga-breath-box">
+     <div class="breath-anim-circle">💨</div>
+     <b style="font-size:1.1rem;color:#fff;display:block">${S.lang===1?"समवृत्ति श्वास (4-4-4 रिदम)":S.lang===2?"ਸਮਵ੍ਰਿਤੀ ਸਾਹ (4-4-4)":"Box Breathing (4-4-4 Rhythm)"}</b>
+     <span style="font-size:.84rem;color:#22d3ee;display:block;margin-top:.35rem">${S.lang===1?"4 सेकंड साँस अंदर लें › 4 सेकंड रोकें › 4 सेकंड बाहर छोड़ें":S.lang===2?"4 ਸਕਿੰਟ ਸਾਹ ਅੰਦਰ › 4 ਸਕਿੰਟ ਰੋਕੋ › 4 ਸਕਿੰਟ ਬਾਹਰ":"4s Inhale › 4s Hold › 4s Exhale"}</span>
+     <p class="muted sm" style="margin-top:.8rem">${S.lang===1?"सर्कल के फैलने पर साँस अंदर लें, सिकुड़ने पर धीरे-धीरे छोड़ें।":S.lang===2?"ਸਰਕਲ ਵਧਣ 'ਤੇ ਸਾਹ ਅੰਦਰ ਲਓ, ਸੁੰਗੜਨ 'ਤੇ ਛੱਡੋ।":"Sync your breath with the expanding and contracting pulse above."}</p>
+    </div>
+
+    <div style="margin-top:1.2rem">
+     <div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:1rem;padding:.9rem;margin-bottom:.8rem">
+      <b style="color:#fff;font-size:.95rem">${S.lang===1?"1. अनुलोम-विलोम (नाड़ी शोधन)":S.lang===2?"1. ਅਨੁਲੋਮ-ਵਿਲੋਮ":"1. Anulom Vilom (Alternate Nostril)"}</b>
+      <div style="font-size:.82rem;color:var(--muted);margin-top:.3rem">${S.lang===1?"दाहिना नथुना बंद करके बाएँ से साँस लें, फिर बायाँ बंद करके दाएँ से छोड़ें। 5 मिनट करें। हाई बीपी और चिंता दूर करता है।":S.lang===2?"ਖੱਬੇ ਨਾਸ ਤੋਂ ਸਾਹ ਲਓ, ਸੱਜੇ ਤੋਂ ਛੱਡੋ। 5 ਮਿੰਟ ਕਰੋ। ਚਿੰਤਾ ਦੂਰ ਹੁੰਦੀ ਹੈ।":"Close right nostril, inhale left, switch and exhale right. 5 mins for deep nervous calm."}</div>
+     </div>
+     <div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:1rem;padding:.9rem;margin-bottom:.8rem">
+      <b style="color:#fff;font-size:.95rem">${S.lang===1?"2. कपालभाति (प्राण ऊर्जा)":S.lang===2?"2. ਕਪਾਲਭਾਤੀ":"2. Kapalbhati (Shining Skull)"}</b>
+      <div style="font-size:.82rem;color:var(--muted);margin-top:.3rem">${S.lang===1?"पेट को अंदर खींचते हुए तेज़ी से साँस बाहर फेंकें। 3 राउंड x 30 स्ट्रोक। पाचन तेज़ करता है और ऊर्जा भरता है।":S.lang===2?"ਢਿੱਡ ਅੰਦਰ ਖਿੱਚਦੇ ਹੋਏ ਜ਼ੋਰ ਨਾਲ ਸਾਹ ਬਾਹਰ ਕੱਢੋ। ਊਰਜਾ ਭਰਦਾ ਹੈ।":"Forceful rhythmic exhalations. 3 rounds of 30 strokes to rev metabolic fire."}</div>
+     </div>
+     <div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:1rem;padding:.9rem">
+      <b style="color:#fff;font-size:.95rem">${S.lang===1?"3. भ्रामरी (मधुमक्खी गुंजन)":S.lang===2?"3. ਭਰਾਮਰੀ":"3. Bhramari (Bee Humming)"}</b>
+      <div style="font-size:.82rem;color:var(--muted);margin-top:.3rem">${S.lang===1?"अंगूठों से कान बंद करें, गहरी साँस लेकर 'ॐ' जैसी भौंरे की गुंजन करें। सिरदर्द व अनिद्रा में तुरंत राहत।":S.lang===2?"ਕੰਨ ਬੰਦ ਕਰਕੇ ਭੌਰੇ ਵਾਂਗ ਗੂੰਜੋ। ਗੂੜ੍ਹੀ ਨੀਂਦ ਅਤੇ ਸਿਰਦਰਦ ਲਈ।":"Humming vibration with ears closed. Instant relief from insomnia, headaches and anxiety."}</div>
+     </div>
+    </div>
+   </div>
+  `;
+ }
+
+ return `
+  <div class="pad">
+   ${backBtn("shut")}
+   <div style="margin-bottom:.8rem">
+    <h2 style="font-size:1.35rem;font-weight:900;color:#fff">${t("yoga_h")}</h2>
+    <p class="muted sm">${t("yoga_sub")}</p>
+   </div>
+   <div class="yoga-tabs">
+    ${tabs.map(tb=>`<button class="${curTab===tb[0]?"on":""}" data-a="yoga_tab" data-v="${tb[0]}">${tb[S.lang+1]||tb[1]}</button>`).join("")}
+   </div>
+   ${content}
+  </div>${nav()}
+ `;
+}
+
 function render(){
  document.documentElement.lang=["en","hi","pa"][S.lang];
  let h;
@@ -805,6 +1147,7 @@ function render(){
  else if(S.screen==="run"&&R)h=vRun();
  else if(S.screen==="cal")h=vCal();
  else if(S.screen==="info")h=vInfo();
+ else if(S.screen==="yoga")h=vYoga();
  else if(S.screen==="day"||S.screen==="run")h=vDay();
  else h=(S.tab==="plan"?vPlan():S.tab==="coach"?vCoach():S.tab==="diet"?vDiet():S.tab==="rep"?vReport():S.tab==="set"?vSettings():vHome())+vTour();
  $app.innerHTML=h;
@@ -826,6 +1169,16 @@ document.addEventListener("click",e=>{
  else if(a==="tour_prev"){if(S.tour>1){S.tour--;S.tab=TOUR_STEPS[S.tour-1].tab}}
  else if(a==="tour_skip"){S.tour=0;S.tourDone=true;S.tab="home"}
  else if(a==="tab"){S.tab=v;S.screen="home"}
+ else if(a==="open_hub"){
+  if(v==="ex"){S.tab="plan";S.planTab=1}
+  else if(v==="diet"){S.tab="diet"}
+  else if(v==="coach"){S.tab="coach"}
+  else if(v==="rep"){S.tab="rep"}
+  else if(v==="yoga"){S.screen="yoga";S.yogaTab=S.yogaTab||"surya"}
+ }
+ else if(a==="yoga_tab"){S.yogaTab=v;save();render()}
+ else if(a==="ptab"){S.planTab=+v}
+ else if(a==="set_pro_lvl"){S.proLvl=+v}
  else if(a==="coach_q"){S.coachQ=+v}
  else if(a==="coach_clear"){S.coachQ=null}
  else if(a==="skip_day"){alert(t("skip_note"));S.done[v]=true;save();render()}
