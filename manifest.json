@@ -1,0 +1,46 @@
+{
+  "id": "com.sudaul.fitness",
+  "name": "Sudaul \u2014 90-Day Digital Gym & Home Coach",
+  "short_name": "Sudaul",
+  "description": "90-day step-by-step workout, Indian vegetarian diet, and calorie guide in English, Hindi, and Punjabi.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0B1626",
+  "theme_color": "#0B1626",
+  "lang": "hi",
+  "dir": "ltr",
+  "categories": [
+    "health",
+    "fitness",
+    "lifestyle"
+  ],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
