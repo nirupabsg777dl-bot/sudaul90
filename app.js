@@ -105,6 +105,10 @@ rest_bw:["Rest: {n} sec","आराम: {n} सेकंड","ਆਰਾਮ: {n} 
 tap_vid:["Watch HD Video & Details ›","HD वीडियो और पूरी जानकारी देखें ›","HD ਵੀਡੀਓ ਅਤੇ ਪੂਰੀ ਜਾਣਕਾਰੀ ਵੇਖੋ ›"],
 today_ex_h:["Today's Exercises (Step-by-Step)","आज की एक्सरसाइज़ (कदम-दर-कदम)","ਅੱਜ ਦੀਆਂ ਕਸਰਤਾਂ (ਕਦਮ-ਦਰ-ਕਦਮ)"],
 view_day:["Open Day {d}","दिन {d} खोलें","ਦਿਨ {d} ਖੋਲ੍ਹੋ"],
+hub_yoga:["Yoga & Recovery Studio","योग व रिकवरी स्टूडियो","ਯੋਗ ਅਤੇ ਰਿਕਵਰੀ ਸਟੂਡੀਓ"],
+hub_yoga_s:["Surya Namaskar, Post-workout cool-down, spine relief & Pranayama breathwork","सूर्य नमस्कार, स्ट्रेचिंग, कमर दर्द निवारण व प्राणायाम","ਸੂਰਜ ਨਮਸਕਾਰ, ਸਟ੍ਰੈਚਿੰਗ, ਕਮਰ ਦਰਦ ਤੇ ਪ੍ਰਾਣਾਯਾਮ"],
+yoga_h:["Yoga & Recovery Studio","🧘‍♀️ योग व रिकवरी स्टूडियो","🧘‍♀️ ਯੋਗ ਅਤੇ ਰਿਕਵਰੀ ਸਟੂਡੀਓ"],
+yoga_sub:["Flexibility, spine health, post-workout cool-down & mindful breathwork.","लचीलापन, रीढ़ की हड्डी, वर्कआउट के बाद की रिकवरी और प्राणायाम।","ਲਚਕੀਲਾਪਣ, ਰੀੜ੍ਹ ਦੀ ਹੱਡੀ, ਵਰਕਆਊਟ ਤੋਂ ਬਾਅਦ ਰਿਕਵਰੀ ਅਤੇ ਪ੍ਰਾਣਾਯਾਮ।"],
 hub_title:["Main Hubs & Stores","प्रमुख हब्स व स्टोर (अलग-अलग खाने)","ਮੁੱਖ ਹੱਬਾਂ ਅਤੇ ਸਟੋਰ"],
 hub_ex:["Exercise Chart Store","एक्सरसाइज़ चार्ट स्टोर","ਕਸਰਤ ਚਾਰਟ ਸਟੋਰ"],
 hub_ex_s:["Chest, Back, Arms, Legs & Abs — Beginner to Pro","छाती, पीठ, बाँहें, पेट व टाँगें — शुरुआती से प्रो तक","ਛਾਤੀ, ਪਿੱਠ, ਬਾਹਾਂ, ਪੇਟ ਤੇ ਲੱਤਾਂ — ਸ਼ੁਰੂਆਤੀ ਤੋਂ ਪ੍ਰੋ ਤੱਕ"],
@@ -424,7 +428,18 @@ function vHome(){
     <b>${t("hub_rep")}</b>
     <span>${t("hub_rep_s")}</span>
    </div>
-  </div>
+     <!-- Hub 5: Yoga & Recovery Studio -->
+   <div class="hub-card hub-teal hub-wide" data-a="open_hub" data-v="yoga">
+    <span class="hub-tag">Mind & Body</span>
+    <div style="display:flex;align-items:center;gap:.9rem">
+     <div class="hub-icon-3d" style="margin-bottom:0">🧘‍♀️</div>
+     <div>
+      <b style="font-size:1.02rem">${t("hub_yoga")}</b>
+      <div style="font-size:.78rem;color:var(--muted);margin-top:.2rem">${t("hub_yoga_s")}</div>
+     </div>
+    </div>
+   </div>
+   </div>
 
   <!-- 7-Day Quick Strip -->
   <div class="grid7" style="margin-bottom:1.15rem">${strip.join("")}</div>
@@ -985,6 +1000,146 @@ function syncTourHighlight(){
   try{el.scrollIntoView({behavior:"smooth",block:"center"})}catch(e){}
  }
 }
+
+function vYoga(){
+ const curTab = S.yogaTab || "surya";
+ const tabs = [
+  ["surya", "☀️ Surya Namaskar", "☀️ सूर्य नमस्कार", "☀️ ਸੂਰਜ ਨਮਸਕਾਰ"],
+  ["cooldown", "🧘 Cool-Down", "🧘 कूलडाउन व रिकवरी", "🧘 ਕੂਲਡਾਊਨ"],
+  ["spine", "🦴 Spine & Back", "🦴 कमर व रीढ़", "🦴 ਕਮਰ ਤੇ ਰੀੜ੍ਹ"],
+  ["prana", "💨 Pranayama", "💨 प्राणायाम", "💨 ਪ੍ਰਾਣਾਯਾਮ"]
+ ];
+
+ let content = "";
+ if(curTab === "surya"){
+  const steps = [
+   ["1. Pranamasana (Prayer Pose)","1. प्रणामासन (प्रणाम मुद्रा)","1. ਪ੍ਰਣਾਮਾਸਨ","Stand tall with palms joined at chest center. Exhale slowly. Calms the mind.","छाती के सामने हाथ जोड़कर सीधे खड़े हों। धीरे साँस छोड़ें। मन को शांत करता है।","ਛਾਤੀ ਸਾਹਮਣੇ ਹੱਥ ਜੋੜ ਕੇ ਸਿੱਧੇ ਖੜ੍ਹੇ ਹੋਵੋ। ਹੌਲੀ ਸਾਹ ਛੱਡੋ।"],
+   ["2. Hastauttanasana (Raised Arms)","2. हस्तउत्तानासन (हस्त उत्थान)","2. ਹਸਤਉੱਤਾਨਾਸਨ","Inhale deeply, lift arms overhead, gentle backward arch. Stretches abdomen & chest.","गहरी साँस अंदर लेते हुए हाथ ऊपर उठाएँ, हल्की पीछे की ओर झुकें। छाती और पेट में खिंचाव।","ਡੂੰਘਾ ਸਾਹ ਅੰਦਰ ਲੈਂਦੇ ਹੋਏ ਬਾਹਾਂ ਉੱਪਰ ਚੁੱਕੋ, ਪਿੱਛੇ ਵੱਲ ਝੁਕੋ।"],
+   ["3. Hastapadasana (Forward Bend)","3. हस्तपादासन (पादहस्तासन)","3. ਹਸਤਪਾਦਾਸਨ","Exhale, fold forward from hips, touch toes. Lengthens spine, stretches hamstrings.","साँस छोड़ते हुए कमर से आगे झुकें और पंजों को छुएँ। रीढ़ व हैमस्ट्रिंग्स का लचीलापन।","ਸਾਹ ਛੱਡਦੇ ਹੋਏ ਕਮਰ ਤੋਂ ਅੱਗੇ ਝੁਕੋ। ਹੈਮਸਟ੍ਰਿੰਗ ਖਿੱਚੋ।"],
+   ["4. Ashwa Sanchalanasana (Equestrian)","4. अश्व संचालानासन","4. ਅਸ਼ਵ ਸੰਚਾਲਨਾਸਨ","Inhale, take right leg back, chest up, look forward. Strengthens legs and opens groin.","साँस अंदर, दायाँ पैर पीछे ले जाएँ, छाती ऊपर, आगे देखें। जाँघों को ताकत देता है।","ਸਾਹ ਅੰਦਰ, ਸੱਜਾ ਪੈਰ ਪਿੱਛੇ, ਛਾਤੀ ਉੱਪਰ। ਲੱਤਾਂ ਨੂੰ ਮਜ਼ਬੂਤ ਕਰਦਾ ਹੈ।"],
+   ["5. Dandasana (Stick / Plank)","5. दंडासन (प्लैंक पोज़)","5. ਡੰਡਾਸਨ","Hold breath briefly, bring left leg back. Full body in one strong straight line. Core fired up.","साँस रोकें, बायाँ पैर भी पीछे लाएँ। पूरा शरीर सिर से एड़ी तक एक सीधी रेखा में। कोर मजबूत।","ਸਾਹ ਰੋਕੋ, ਖੱਬਾ ਪੈਰ ਵੀ ਪਿੱਛੇ। ਪੂਰਾ ਸਰੀਰ ਸਿੱਧੀ ਲਾਈਨ ਵਿੱਚ।"],
+   ["6. Ashtanga Namaskara (8-Limb Pose)","6. अष्टांग नमस्कार","6. ਅਸ਼ਟਾਂਗ ਨਮਸਕਾਰ","Exhale, lower knees, chest, and chin to floor. Hips slightly raised. Builds upper body control.","साँस छोड़ते हुए घुटने, छाती व ठोड़ी ज़मीन पर लगाएँ। कूल्हे हल्के ऊपर। बाहों व कंधों की ताकत।","ਸਾਹ ਛੱਡਦੇ ਹੋਏ ਗੋਡੇ, ਛਾਤੀ ਤੇ ਠੋਡੀ ਜ਼ਮੀਨ 'ਤੇ ਲਗਾਓ।"],
+   ["7. Bhujangasana (Cobra Pose)","7. भुजंगासन (कोबरा पोज़)","7. ਭੁਜੰਗਾਸਨ","Inhale, slide forward, lift chest up like a cobra. Shoulders rolled back. Opens heart & lungs.","साँस अंदर, नाभि तक छाती ऊपर उठाएँ। कंधे पीछे, कोहनियाँ हल्की मुड़ी। फेफड़े व रीढ़ मजबूत।","ਸਾਹ ਅੰਦਰ, ਛਾਤੀ ਉੱਪਰ ਚੁੱਕੋ। ਮੋਢੇ ਪਿੱਛੇ ਰੱਖੋ।"],
+   ["8. Adho Mukha Svanasana (Downward Dog)","8. अधोमुख श्वानासन","8. ਅਧੋਮੁਖ ਸ਼ਵਾਨਾਸਨ","Exhale, lift hips high forming an inverted 'V'. Press heels down. Decompresses entire spine.","साँस छोड़ते हुए कूल्हे ऊपर उठाएँ, उल्टा 'V' बनाएँ। एड़ियाँ ज़मीन की तरफ़। रीढ़ को राहत।","ਸਾਹ ਛੱਡਦੇ ਹੋਏ ਕੁੱਲ੍ਹੇ ਉੱਪਰ ਚੁੱਕੋ, ਉਲਟਾ 'V' ਬਣਾਓ। ਪਿੱਠ ਨੂੰ ਰਾਹਤ।"],
+   ["9. Ashwa Sanchalanasana (Left)","9. अश्व संचालानासन (बायाँ पैर)","9. ਅਸ਼ਵ ਸੰਚਾਲਨਾਸਨ","Inhale, step left foot forward between hands. Right knee down, look up. Balances hip flexibility.","साँस अंदर लेते हुए बायाँ पैर आगे हथेलियों के बीच लाएँ। दायाँ घुटना ज़मीन पर, ऊपर देखें।","ਸਾਹ ਅੰਦਰ, ਖੱਬਾ ਪੈਰ ਅੱਗੇ ਲਿਆਓ। ਸੰਤੁਲਨ ਬਣਾਓ।"],
+   ["10. Hastapadasana (Forward Bend)","10. हस्तपादासन","10. ਹਸਤਪਾਦਾਸਨ","Exhale, bring right foot forward alongside left, bend and touch feet. Complete lower body release.","साँस छोड़ते हुए दायाँ पैर भी आगे लाएँ, आगे झुककर पैर छुएँ। पीठ व हैमस्ट्रिंग्स का खिंचाव।","ਸਾਹ ਛੱਡਦੇ ਹੋਏ ਦੋਵੇਂ ਪੈਰ ਨਾਲ ਰੱਖੋ, ਅੱਗੇ ਝੁਕੋ।"],
+   ["11. Hastauttanasana (Raised Arms)","11. हस्तउत्तानासन","11. ਹਸਤਉੱਤਾਨਾਸਨ","Inhale deeply, sweep arms overhead and gently arch back. Re-energizes blood circulation.","साँस अंदर, हाथ सिर के ऊपर उठाते हुए पीछे खिंचाव दें। रक्त संचार और ऊर्जा बढ़ाता है।","ਸਾਹ ਅੰਦਰ, ਬਾਹਾਂ ਉੱਪਰ ਚੁੱਕਦੇ ਹੋਏ ਪਿੱਛੇ ਝੁਕੋ।"],
+   ["12. Pranamasana (Prayer & Gratitude)","12. प्रणामासन (विश्राम)","12. ਪ੍ਰਣਾਮਾਸਨ","Exhale smoothly, bring palms to chest. Close eyes for 3 steady breaths. Full round complete.","साँस सामान्य, हाथ छाती के सामने जोड़ें। 3 शांत गहरी साँसें लें। एक चक्र पूरा हुआ।","ਸਾਹ ਆਮ, ਹੱਥ ਛਾਤੀ ਸਾਹਮਣੇ। ਸ਼ਾਂਤ ਹੋਵੋ।"]
+  ];
+  content = `
+   <div class="yoga-card">
+    <span class="yoga-badge">12-Step Daily Flow</span>
+    <h4 style="margin:.2rem 0 .4rem;color:#fff">${S.lang===1?"सूर्य नमस्कार के 12 चरण (श्वास व लाभ सहित)":S.lang===2?"ਸੂਰਜ ਨਮਸਕਾਰ ਦੇ 12 ਕਦਮ":"Surya Namaskar 12-Step Flow"}</h4>
+    <p class="muted sm">${S.lang===1?"जिम वर्कआउट से पहले या सुबह खाली पेट 3 से 5 चक्र करें। यह शरीर के हर जोड़ को खोलता है।":S.lang===2?"ਸਵੇਰੇ ਖਾਲੀ ਪੇਟ ਜਾਂ ਕਸਰਤ ਤੋਂ ਪਹਿਲਾਂ 3-5 ਗੇੜ ਕਰੋ।":"Perform 3–5 rounds every morning or as a pre-workout mobility warmup."}</p>
+    <div style="margin-top:1rem">
+     ${steps.map((st,idx)=>`
+      <div class="yoga-step">
+       <div class="yoga-step-num">${idx+1}</div>
+       <div>
+        <b style="color:#fff;font-size:.92rem">${st[S.lang]}</b>
+        <div style="font-size:.82rem;color:var(--muted);margin-top:.2rem">${st[S.lang+3]}</div>
+       </div>
+      </div>
+     `).join("")}
+    </div>
+   </div>
+  `;
+ } else if(curTab === "cooldown"){
+  const cool = [
+   ["Bhujangasana (Cobra)", "भुजंगासन (कोबरा)", "ਭੁਜੰਗਾਸਨ", "Hold 30 sec x 2", "30 सेकंड x 2 बार", "30 ਸਕਿੰਟ x 2", "Relieves chest & core tension after bench press or pushups. Breathe deeply into abdomen.", "बेंच प्रेस व पुश-अप्स के बाद छाती व पेट की माँसपेशियों को खोलता है। पेट में गहरी साँस लें।", "ਬੈਂਚ ਪ੍ਰੈੱਸ ਤੋਂ ਬਾਅਦ ਛਾਤੀ ਅਤੇ ਪੇਟ ਨੂੰ ਖੋਲ੍ਹਦਾ ਹੈ।"],
+   ["Balasana (Child's Pose)", "बालासन (शिशु आसन)", "ਬਾਲਾਸਨ", "Hold 60 sec", "1 मिनट होल्ड", "1 ਮਿੰਟ ਹੋਲਡ", "Lowers heart rate and decompresses lower back and shoulders. Total relaxation.", "दिल की धड़कन सामान्य करता है और पीठ के निचले हिस्से का तनाव पूरी तरह मिटाता है।", "ਦਿਲ ਦੀ ਧੜਕਣ ਆਮ ਕਰਦਾ ਹੈ ਅਤੇ ਪਿੱਠ ਨੂੰ ਆਰਾਮ ਦਿੰਦਾ ਹੈ।"],
+   ["Adho Mukha Svanasana", "अधोमुख श्वानासन", "ਅਧੋਮੁਖ ਸ਼ਵਾਨਾਸਨ", "Hold 45 sec x 2", "45 सेकंड x 2 बार", "45 ਸਕਿੰਟ x 2", "Deep stretch for calves, hamstrings, and lats after squats or leg day.", "लेग डे व स्क्वाट्स के बाद पिंडलियों, हैमस्ट्रिंग्स और बैक की गहरी स्ट्रेचिंग।", "ਲੱਤਾਂ ਅਤੇ ਪਿੱਠ ਦੀ ਡੂੰਘੀ ਸਟ੍ਰੈਚਿੰਗ ਲਈ ਬਿਹਤਰੀਨ।"],
+   ["Paschimottanasana", "पश्चिमोत्तानासन", "ਪਸ਼ਚਿਮੋਤਾਨਾਸਨ", "Hold 40 sec x 2", "40 सेकंड x 2 बार", "40 ਸਕਿੰਟ x 2", "Lengthens posterior chain, calms nervous system and boosts digestion.", "पीठ की सभी नसों को खोलता है, नर्वस सिस्टम शांत करता है और पाचन सुधारता है।", "ਪਿੱਠ ਦੀਆਂ ਨਸਾਂ ਖੋਲ੍ਹਦਾ ਹੈ ਤੇ ਹਾਜ਼ਮਾ ਸੁਧਾਰਦਾ ਹੈ।"]
+  ];
+  content = `
+   <div class="yoga-card">
+    <span class="yoga-badge">Post-Workout Cool-Down</span>
+    <h4 style="margin:.2rem 0 .4rem;color:#fff">${S.lang===1?"कसरत के बाद रिकवरी आसन":S.lang===2?"ਕਸਰਤ ਤੋਂ ਬਾਅਦ ਰਿਕਵਰੀ ਆਸਨ":"Post-Workout Recovery & Cool-Down"}</h4>
+    <p class="muted sm">${S.lang===1?"जिम में हेवी वेट ट्रेनिंग के बाद मांसपेशियों में लैक्टिक एसिड कम करने और अकड़न से बचने के लिए।":S.lang===2?"ਭਾਰੀ ਕਸਰਤ ਤੋਂ ਬਾਅਦ ਮਾਸਪੇਸ਼ੀਆਂ ਦੀ ਅਕੜਾਅ ਦੂਰ ਕਰਨ ਲਈ।":"Essential cool-down poses to prevent muscle soreness and promote rapid recovery."}</p>
+    <div style="margin-top:1rem">
+     ${cool.map(c=>`
+      <div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:1rem;padding:.9rem;margin-bottom:.8rem">
+       <div style="display:flex;justify-content:space-between;align-items:center">
+        <b style="color:#fff;font-size:.95rem">${c[S.lang]}</b>
+        <span style="font-size:.78rem;font-weight:800;color:#22d3ee;background:rgba(6,182,212,.15);padding:.2rem .5rem;border-radius:.4rem">${c[S.lang+3]}</span>
+       </div>
+       <div style="font-size:.82rem;color:var(--muted);margin-top:.4rem">${c[S.lang+6]}</div>
+      </div>
+     `).join("")}
+    </div>
+   </div>
+  `;
+ } else if(curTab === "spine"){
+  const spine = [
+   ["Marjaryasana-Bitilasana (Cat-Cow)", "मार्जरी-बितिलासन (कैट-काउ)", "ਕੈਟ-ਕਾਉ ਪੋਜ਼", "10 Slow Cycles", "10 धीमी साँसें", "10 ਗੇੜ", "Rhythmic spinal flexion & extension. Excellent for office desk sitters and heavy lifters.", "रीढ़ को लचीला बनाता है। लगातार कुर्सी पर बैठने वालों और डेडलिफ्ट करने वालों के लिए रामबाण।", "ਰੀੜ੍ਹ ਦੀ ਹੱਡੀ ਨੂੰ ਲਚਕੀਲਾ ਬਣਾਉਂਦਾ ਹੈ।"],
+   ["Setu Bandhasana (Bridge)", "सेतुबंधासन (ब्रिज पोज़)", "ਸੇਤੂਬੰਧਾਸਨ", "Hold 30 sec x 3", "30 सेकंड x 3 बार", "30 ਸਕਿੰਟ x 3", "Strengthens glutes and lumbar spine while releasing anterior pelvic tilt tightness.", "कमर के निचले हिस्से और हिप्स को मजबूत करता है, कमर दर्द में तुरंत राहत।", "ਕਮਰ ਦੇ ਹੇਠਲੇ ਹਿੱਸੇ ਨੂੰ ਮਜ਼ਬੂਤ ਕਰਦਾ ਹੈ।"],
+   ["Supta Matsyendrasana", "सुप्त मत्स्येन्द्रासन (स्पाइनल ट्विस्ट)", "ਸਪਾਈਨਲ ਟਵਿਸਟ", "Hold 45 sec each side", "45 सेकंड दोनों तरफ़", "45 ਸਕਿੰਟ ਹਰੇਕ ਪਾਸੇ", "Gently wrings out spinal stiffness, hydrates vertebral discs, and improves mobility.", "रीढ़ की अकड़न को धीरे-धीरे निचोड़कर खत्म करता है और कमर को हल्का महसूस कराता है।", "ਰੀੜ੍ਹ ਦੀ ਅਕੜਾਅ ਦੂਰ ਕਰਦਾ ਹੈ।"]
+  ];
+  content = `
+   <div class="yoga-card">
+    <span class="yoga-badge">Spine & Lower Back Care</span>
+    <h4 style="margin:.2rem 0 .4rem;color:#fff">${S.lang===1?"कमर दर्द व रीढ़ की सेहत":S.lang===2?"ਕਮਰ ਦਰਦ ਅਤੇ ਰੀੜ੍ਹ ਦੀ ਸਿਹਤ":"Spine & Lower Back Therapy"}</h4>
+    <p class="muted sm">${S.lang===1?"अगर भारी लिफ्टिंग या बैठने से कमर में दर्द या जकड़न रहती है, तो रोज़ यह 3 आसन करें।":S.lang===2?"ਕਮਰ ਦਰਦ ਤੇ ਅਕੜਾਅ ਲਈ ਰੋਜ਼ਾਨਾ ਅਭਿਆਸ।":"Alleviate stiffness and build a bulletproof, flexible spine."}</p>
+    <div style="margin-top:1rem">
+     ${spine.map(c=>`
+      <div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:1rem;padding:.9rem;margin-bottom:.8rem">
+       <div style="display:flex;justify-content:space-between;align-items:center">
+        <b style="color:#fff;font-size:.95rem">${c[S.lang]}</b>
+        <span style="font-size:.78rem;font-weight:800;color:#f59e0b;background:rgba(245,158,11,.15);padding:.2rem .5rem;border-radius:.4rem">${c[S.lang+3]}</span>
+       </div>
+       <div style="font-size:.82rem;color:var(--muted);margin-top:.4rem">${c[S.lang+6]}</div>
+      </div>
+     `).join("")}
+    </div>
+   </div>
+  `;
+ } else {
+  content = `
+   <div class="yoga-card">
+    <span class="yoga-badge">Mindful Breathwork</span>
+    <h4 style="margin:.2rem 0 .4rem;color:#fff">${S.lang===1?"प्राणायाम व ध्यान (मानसिक शांति व स्टैमिना)":S.lang===2?"ਪ੍ਰਾਣਾਯਾਮ ਅਤੇ ਧਿਆਨ":"Pranayama & Breathwork Studio"}</h4>
+    <p class="muted sm">${S.lang===1?"फेफड़ों की क्षमता बढ़ाने, तनाव घटाने और नर्वस सिस्टम को रीसेट करने का प्राचीन विज्ञान।":S.lang===2?"ਤਣਾਅ ਦੂਰ ਕਰਨ ਅਤੇ ਫੇਫੜਿਆਂ ਦੀ ਤਾਕਤ ਵਧਾਉਣ ਲਈ।":"Ancient breathing techniques to expand lung capacity, slash cortisol and heighten focus."}</p>
+    
+    <div class="yoga-breath-box">
+     <div class="breath-anim-circle">💨</div>
+     <b style="font-size:1.1rem;color:#fff;display:block">${S.lang===1?"समवृत्ति श्वास (4-4-4 रिदम)":S.lang===2?"ਸਮਵ੍ਰਿਤੀ ਸਾਹ (4-4-4)":"Box Breathing (4-4-4 Rhythm)"}</b>
+     <span style="font-size:.84rem;color:#22d3ee;display:block;margin-top:.35rem">${S.lang===1?"4 सेकंड साँस अंदर लें › 4 सेकंड रोकें › 4 सेकंड बाहर छोड़ें":S.lang===2?"4 ਸਕਿੰਟ ਸਾਹ ਅੰਦਰ › 4 ਸਕਿੰਟ ਰੋਕੋ › 4 ਸਕਿੰਟ ਬਾਹਰ":"4s Inhale › 4s Hold › 4s Exhale"}</span>
+     <p class="muted sm" style="margin-top:.8rem">${S.lang===1?"सर्कल के फैलने पर साँस अंदर लें, सिकुड़ने पर धीरे-धीरे छोड़ें।":S.lang===2?"ਸਰਕਲ ਵਧਣ 'ਤੇ ਸਾਹ ਅੰਦਰ ਲਓ, ਸੁੰਗੜਨ 'ਤੇ ਛੱਡੋ।":"Sync your breath with the expanding and contracting pulse above."}</p>
+    </div>
+
+    <div style="margin-top:1.2rem">
+     <div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:1rem;padding:.9rem;margin-bottom:.8rem">
+      <b style="color:#fff;font-size:.95rem">${S.lang===1?"1. अनुलोम-विलोम (नाड़ी शोधन)":S.lang===2?"1. ਅਨੁਲੋਮ-ਵਿਲੋਮ":"1. Anulom Vilom (Alternate Nostril)"}</b>
+      <div style="font-size:.82rem;color:var(--muted);margin-top:.3rem">${S.lang===1?"दाहिना नथुना बंद करके बाएँ से साँस लें, फिर बायाँ बंद करके दाएँ से छोड़ें। 5 मिनट करें। हाई बीपी और चिंता दूर करता है।":S.lang===2?"ਖੱਬੇ ਨਾਸ ਤੋਂ ਸਾਹ ਲਓ, ਸੱਜੇ ਤੋਂ ਛੱਡੋ। 5 ਮਿੰਟ ਕਰੋ। ਚਿੰਤਾ ਦੂਰ ਹੁੰਦੀ ਹੈ।":"Close right nostril, inhale left, switch and exhale right. 5 mins for deep nervous calm."}</div>
+     </div>
+     <div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:1rem;padding:.9rem;margin-bottom:.8rem">
+      <b style="color:#fff;font-size:.95rem">${S.lang===1?"2. कपालभाति (प्राण ऊर्जा)":S.lang===2?"2. ਕਪਾਲਭਾਤੀ":"2. Kapalbhati (Shining Skull)"}</b>
+      <div style="font-size:.82rem;color:var(--muted);margin-top:.3rem">${S.lang===1?"पेट को अंदर खींचते हुए तेज़ी से साँस बाहर फेंकें। 3 राउंड x 30 स्ट्रोक। पाचन तेज़ करता है और ऊर्जा भरता है।":S.lang===2?"ਢਿੱਡ ਅੰਦਰ ਖਿੱਚਦੇ ਹੋਏ ਜ਼ੋਰ ਨਾਲ ਸਾਹ ਬਾਹਰ ਕੱਢੋ। ਊਰਜਾ ਭਰਦਾ ਹੈ।":"Forceful rhythmic exhalations. 3 rounds of 30 strokes to rev metabolic fire."}</div>
+     </div>
+     <div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:1rem;padding:.9rem">
+      <b style="color:#fff;font-size:.95rem">${S.lang===1?"3. भ्रामरी (मधुमक्खी गुंजन)":S.lang===2?"3. ਭਰਾਮਰੀ":"3. Bhramari (Bee Humming)"}</b>
+      <div style="font-size:.82rem;color:var(--muted);margin-top:.3rem">${S.lang===1?"अंगूठों से कान बंद करें, गहरी साँस लेकर 'ॐ' जैसी भौंरे की गुंजन करें। सिरदर्द व अनिद्रा में तुरंत राहत।":S.lang===2?"ਕੰਨ ਬੰਦ ਕਰਕੇ ਭੌਰੇ ਵਾਂਗ ਗੂੰਜੋ। ਗੂੜ੍ਹੀ ਨੀਂਦ ਅਤੇ ਸਿਰਦਰਦ ਲਈ।":"Humming vibration with ears closed. Instant relief from insomnia, headaches and anxiety."}</div>
+     </div>
+    </div>
+   </div>
+  `;
+ }
+
+ return `
+  <div class="pad">
+   ${backBtn("shut")}
+   <div style="margin-bottom:.8rem">
+    <h2 style="font-size:1.35rem;font-weight:900;color:#fff">${t("yoga_h")}</h2>
+    <p class="muted sm">${t("yoga_sub")}</p>
+   </div>
+   <div class="yoga-tabs">
+    ${tabs.map(tb=>`<button class="${curTab===tb[0]?"on":""}" data-a="yoga_tab" data-v="${tb[0]}">${tb[S.lang+1]||tb[1]}</button>`).join("")}
+   </div>
+   ${content}
+  </div>${nav()}
+ `;
+}
+
 function render(){
  document.documentElement.lang=["en","hi","pa"][S.lang];
  let h;
@@ -992,6 +1147,7 @@ function render(){
  else if(S.screen==="run"&&R)h=vRun();
  else if(S.screen==="cal")h=vCal();
  else if(S.screen==="info")h=vInfo();
+ else if(S.screen==="yoga")h=vYoga();
  else if(S.screen==="day"||S.screen==="run")h=vDay();
  else h=(S.tab==="plan"?vPlan():S.tab==="coach"?vCoach():S.tab==="diet"?vDiet():S.tab==="rep"?vReport():S.tab==="set"?vSettings():vHome())+vTour();
  $app.innerHTML=h;
@@ -1018,7 +1174,9 @@ document.addEventListener("click",e=>{
   else if(v==="diet"){S.tab="diet"}
   else if(v==="coach"){S.tab="coach"}
   else if(v==="rep"){S.tab="rep"}
+  else if(v==="yoga"){S.screen="yoga";S.yogaTab=S.yogaTab||"surya"}
  }
+ else if(a==="yoga_tab"){S.yogaTab=v;save();render()}
  else if(a==="ptab"){S.planTab=+v}
  else if(a==="set_pro_lvl"){S.proLvl=+v}
  else if(a==="coach_q"){S.coachQ=+v}

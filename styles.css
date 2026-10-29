@@ -206,3 +206,19 @@ h1{font-size:1.7rem;line-height:1.25;font-weight:800}h2{font-size:1.3rem;font-we
 .brand-text span{font-size:1.18rem;font-weight:900;letter-spacing:.03em;color:#fff}
 .brand-text b{color:#ff5722}
 .brand-text small{font-size:.58rem;font-weight:800;letter-spacing:.08em;color:var(--blue);text-transform:uppercase}
+
+/* Yoga & Mobility Studio Styles */
+.hub-teal .hub-icon-3d{background:linear-gradient(135deg,#0e7490 0%,#06b6d4 50%,#67e8f9 100%)}
+.hub-wide{grid-column:span 2}
+.yoga-tabs{display:flex;gap:.4rem;overflow-x:auto;padding-bottom:.4rem;margin:.75rem 0 1rem;scrollbar-width:none}
+.yoga-tabs::-webkit-scrollbar{display:none}
+.yoga-tabs button{padding:.52rem .95rem;border-radius:99px;font-size:.85rem;font-weight:800;white-space:nowrap;background:var(--card);color:var(--muted);border:1px solid var(--line);cursor:pointer;transition:all .18s ease}
+.yoga-tabs button.on{background:linear-gradient(135deg,#06b6d4,#0891b2);color:#fff;border-color:#22d3ee;box-shadow:0 4px 14px rgba(6,182,212,.4)}
+.yoga-card{background:linear-gradient(145deg,#0c1d33,#081324);border:1px solid rgba(6,182,212,.28);border-radius:1.15rem;padding:1.1rem;margin-bottom:1rem;box-shadow:0 6px 20px rgba(0,0,0,.4)}
+.yoga-badge{display:inline-block;padding:.2rem .55rem;border-radius:.4rem;font-size:.7rem;font-weight:800;text-transform:uppercase;background:rgba(6,182,212,.15);color:#22d3ee;border:1px solid rgba(6,182,212,.3);margin-bottom:.55rem}
+.yoga-step{display:flex;gap:.8rem;align-items:flex-start;margin:.8rem 0;padding-bottom:.8rem;border-bottom:1px solid rgba(255,255,255,.07)}
+.yoga-step:last-child{border-bottom:none;margin-bottom:0;padding-bottom:0}
+.yoga-step-num{width:1.8rem;height:1.8rem;border-radius:50%;background:rgba(6,182,212,.2);border:1.5px solid #06b6d4;color:#22d3ee;font-weight:900;font-size:.82rem;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.yoga-breath-box{background:radial-gradient(circle,rgba(6,182,212,.18) 0%,rgba(12,29,51,.85) 75%);border:1.5px solid rgba(6,182,212,.4);border-radius:1.4rem;padding:1.6rem 1rem;text-align:center;margin:1.1rem 0}
+.breath-anim-circle{width:88px;height:88px;margin:0 auto 1rem;border-radius:50%;background:linear-gradient(135deg,#06b6d4,#38bdf8);box-shadow:0 0 25px rgba(6,182,212,.6);animation:breathPulse 8s infinite ease-in-out;display:flex;align-items:center;justify-content:center;font-size:1.8rem}
+@keyframes breathPulse{0%,100%{transform:scale(.78);opacity:.65}50%{transform:scale(1.18);opacity:1;box-shadow:0 0 45px rgba(56,189,248,.85)}}
