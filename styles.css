@@ -1,7 +1,7 @@
 :root{--bg:#0B1626;--card:#14253D;--card2:#1b3354;--blue:#5DB8F5;--orange:#D9480F;--white:#fff;--muted:#B7C7DB;--line:#27405f;color-scheme:dark}
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html{font-size:17px}
-body{margin:0;background:var(--bg);color:var(--white);font-family:system-ui,"Noto Sans","Noto Sans Devanagari","Noto Sans Gurmukhi",Roboto,sans-serif;line-height:1.5;min-height:100vh}
+body{margin:0;background:var(--bg);color:var(--white);font-family:"Plus Jakarta Sans","Noto Sans Devanagari","Noto Sans Gurmukhi",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.5;min-height:100vh}
 button{font:inherit;color:inherit;border:0;background:none;cursor:pointer}
 h1,h2,h3,p{margin:0}
 h1{font-size:1.7rem;line-height:1.25;font-weight:800}h2{font-size:1.3rem;font-weight:800}h3{font-size:1.08rem;font-weight:700}
@@ -151,3 +151,58 @@ h1{font-size:1.7rem;line-height:1.25;font-weight:800}h2{font-size:1.3rem;font-we
 .human-thumb-img{width:100%;height:100%;object-fit:cover;object-position:center;display:block}
 .vplay-pill{position:absolute;bottom:.25rem;right:.25rem;background:rgba(217,72,15,.92);color:#fff;font-size:.68rem;font-weight:800;padding:.12rem .35rem;border-radius:.35rem;box-shadow:0 2px 6px rgba(0,0,0,.5)}
 .mini2{width:3rem!important;height:3rem!important;opacity:.9}
+
+/* Clean Target Muscle Badges & Athlete Visuals */
+.target-badge{display:flex;flex-direction:column;align-items:center;justify-content:center;background:linear-gradient(145deg,#132847,#0d1c33);border:1px solid var(--blue);border-radius:.75rem;padding:.35rem .6rem;min-width:4.2rem;text-align:center}
+.target-badge .t-dot{font-size:.85rem;line-height:1}
+.target-badge b{font-size:.74rem;color:#fff;margin-top:.15rem;white-space:nowrap;max-width:4.6rem;overflow:hidden;text-overflow:ellipsis}
+.musbig-clean{flex:1;background:var(--bg);border:1px solid var(--line);border-radius:.9rem;padding:.75rem;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:7.5rem}
+.focus-title-tag{font-size:.82rem;font-weight:800;color:var(--blue);letter-spacing:.02em}
+.vid-placeholder{width:100%;height:10rem;background:#000;border-radius:1rem;display:flex;align-items:center;justify-content:center;font-size:3rem;margin:.4rem auto}
+
+/* ========================================================
+   SUDAUL 3D HUBS / STORES (साफ़-सुथरे अलग-अलग खाने)
+======================================================== */
+.hub-section-title{display:flex;align-items:center;justify-content:space-between;margin:.9rem 0 .55rem}
+.hub-section-title h3{font-size:1.05rem;font-weight:800;letter-spacing:.02em;color:#fff}
+.hub-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:.75rem;margin-bottom:1.15rem}
+.hub-card{position:relative;background:linear-gradient(145deg,#132847 0%,#0c1b33 100%);border:1px solid rgba(93,184,245,.22);border-radius:1.15rem;padding:.9rem .85rem;display:flex;flex-direction:column;gap:.4rem;cursor:pointer;box-shadow:0 8px 24px rgba(0,0,0,.45);transition:transform .18s ease,border-color .18s ease}
+.hub-card:active{transform:scale(.97);border-color:var(--orange)}
+.hub-icon-3d{width:3.1rem;height:3.1rem;border-radius:.95rem;display:flex;align-items:center;justify-content:center;font-size:1.6rem;box-shadow:0 8px 18px rgba(0,0,0,.5);margin-bottom:.2rem;border:1px solid rgba(255,255,255,.15)}
+.hub-blue .hub-icon-3d{background:linear-gradient(135deg,#1e40af 0%,#3b82f6 50%,#60a5fa 100%)}
+.hub-green .hub-icon-3d{background:linear-gradient(135deg,#065f46 0%,#10b981 50%,#34d399 100%)}
+.hub-purple .hub-icon-3d{background:linear-gradient(135deg,#4338ca 0%,#6366f1 50%,#818cf8 100%)}
+.hub-gold .hub-icon-3d{background:linear-gradient(135deg,#b45309 0%,#f59e0b 50%,#fbbf24 100%)}
+.hub-card b{font-size:.95rem;font-weight:800;line-height:1.25;color:#fff}
+.hub-card span{font-size:.78rem;color:var(--muted);line-height:1.35}
+.hub-tag{position:absolute;top:.65rem;right:.65rem;font-size:.65rem;font-weight:800;padding:.15rem .45rem;border-radius:99px;background:rgba(93,184,245,.16);color:var(--blue);border:1px solid rgba(93,184,245,.3)}
+
+/* Level Selector Bar (Beginner -> Pro) */
+.pro-lvl-bar{display:flex;background:var(--card);border-radius:1rem;padding:.3rem;gap:.3rem;margin:.75rem 0;border:1px solid var(--line)}
+.pro-lvl-bar button{flex:1;padding:.65rem .3rem;border-radius:.75rem;font-weight:800;font-size:.85rem;color:var(--muted);transition:all .2s ease}
+.pro-lvl-bar button.lvl-0.on{background:linear-gradient(135deg,#059669,#10b981);color:#fff;box-shadow:0 4px 14px rgba(16,185,129,.35)}
+.pro-lvl-bar button.lvl-1.on{background:linear-gradient(135deg,#d97706,#f59e0b);color:#fff;box-shadow:0 4px 14px rgba(245,158,11,.35)}
+.pro-lvl-bar button.lvl-2.on{background:linear-gradient(135deg,#dc2626,#ef4444);color:#fff;box-shadow:0 4px 14px rgba(239,68,68,.35)}
+
+.pro-guidance-card{background:linear-gradient(145deg,#132847,#0e1c31);border:1.5px solid var(--blue);border-radius:1.15rem;padding:1rem;margin-bottom:1rem;box-shadow:0 8px 24px rgba(0,0,0,.4)}
+.pro-guidance-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:.5rem}
+.pro-stats-strip{display:flex;flex-wrap:wrap;gap:.5rem;margin:.55rem 0 .35rem}
+.pro-stat-chip{padding:.25rem .65rem;border-radius:.55rem;background:rgba(93,184,245,.14);border:1px solid rgba(93,184,245,.3);color:var(--blue);font-weight:800;font-size:.82rem}
+
+/* Language Switcher Polish */
+.langs button{padding:.38rem .8rem;border-radius:99px;background:var(--card);font-weight:800;font-size:.9rem;color:var(--muted);border:1px solid var(--line);transition:all .18s ease}
+.langs button.on{background:var(--orange);color:#fff;border-color:var(--orange);box-shadow:0 2px 10px rgba(217,72,15,.4)}
+
+/* Pro Athletic Back Button */
+.back-btn{display:inline-flex;align-items:center;gap:.45rem;padding:.52rem 1.05rem;border-radius:99px;background:linear-gradient(145deg,#132847,#0b182d);border:1.5px solid rgba(56,189,248,.4);color:#fff;font-weight:800;font-size:.88rem;cursor:pointer;margin-bottom:.85rem;box-shadow:0 4px 14px rgba(0,0,0,.45);transition:all .15s ease}
+.back-btn:active{transform:scale(.95);background:#19355e;border-color:var(--orange)}
+.back-btn svg{width:1.15rem;height:1.15rem;stroke:var(--blue)}
+
+/* Athletic Gym Brand Header */
+.brand{display:flex;align-items:center;gap:.6rem}
+.brand-badge{width:2.2rem;height:2.2rem;border-radius:.65rem;background:linear-gradient(135deg,#ff4d00,#d93800);display:flex;align-items:center;justify-content:center;color:#fff;box-shadow:0 4px 12px rgba(255,77,0,.45)}
+.brand-badge svg{width:1.3rem;height:1.3rem}
+.brand-text{display:flex;flex-direction:column;line-height:1.1}
+.brand-text span{font-size:1.18rem;font-weight:900;letter-spacing:.03em;color:#fff}
+.brand-text b{color:#ff5722}
+.brand-text small{font-size:.58rem;font-weight:800;letter-spacing:.08em;color:var(--blue);text-transform:uppercase}
