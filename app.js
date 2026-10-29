@@ -287,12 +287,13 @@ function exRows(dp){
   const id=e[0],x=EX[id],I=INFO[id],mKey=I&&I[0]?I[0][0]:"wb";
   const amt=e[3]==="m"?`${e[2]} ${t("min")}`:e[3]==="s"?t("sets_sec",{s:e[1],r:e[2]}):t("sets_lbl",{s:e[1],r:e[2]});
   const mus=I?I[0].map(k=>MU[k][S.lang]).join(" · "):"";
-  const hasMedia=VID[id]||PIMG[id];
+  const photoSrc=(PIMG[id]||VID[id])?`p_${id}.jpg`:(id==="tri"?"p_pushup.jpg":"");
+  const thumbHtml=photoSrc?`<div class="human-thumb-box"><img src="${photoSrc}" alt="" class="human-thumb-img">${VID[id]?`<span class="vplay-pill">▶ HD</span>`:""}</div>`:`<div class="exanim">${figSvg(id)}</div>`;
   return `<div class="excard" data-a="info" data-v="${id}">
    <div class="exhead">
-    <div class="exanim">
+    <div class="human-left-box">
      <span class="exstep">${i+1}</span>
-     ${figSvg(id)}
+     ${thumbHtml}
     </div>
     <div class="exmeta">
      <h3>${x[0][S.lang]}</h3>
@@ -304,7 +305,7 @@ function exRows(dp){
     </div>
     <div class="exright">
      <div class="musbox">${muscleSvg(mKey)}<span>${MU[mKey]?MU[mKey][S.lang]:""}</span></div>
-     ${hasMedia?`<div class="exthumb"><img src="p_${id}.jpg" alt="">${VID[id]?`<span class="vplay">▶</span>`:""}</div>`:""}
+     ${P2[id]?`<div class="exthumb mini2"><img src="p_${id}2.jpg" alt=""></div>`:""}
     </div>
    </div>
    <p class="excue">${x[1][S.lang]}</p>
@@ -353,8 +354,10 @@ function vPlan(){
   const dp=dayPlan(d,p),isDone=!!S.done[d],isToday=d===cur;
   const exStrip=dp.rest?`<p class="muted sm" style="margin-top:.4rem">${t("rest_s")}</p>`:`<div class="dayexlist">${dp.list.map((e,idx)=>{
    const id=e[0],x=EX[id],amt=e[3]==="m"?`${e[2]} ${t("min")}`:e[3]==="s"?`${e[1]}×${e[2]}s`:`${e[1]}×${e[2]}`;
+   const pImg=(PIMG[id]||VID[id])?`p_${id}.jpg`:(id==="tri"?"p_pushup.jpg":"");
+   const figOrImg=pImg?`<img src="${pImg}" alt="" style="width:100%;height:100%;object-fit:cover;display:block">`:`<div class="dayexfig">${figSvg(id)}</div>`;
    return `<div class="dayexitem" data-a="info" data-v="${id}">
-    <div class="dayexfig">${figSvg(id)}</div>
+    <div class="dayexfig" style="height:3.2rem">${figOrImg}</div>
     <div class="dayextxt">
      <b>${idx+1}. ${x[0][S.lang]}</b>
      <span>${amt}</span>
@@ -379,8 +382,10 @@ function vPlan(){
  const fltBar=mFlts.map(([k,lbl])=>`<button class="pill ${curFlt===k?"on":""}" data-a="mflt" data-v="${k}">${lbl}</button>`).join("");
  const exLib=Object.keys(EX).filter(id=>curFlt==="all"||(INFO[id]&&INFO[id][0].includes(curFlt))).map(id=>{
   const x=EX[id],I=INFO[id],mKey=I&&I[0]?I[0][0]:"wb";
+  const pImg=(PIMG[id]||VID[id])?`p_${id}.jpg`:(id==="tri"?"p_pushup.jpg":"");
+  const topVisual=pImg?`<div class="libtop" style="height:7rem"><img src="${pImg}" alt="" style="width:100%;height:100%;object-fit:cover;border-radius:.6rem;display:block">${VID[id]?`<span class="vcam">🎥 HD</span>`:""}</div>`:`<div class="libtop">${figSvg(id)}${VID[id]?`<span class="vcam">🎥</span>`:""}</div>`;
   return `<div class="libcard" data-a="info" data-v="${id}">
-   <div class="libtop">${figSvg(id)}${VID[id]?`<span class="vcam">🎥</span>`:""}</div>
+   ${topVisual}
    <b>${x[0][S.lang]}</b>
    <span><i class="rdot"></i> ${MU[mKey]?MU[mKey][S.lang]:""}</span>
   </div>`;
@@ -625,7 +630,7 @@ const INFO={squat:[["th","gl"],["knin","heel"]],gsquat:[["th","gl"],["knin","hee
 function vInfo(){
  const id=S.info,x=EX[id],I=INFO[id],itab=S.itab||0,mKey=I&&I[0]?I[0][0]:"wb";
  return `${langBar()}<div class="page"><button class="back" data-a="iback">‹ ${t("back")}</button>
- <div class="infotitle"><h1>${x[0][S.lang]}</h1><div class="exanim" style="width:4.6rem">${figSvg(id)}</div></div>
+ <div class="infotitle"><h1>${x[0][S.lang]}</h1><span class="chip" style="background:var(--blue);color:#06182b;font-weight:800">HD Form</span></div>
  ${(VID[id]||PIMG[id]||POSES[id])?`<div style="width:min(26rem,100%);margin:.6rem auto">${figOrVid(id)}${P2[id]?`<div class="gap" style="margin-top:.5rem"><img class="vid" style="flex:1;max-height:22vh" src="p_${id}2.jpg" alt=""><img class="vid" style="flex:1;max-height:22vh" src="p_${id}.jpg" alt=""></div>`:""}</div>`:""}
  <div class="itabs">
   <button class="${itab===0?"on":""}" data-a="itab" data-v="0">${t("tab_muscle")}</button>
@@ -637,7 +642,7 @@ function vInfo(){
    <div class="chips" style="margin-top:.55rem">${I?I[0].map(k=>`<span class="fchip"><i class="rdot"></i>${MU[k][S.lang]}</span>`).join(""):""}</div>
    <div class="musshowcase">
     <div class="musbig">${muscleSvg(mKey)}</div>
-    <div class="musbig">${figSvg(id)}</div>
+    ${(PIMG[id]||VID[id])?`<div class="musbig" style="overflow:hidden;padding:0"><img src="p_${id}.jpg" alt="" style="width:100%;height:100%;max-height:8rem;object-fit:cover;border-radius:.8rem"></div>`:`<div class="musbig">${figSvg(id)}</div>`}
    </div>
   </div>
   <div class="sp2"></div>

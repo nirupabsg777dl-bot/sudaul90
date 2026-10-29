@@ -144,3 +144,10 @@ h1{font-size:1.7rem;line-height:1.25;font-weight:800}h2{font-size:1.3rem;font-we
 .tour-ptr-badge.ptr-down{top:-.85rem}
 .tour-ptr-badge.ptr-up{top:-1.65rem;right:auto;left:50%;transform:translateX(-50%)}
 @keyframes ptrBounce{from{transform:translateY(0)}to{transform:translateY(-5px)}}
+
+/* Real Human Athlete Photo & Clean Position UI */
+.human-left-box{position:relative;flex:none;width:5.4rem;height:4.6rem}
+.human-thumb-box{width:100%;height:100%;border-radius:.85rem;overflow:hidden;border:1.5px solid var(--line);background:#091424;position:relative}
+.human-thumb-img{width:100%;height:100%;object-fit:cover;object-position:center;display:block}
+.vplay-pill{position:absolute;bottom:.25rem;right:.25rem;background:rgba(217,72,15,.92);color:#fff;font-size:.68rem;font-weight:800;padding:.12rem .35rem;border-radius:.35rem;box-shadow:0 2px 6px rgba(0,0,0,.5)}
+.mini2{width:3rem!important;height:3rem!important;opacity:.9}
