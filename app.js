@@ -105,6 +105,53 @@ rest_bw:["Rest: {n} sec","आराम: {n} सेकंड","ਆਰਾਮ: {n} 
 tap_vid:["Watch HD Video & Details ›","HD वीडियो और पूरी जानकारी देखें ›","HD ਵੀਡੀਓ ਅਤੇ ਪੂਰੀ ਜਾਣਕਾਰੀ ਵੇਖੋ ›"],
 today_ex_h:["Today's Exercises (Step-by-Step)","आज की एक्सरसाइज़ (कदम-दर-कदम)","ਅੱਜ ਦੀਆਂ ਕਸਰਤਾਂ (ਕਦਮ-ਦਰ-ਕਦਮ)"],
 view_day:["Open Day {d}","दिन {d} खोलें","ਦਿਨ {d} ਖੋਲ੍ਹੋ"],
+mode_home:["🏠 Home (No Equipment)","🏠 घर पर (बिना सामान)","🏠 ਘਰ 'ਤੇ (ਬਿਨਾਂ ਸਾਮਾਨ)"],
+mode_gym:["🏋️ Gym (Weights & Machines)","🏋️ जिम (डम्बल व वजन)","🏋️ ਜਿਮ (ਡੰਬਲ ਤੇ ਵਜ਼ਨ)"],
+target_hit_h:["Hit Your Target Areas","🎯 प्रमुख अंग अनुसार कसरत (Target Areas)","🎯 ਮੁੱਖ ਅੰਗਾਂ ਅਨੁਸਾਰ ਕਸਰਤ"],
+target_hit_s:["Select specific muscle zones to view dedicated exercises & form.","जिस अंग को टोन या मजबूत करना है, उसे सीधे चुनें।","ਜਿਸ ਅੰਗ ਨੂੰ ਮਜ਼ਬੂਤ ਕਰਨਾ ਹੈ, ਉਸਨੂੰ ਚੁਣੋ।"],
+target_belly_t:["Belly & Six Pack Abs","सपाट पेट व एब्स (Belly & Abs)","ਢਿੱਡ ਤੇ ਐਬਸ"],
+target_belly_d:["Bicycle crunches, planks & deadbug for flat waistline","क्रंचेस, प्लैंक व डेडबग से पेट की चर्बी घटाएँ","ਪਲੈਂਕ ਤੇ ਕਰੰਚ ਨਾਲ ਢਿੱਡ ਅੰਦਰ ਕਰੋ"],
+target_arms_t:["Arms (Biceps & Triceps)","मजबूत बाँहें (Arms)","ਮਜ਼ਬੂਤ ਬਾਹਾਂ"],
+target_arms_d:["Dumbbell curls, kickbacks & pushups for sculpted arms","बाइसेप कर्ल, किकबैक और पुश-अप्स से आर्म्स बनाएं","ਬਾਈਸੈਪ ਤੇ ਟ੍ਰਾਈਸੈਪਸ ਲਈ ਬਿਹਤਰੀਨ"],
+target_butt_t:["Glutes & Lower Back","सुडौल हिप्स व कमर (Glutes)","ਸੁਡੌਲ ਕੁੱਲ੍ਹੇ ਤੇ ਕਮਰ"],
+target_butt_d:["Glute bridges & reverse lunges for lower body posture","ग्लूट ब्रिज और लंज से हिप्स व लोअर बैक मजबूत करें","ਗਲੂਟ ਬ੍ਰਿਜ ਤੇ ਲੰਜ ਨਾਲ ਹੇਠਲਾ ਹਿੱਸਾ ਮਜ਼ਬੂਤ"],
+target_legs_t:["Toned Legs & Thighs","मजबूत टाँगें व जाँघें (Legs)","ਮਜ਼ਬੂਤ ਲੱਤਾਂ ਤੇ ਪੱਟ"],
+target_legs_d:["Bodyweight squats, goblet squats & calf power","स्क्वाट्स और लंज से पैरों में ताकत व कटिंग लाएँ","ਸਕੁਐਟਸ ਨਾਲ ਲੱਤਾਂ 'ਚ ਤਾਕਤ ਲਿਆਓ"],
+men_focus:["Men's Focus","पुरुषों के प्रमुख अंग","ਮਰਦਾਂ ਦੇ ਮੁੱਖ ਅੰਗ"],
+womode_home:["🏠 Home (No Equipment)","🏠 घर पर (बिना सामान)","🏠 ਘਰ 'ਤੇ (ਬਿਨਾਂ ਸਾਮਾਨ)"],
+mode_gym:["🏋️ Gym (Weights & Machines)","🏋️ जिम (डम्बल व वजन)","🏋️ ਜਿਮ (ਡੰਬਲ ਤੇ ਵਜ਼ਨ)"],
+target_hit_h:["Hit Your Target Areas","🎯 प्रमुख अंग अनुसार कसरत (Target Areas)","🎯 ਮੁੱਖ ਅੰਗਾਂ ਅਨੁਸਾਰ ਕਸਰਤ"],
+target_hit_s:["Select specific muscle zones to view dedicated exercises & form.","जिस अंग को टोन या मजबूत करना है, उसे सीधे चुनें।","ਜਿਸ ਅੰਗ ਨੂੰ ਮਜ਼ਬੂਤ ਕਰਨਾ ਹੈ, ਉਸਨੂੰ ਚੁਣੋ।"],
+target_belly_t:["Belly & Six Pack Abs","सपाट पेट व एब्स (Belly & Abs)","ਢਿੱਡ ਤੇ ਐਬਸ"],
+target_belly_d:["Bicycle crunches, planks & deadbug for flat waistline","क्रंचेस, प्लैंक व डेडबग से पेट की चर्बी घटाएँ","ਪਲੈਂਕ ਤੇ ਕਰੰਚ ਨਾਲ ਢਿੱਡ ਅੰਦਰ ਕਰੋ"],
+target_arms_t:["Arms (Biceps & Triceps)","मजबूत बाँहें (Arms)","ਮਜ਼ਬੂਤ ਬਾਹਾਂ"],
+target_arms_d:["Dumbbell curls, kickbacks & pushups for sculpted arms","बाइसेप कर्ल, किकबैक और पुश-अप्स से आर्म्स बनाएं","ਬਾਈਸੈਪ ਤੇ ਟ੍ਰਾਈਸੈਪਸ ਲਈ ਬਿਹਤਰੀਨ"],
+target_butt_t:["Glutes & Lower Back","सुडौल हिप्स व कमर (Glutes)","ਸੁਡੌਲ ਕੁੱਲ੍ਹੇ ਤੇ ਕਮਰ"],
+target_butt_d:["Glute bridges & reverse lunges for lower body posture","ग्लूट ब्रिज और लंज से हिप्स व लोअर बैक मजबूत करें","ਗਲੂਟ ਬ੍ਰਿਜ ਤੇ ਲੰਜ ਨਾਲ ਹੇਠਲਾ ਹਿੱਸਾ ਮਜ਼ਬੂਤ"],
+target_legs_t:["Toned Legs & Thighs","मजबूत टाँगें व जाँघें (Legs)","ਮਜ਼ਬੂਤ ਲੱਤਾਂ ਤੇ ਪੱਟ"],
+target_legs_d:["Bodyweight squats, goblet squats & calf power","स्क्वाट्स और लंज से पैरों में ताकत व कटिंग लाएँ","ਸਕੁਐਟਸ ਨਾਲ ਲੱਤਾਂ 'ਚ ਤਾਕਤ ਲਿਆਓ"],
+men_focus:["Women / Tone Focus","महिलाएँ व टोनिंग","ਔਰਤਾਂ ਅਤੇ ਟੋਨਿੰਗ"],
+target_areas_h:["Target Muscle Areas","🎯 टारगेट बॉडी एरिया (अंग अनुसार)","🎯 ਨਿਸ਼ਾਨਾਬੱਧ ਸਰੀਰਕ ਅੰਗ"],
+flt_noeq:["🚫 No Equipment (Home)","🚫 बिना सामान (घर पर)","🚫 ਬਿਨਾਂ ਸਾਮਾਨ (ਘਰ 'ਤੇ)"],
+flt_eq:["🏋️ Dumbbell / Gym","🏋️ डम्बल / जिम","🏋️ ਡੰਬਲ / ਜਿਮ"],
+tag_lib:["Library","लाइब्रेरी","ਲਾਇਬ੍ਰੇਰੀ"],
+tag_5meals:["5 Meals","5 भोजन","5 ਭੋਜਨ"],
+tag_ai:["AI Coach","कोच गाइड","ਕੋਚ ਗਾਈਡ"],
+tag_stats:["Stats","रिकॉर्ड","ਰਿਕਾਰਡ"],
+tag_yoga:["Mind & Body","योग व शांति","ਯੋਗ ਤੇ ਮਨ"],
+tag_visual:["Visual Guide","विजुअल गाइड","ਵਿਜ਼ੂਅਲ ਗਾਈਡ"],
+tag_swaps:["Desi Swaps","देसी स्वैप्स","ਦੇਸੀ ਬਦਲ"],
+tag_hdform:["HD Form","HD फॉर्म","HD ਫਾਰਮ"],
+diet_goals_h:["Diets & Recipes By Health Goal","🎯 लक्ष्य अनुसार डाइट प्लान (Diets & Recipes)","🎯 ਮਕਸਦ ਅਨੁਸਾਰ ਡਾਈਟ ਪਲਾਨ"],
+diet_goals_s:["Select your fitness goal to view custom food items, portions & macros.","अपने फिटनेस लक्ष्य के अनुसार सही डाइट और प्रोटीन मात्रा चुनें।","ਆਪਣੇ ਫਿਟਨੈੱਸ ਟੀਚੇ ਅਨੁਸਾਰ ਸਹੀ ਖੁਰਾਕ ਅਤੇ ਪ੍ਰੋਟੀਨ ਚੁਣੋ।"],
+diet_bulky_t:["Bulky / Muscle Gain Diet","मसल गेन व वजन बढ़ाने का प्लान","ਮਸਲ ਗੇਨ ਅਤੇ ਭਾਰ ਵਧਾਉਣ ਦਾ ਪਲਾਨ"],
+diet_bulky_d:["High calories & 100g+ protein. Eggs, paneer, peanut butter, daliya, banana shake & full cream milk.","ज्यादा कैलोरी और 100g+ प्रोटीन। अंडे, पनीर, पीनट बटर, केला शेक और मलाईदार दूध।","ਵੱਧ ਕੈਲੋਰੀ ਤੇ 100g+ ਪ੍ਰੋਟੀਨ। ਅੰਡੇ, ਪਨੀਰ, ਕੇਲਾ ਸ਼ੇਕ ਤੇ ਦੁੱਧ।"],
+diet_loss_t:["Lose Belly Fat / Cut Diet","पेट की चर्बी घटाने का प्लान","ਢਿੱਡ ਦੀ ਚਰਬੀ ਘਟਾਉਣ ਦਾ ਪਲਾਨ"],
+diet_loss_d:["Calorie deficit & high fiber. Moong daal, boiled eggs/paneer, green cucumber-coriander salad & black coffee.","कैलोरी डेफिसिट और हाई फाइबर। मूंग दाल, उबले अंडे/पनीर, खीरा-धनिया सलाद और ग्रीन टी।","ਘੱਟ ਕੈਲੋਰੀ ਤੇ ਵੱਧ ਫਾਈਬਰ। ਮੂੰਗੀ ਦਾਲ, ਸਲਾਦ ਤੇ ਗ੍ਰੀਨ ਟੀ।"],
+diet_budget_t:["Low Budget Student Plan","कम बजट देसी प्लान (₹50–₹80/दिन)","ਘੱਟ ਬਜਟ ਦੇਸੀ ਪਲਾਨ (₹50–₹80/ਦਿਨ)"],
+diet_budget_d:["Affordable high protein. Soaked black chana, roasted peanuts, soya chunks, curd & seasonal fruits.","सस्ता और 100% असरदार। भीगे काले चने, भुनी मूंगफली, सोया चंक्स, दही और मौसमी फल।","ਸਸਤਾ ਤੇ ਪੂਰਾ ਅਸਰਦਾਰ। ਭਿੱਜੇ ਕਾਲੇ ਛੋਲੇ, ਮੂੰਗਫਲੀ, ਸੋਇਆ ਚੰਕਸ ਤੇ ਦਹੀਂ।"],
+diet_science_t:["Science-Backed 40/30/30","साइंस-सपोर्टेड लीन मैक्रो प्लान","ਸਾਇੰਸ-ਸਪੋਰਟਡ ਲੀਨ ਮੈਕਰੋ ਪਲਾਨ"],
+diet_science_d:["Optimal macronutrient ratio: 40% complex carbs, 30% clean lean protein, 30% healthy fats for sharp abs.","सटीक अनुपात: 40% जटिल कार्ब्स, 30% लीन प्रोटीन, 30% हेल्दी फैट्स ताकि सिक्स-पैक दिखें।","ਸਹੀ ਅਨੁਪਾਤ: 40% ਕਾਰਬਸ, 30% ਪ੍ਰੋਟੀਨ, 30% ਹੈਲਦੀ ਫੈਟਸ।"],
 hub_yoga:["Yoga & Recovery Studio","योग व रिकवरी स्टूडियो","ਯੋਗ ਅਤੇ ਰਿਕਵਰੀ ਸਟੂਡੀਓ"],
 hub_yoga_s:["Surya Namaskar, Post-workout cool-down, spine relief & Pranayama breathwork","सूर्य नमस्कार, स्ट्रेचिंग, कमर दर्द निवारण व प्राणायाम","ਸੂਰਜ ਨਮਸਕਾਰ, ਸਟ੍ਰੈਚਿੰਗ, ਕਮਰ ਦਰਦ ਤੇ ਪ੍ਰਾਣਾਯਾਮ"],
 yoga_h:["Yoga & Recovery Studio","🧘‍♀️ योग व रिकवरी स्टूडियो","🧘‍♀️ ਯੋਗ ਅਤੇ ਰਿਕਵਰੀ ਸਟੂਡੀਓ"],
@@ -305,7 +352,7 @@ function vSetup(){
  if(st.k==="name")body=`<h1>${t("q_name")}</h1><div class="sp"></div><input class="inp" id="nm" maxlength="24" placeholder="${esc(t("name_ph"))}" value="${esc(S.p.name)}">`;
  else body=`<h1>${t(st.q)}</h1><div class="sp"></div>${st.o.map((o,i)=>`<button class="opt ${S.p[st.k]===i?"on":""}" data-a="pick" data-v="${i}">${t(o)}</button>`).join("")}`;
  const ok=st.k==="name"?S.p.name.trim().length>0:S.p[st.k]!==null;
- return `${langBar()}<div class="page"><div class="row" style="margin-bottom:1.2rem">${backBtn("sback")}<span class="muted sm">${S.step+1} / ${STEPS.length}</span></div><div class="bar" style="margin-bottom:1.6rem"><i style="width:${pct}%"></i></div>${body}<div class="sp"></div><button class="btn" data-a="snext" ${ok?"":"disabled"}>${t("next")}</button></div>`;
+ return `${langBar()}<div class="page bg-theme-gym"><div class="row" style="margin-bottom:1.2rem">${backBtn("sback")}<span class="muted sm">${S.step+1} / ${STEPS.length}</span></div><div class="bar" style="margin-bottom:1.6rem"><i style="width:${pct}%"></i></div>${body}<div class="sp"></div><button class="btn" data-a="snext" ${ok?"":"disabled"}>${t("next")}</button></div>`;
 }
 function vReady(){const p=S.p;return `${langBar()}<div class="page" style="text-align:center"><div class="coach"><img src="${IMG_COACH}" alt=""></div><h1>${t("ready_h")}</h1><p class="muted" style="margin:.4rem 0 1.2rem">${t("ready_s")}</p><div class="card" style="text-align:left"><h2 class="blue">${t("days90")}</h2><div class="sp2"></div>${[["goal_l",t("g"+p.goal)],["foc_l",t("f"+p.focus)],["lvl_l",t("l"+p.lvl)],["eq_l",t("e"+p.eq)]].map(r=>`<div class="row" style="padding:.45rem 0;border-top:1px solid var(--line)"><span class="muted">${t(r[0])}</span><b>${r[1]}</b></div>`).join("")}<div class="sp2"></div>${["m1","m2","m3"].map(m=>`<p class="sm" style="padding:.15rem 0">• ${t(m)}</p>`).join("")}</div><div class="sp"></div><button class="btn" data-a="go" data-v="home">${t("start_now")}</button><div class="sp2"></div><button class="btn sec" data-a="go" data-v="home">${t("to_home")}</button></div>`}
 function nav(){
@@ -379,6 +426,11 @@ function vHome(){
   <h1 style="font-size:1.75rem">${t("hello",{n:esc(S.p.name||"")})}</h1>
   <div class="sp2"></div>
   
+    <!-- Home vs Gym Mode Switcher (Screenshot 46381) -->
+  <div class="mode-toggle-bar">
+   <button class="${p.eq===0?'on':''}" data-a="set_home_gym" data-v="0">${t("mode_home")}</button>
+   <button class="${p.eq!==0?'on':''}" data-a="set_home_gym" data-v="1">${t("mode_gym")}</button>
+  </div>
   <!-- Today's Main Workout Card -->
   <div class="card" id="tour-start-card" style="border:1.5px solid var(--blue);background:linear-gradient(145deg,#132847 0%,#0c1b33 100%);box-shadow:0 10px 28px rgba(0,0,0,.5);margin-bottom:1.15rem">
    <div class="row">
@@ -399,7 +451,7 @@ function vHome(){
   <div class="hub-grid">
    <!-- Hub 1: Exercise Chart Store -->
    <div class="hub-card hub-blue" data-a="open_hub" data-v="ex">
-    <span class="hub-tag">Library</span>
+    <span class="hub-tag">${t("tag_lib")}</span>
     <div class="hub-icon-3d">🏋️‍♂️</div>
     <b>${t("hub_ex")}</b>
     <span>${t("hub_ex_s")}</span>
@@ -407,7 +459,7 @@ function vHome(){
    
    <!-- Hub 2: Diet & Nutrition Store -->
    <div class="hub-card hub-green" data-a="open_hub" data-v="diet">
-    <span class="hub-tag">5 Meals</span>
+    <span class="hub-tag">${t("tag_5meals")}</span>
     <div class="hub-icon-3d">🥗</div>
     <b>${t("hub_diet")}</b>
     <span>${t("hub_diet_s")}</span>
@@ -415,7 +467,7 @@ function vHome(){
    
    <!-- Hub 3: Digital Fitness Coach -->
    <div class="hub-card hub-purple" data-a="open_hub" data-v="coach">
-    <span class="hub-tag">AI Guide</span>
+    <span class="hub-tag">${t("tag_ai")}</span>
     <div class="hub-icon-3d">🤖</div>
     <b>${t("hub_coach")}</b>
     <span>${t("hub_coach_s")}</span>
@@ -423,14 +475,14 @@ function vHome(){
    
    <!-- Hub 4: Progress & Weight Record -->
    <div class="hub-card hub-gold" data-a="open_hub" data-v="rep">
-    <span class="hub-tag">Stats</span>
+    <span class="hub-tag">${t("tag_stats")}</span>
     <div class="hub-icon-3d">📊</div>
     <b>${t("hub_rep")}</b>
     <span>${t("hub_rep_s")}</span>
    </div>
      <!-- Hub 5: Yoga & Recovery Studio -->
    <div class="hub-card hub-teal hub-wide" data-a="open_hub" data-v="yoga">
-    <span class="hub-tag">Mind & Body</span>
+    <span class="hub-tag">${t("tag_yoga")}</span>
     <div style="display:flex;align-items:center;gap:.9rem">
      <div class="hub-icon-3d" style="margin-bottom:0">🧘‍♀️</div>
      <div>
@@ -522,7 +574,71 @@ function vPlan(){
     <p class="muted sm" style="margin-top:.45rem;line-height:1.5;color:#d0e2f5">${t(lvlTips[proLvl])}</p>
    </div>
 
-   <!-- Muscle Group Filter & Grid -->
+   
+    <!-- Target Focus & Equipment Filters (Screenshots 46393, 46386) -->
+    <div class="gender-tabs">
+     <button class="${(S.targetGender||'men')==='men'?'on':''}" data-a="set_tgender" data-v="men">👨 ${t("men_focus")}</button>
+     <button class="${S.targetGender==='women'?'on':''}" data-a="set_tgender" data-v="women">👩 ${t("women_focus")}</button>
+    </div>
+    <div class="eq-tabs">
+     <button class="${(S.targetEq||'all')==='all'?'on':''}" data-a="set_teq" data-v="all">⚡ All Exercises</button>
+     <button class="${S.targetEq==='home'?'on':''}" data-a="set_teq" data-v="home">${t("flt_noeq")}</button>
+     <button class="${S.targetEq==='weights'?'on':''}" data-a="set_teq" data-v="weights">${t("flt_eq")}</button>
+    </div>
+
+    
+    <!-- Hit Your Target Areas 4-Card Visual Showcase (Screenshot 46379) -->
+    <div style="margin-top:.85rem">
+     <div class="row"><h3>${t("target_hit_h")}</h3><span class="chip">Focus Areas</span></div>
+     <p class="muted sm" style="margin:.25rem 0 .65rem">${t("target_hit_s")}</p>
+     <div class="target-area-showcase">
+      <div class="target-area-tile" data-a="mflt" data-v="be">
+       <div class="target-area-tile-left">
+        <div class="tile-ico" style="background:rgba(239,68,68,.15);border-color:rgba(239,68,68,.3);color:#ef4444">🔥</div>
+        <div class="target-area-tile-text">
+         <b>${t("target_belly_t")}</b>
+         <span>${t("target_belly_d")}</span>
+        </div>
+       </div>
+       <span class="target-area-badge">Abs ›</span>
+      </div>
+
+      <div class="target-area-tile" data-a="mflt" data-v="bi">
+       <div class="target-area-tile-left">
+        <div class="tile-ico" style="background:rgba(59,130,246,.15);border-color:rgba(59,130,246,.3);color:#3b82f6">💪</div>
+        <div class="target-area-tile-text">
+         <b>${t("target_arms_t")}</b>
+         <span>${t("target_arms_d")}</span>
+        </div>
+       </div>
+       <span class="target-area-badge">Arms ›</span>
+      </div>
+
+      <div class="target-area-tile" data-a="mflt" data-v="gl">
+       <div class="target-area-tile-left">
+        <div class="tile-ico" style="background:rgba(245,158,11,.15);border-color:rgba(245,158,11,.3);color:#f59e0b">🍑</div>
+        <div class="target-area-tile-text">
+         <b>${t("target_butt_t")}</b>
+         <span>${t("target_butt_d")}</span>
+        </div>
+       </div>
+       <span class="target-area-badge">Glutes ›</span>
+      </div>
+
+      <div class="target-area-tile" data-a="mflt" data-v="th">
+       <div class="target-area-tile-left">
+        <div class="tile-ico" style="background:rgba(16,185,129,.15);border-color:rgba(16,185,129,.3);color:#10b981">🦵</div>
+        <div class="target-area-tile-text">
+         <b>${t("target_legs_t")}</b>
+         <span>${t("target_legs_d")}</span>
+        </div>
+       </div>
+       <span class="target-area-badge">Legs ›</span>
+      </div>
+     </div>
+    </div>
+
+    <!-- Muscle Group Filter & Grid -->
    <div class="chips" style="margin-bottom:.85rem">${fltBar}</div>
    <div class="libgrid">${exLib}</div>
   `;
@@ -609,7 +725,7 @@ function vDay(){
   const skipBtn=!isDone?`<button class="btn sec smbtn" data-a="skip_day" data-v="${d}" style="margin-top:.5rem;border-color:var(--line);color:var(--muted)">⏭ ${t("skip_day")}</button>`:"";
   btns=shareBar + btns + skipBtn + `<div class="sp2"></div>`;
  }
- return `${langBar()}<div class="page">${backBtn("shut")}${hero}${dp.light?`<p class="sm blue" style="margin:.4rem 0">${t("light")}</p>`:""}<div class="sp2"></div>${body}<div class="sp"></div>${btns}<button class="btn ${isDone||!dp.rest?"sec":""}" data-a="toggle" data-v="${d}">${isDone?t("undone"):t("mark_done")}</button><p class="muted sm" style="margin-top:1rem">${t("warn")}</p></div>`;
+ return `${langBar()}<div class="page bg-theme-yoga">${backBtn("shut")}${hero}${dp.light?`<p class="sm blue" style="margin:.4rem 0">${t("light")}</p>`:""}<div class="sp2"></div>${body}<div class="sp"></div>${btns}<button class="btn ${isDone||!dp.rest?"sec":""}" data-a="toggle" data-v="${d}">${isDone?t("undone"):t("mark_done")}</button><p class="muted sm" style="margin-top:1rem">${t("warn")}</p></div>`;
 }
 function vSettings(){return `${langBar()}<div class="page"><h1>${t("settings")}</h1><div class="sp"></div><div class="card"><h3>${t("lang_l")}</h3><div class="sp2"></div>${["English","हिंदी","ਪੰਜਾਬੀ"].map((l,i)=>`<button class="opt ${S.lang===i?"on":""}" data-a="lang" data-v="${i}">${l}</button>`).join("")}</div><div class="sp"></div><button class="btn" data-a="tour_open">${t("tour_replay")}</button><div class="sp"></div><div class="card"><p class="sm muted">${t("stay")}</p><div class="sp2"></div><a href="privacy.html" class="sm blue" style="font-weight:700;text-decoration:none">${t("priv_l")} ›</a></div><div class="sp"></div><button class="btn sec" data-a="reset">${t("reset")}</button></div>${nav()}`}
 
@@ -698,7 +814,7 @@ function menuFor(d){const i=(d-1)%7,m=month(d),rest=i===6,B=["daliya","chane","a
 function vDiet(){
  const cur=curDay(),d=S.dsel||cur,m=month(d),mt=(S.meals[d]||{}),menu=menuFor(d),dt=todayStr(),gl=(S.water&&S.water[dt])||0;
  const last=S.wt.length?S.wt[S.wt.length-1].kg:0,lit=last?(Math.round(last*0.033*2)/2).toFixed(1):"2–3";
- return `${langBar()}<div class="page"><div class="row"><h1>${t("diet")}</h1>${d!==cur?`<button class="pill on" data-a="dtoday">${t("today_btn")}</button>`:""}</div><div class="sp2"></div>
+ return `${langBar()}<div class="page bg-theme-diet"><div class="row"><h1>${t("diet")}</h1>${d!==cur?`<button class="pill on" data-a="dtoday">${t("today_btn")}</button>`:""}</div><div class="sp2"></div>
  <button class="card row" data-a="copen" style="width:100%;text-align:left;margin-bottom:.6rem"><div><h3>${t("c_open")}</h3><p class="muted sm">${t("c_open_s")}</p></div><span class="blue">›</span></button>
  <div class="row card"><button class="ib" data-a="dprev" ${d<=1?"disabled":""}>‹</button><div style="text-align:center"><h3>${t("d_today",{d})}</h3><span class="muted sm">${t("mt"+m)}</span></div><button class="ib" data-a="dnext" ${d>=90?"disabled":""}>›</button></div>
  <p class="muted sm" style="margin:.5rem .2rem">${t("dn"+m)}</p>
@@ -707,8 +823,50 @@ function vDiet(){
  ${menu.map(([k,ids])=>`<button class="opt meal ${mt[k]?"on":""}" data-a="mtick" data-v="${d}|${k}"><div class="row"><b>${t(k)}</b><span>${mt[k]?"✓":""}</span></div><div class="muted sm" style="font-weight:400;margin-top:.3rem">${ids.map(i=>FD[i][S.lang]).join(" · ")}</div></button>`).join("")}
  <div class="card"><div class="row"><h3>${t("d_water")}</h3><b class="blue">${gl} / 8</b></div><div class="bar" style="margin:.6rem 0"><i style="width:${Math.min(100,gl/8*100)}%"></i></div><p class="muted sm">${t("d_wtip",{n:lit})}</p><div class="sp2"></div><button class="btn sec" data-a="glass">${t("d_glass")}</button></div>
  <div class="sp"></div>
+ <div class="card" style="margin-top:.85rem">
+  <div class="row">
+   <h3>🎯 ${t("diet_goals_h")}</h3>
+   <span class="chip">Custom Goals</span>
+  </div>
+  <p class="muted sm" style="margin:.3rem 0 .65rem">${t("diet_goals_s")}</p>
+  
+  <div class="goal-diet-grid">
+   <div class="goal-diet-card ${(S.dietGoal===0||S.dietGoal===undefined)?'on':''}" data-a="set_diet_goal" data-v="0">
+    <div class="goal-diet-head">
+     <b>🍗 ${t("diet_bulky_t")}</b>
+     <span class="goal-diet-badge">100g+ Protein</span>
+    </div>
+    <p>${t("diet_bulky_d")}</p>
+   </div>
+
+   <div class="goal-diet-card ${S.dietGoal===1?'on':''}" data-a="set_diet_goal" data-v="1">
+    <div class="goal-diet-head">
+     <b>🔥 ${t("diet_loss_t")}</b>
+     <span class="goal-diet-badge">Calorie Deficit</span>
+    </div>
+    <p>${t("diet_loss_d")}</p>
+   </div>
+
+   <div class="goal-diet-card ${S.dietGoal===2?'on':''}" data-a="set_diet_goal" data-v="2">
+    <div class="goal-diet-head">
+     <b>💰 ${t("diet_budget_t")}</b>
+     <span class="goal-diet-badge">₹50–₹80 / Day</span>
+    </div>
+    <p>${t("diet_budget_d")}</p>
+   </div>
+
+   <div class="goal-diet-card ${S.dietGoal===3?'on':''}" data-a="set_diet_goal" data-v="3">
+    <div class="goal-diet-head">
+     <b>🔬 ${t("diet_science_t")}</b>
+     <span class="goal-diet-badge">40/30/30 Macro</span>
+    </div>
+    <p>${t("diet_science_d")}</p>
+   </div>
+  </div>
+ </div>
+ <div class="sp"></div>
  <div class="card" style="margin-top:.8rem">
-  <div class="row"><h3>🍎 ${S.lang===1?"देसी सुपरफूड व प्रोटीन विजुअल्स":S.lang===2?"ਦੇਸੀ ਸੁਪਰਫੂਡ ਗਾਈਡ":"Desi Superfood & Protein Visuals"}</h3><span class="chip">Visual Guide</span></div>
+  <div class="row"><h3>🍎 ${S.lang===1?"देसी सुपरफूड व प्रोटीन विजुअल्स":S.lang===2?"ਦੇਸੀ ਸੁਪਰਫੂਡ ਗਾਈਡ":"Desi Superfood & Protein Visuals"}</h3><span class="chip">${t("tag_visual")}</span></div>
   <p class="muted sm" style="margin:.3rem 0 .6rem">${S.lang===1?"हर भोजन में शुद्ध देसी डाइट और माँसपेशियों के विकास का सही संतुलन:":S.lang===2?"ਹਰੇਕ ਖਾਣੇ ਵਿੱਚ ਸ਼ੁੱਧ ਦੇਸੀ ਖੁਰਾਕ:":"Key protein & micronutrient essentials for lean muscle & recovery:"}</p>
   <div class="diet-food-grid">
    <div class="diet-food-card"><div class="diet-food-ico">🥚</div><div class="diet-food-info"><b>${S.lang===1?"उबले अंडे / भुर्जी":S.lang===2?"ਅੰਡੇ":"Whole Eggs (3–4)"}</b><span>18g Protein</span></div></div>
@@ -721,7 +879,7 @@ function vDiet(){
  </div>
  <div class="sp"></div>
  <div class="card">
-  <div class="row"><h3>🔄 ${t("diet_swaps_h")}</h3><span class="chip">Desi Swaps</span></div>
+  <div class="row"><h3>🔄 ${t("diet_swaps_h")}</h3><span class="chip">${t("tag_swaps")}</span></div>
   <p class="muted sm" style="margin:.3rem 0 .6rem">${t("diet_swaps_s")}</p>
   <div style="font-size:.88rem;line-height:1.6">
    <p style="padding:.25rem 0;border-top:1px solid var(--line)">• <b>${t("swap_p")}</b></p>
@@ -842,7 +1000,7 @@ const INFO={squat:[["th","gl"],["knin","heel"]],gsquat:[["th","gl"],["knin","hee
 function vInfo(){
  const id=S.info,x=EX[id],I=INFO[id],itab=S.itab||0,mKey=I&&I[0]?I[0][0]:"wb";
  return `${langBar()}<div class="page">${backBtn("iback")}
- <div class="infotitle"><h1>${x[0][S.lang]}</h1><span class="chip" style="background:var(--blue);color:#06182b;font-weight:800">HD Form</span></div>
+ <div class="infotitle"><h1>${x[0][S.lang]}</h1><span class="chip" style="background:var(--blue);color:#06182b;font-weight:800">${t("tag_hdform")}</span></div>
  ${(VID[id]||PIMG[id]||POSES[id])?`<div style="width:min(26rem,100%);margin:.6rem auto">${figOrVid(id)}${P2[id]?`<div class="gap" style="margin-top:.5rem"><img class="vid" style="flex:1;max-height:22vh" src="p_${id}2.jpg" alt=""><img class="vid" style="flex:1;max-height:22vh" src="p_${id}.jpg" alt=""></div>`:""}</div>`:""}
  <div class="itabs">
   <button class="${itab===0?"on":""}" data-a="itab" data-v="0">${t("tab_muscle")}</button>
@@ -1188,7 +1346,10 @@ document.addEventListener("click",e=>{
   else if(v==="rep"){S.tab="rep"}
   else if(v==="yoga"){S.screen="yoga";S.yogaTab=S.yogaTab||"surya"}
  }
- else if(a==="yoga_tab"){S.yogaTab=v;save();render()}
+   else if(a==="set_diet_goal"){S.dietGoal=+v;save();render()}
+  else if(a==="set_tgender"){S.targetGender=v;S.mflt="all";save();render()}
+  else if(a==="set_teq"){S.targetEq=v;save();render()}
+  else if(a==="yoga_tab"){S.yogaTab=v;save();render()}
  else if(a==="ptab"){S.planTab=+v}
  else if(a==="set_pro_lvl"){S.proLvl=+v}
  else if(a==="coach_q"){S.coachQ=+v}

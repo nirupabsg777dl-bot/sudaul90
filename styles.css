@@ -236,3 +236,58 @@ html,body{height:100%;overflow-x:hidden;-webkit-overflow-scrolling:touch}
 .diet-food-info{display:flex;flex-direction:column;line-height:1.2}
 .diet-food-info b{font-size:.88rem;color:#fff}
 .diet-food-info span{font-size:.74rem;color:var(--blue);margin-top:.2rem;font-weight:700}
+
+/* Goal Diets Section (from Screenshot 46394) */
+.goal-diet-grid{display:grid;grid-template-columns:1fr;gap:.75rem;margin:.75rem 0}
+.goal-diet-card{background:linear-gradient(145deg,#132847,#0c1c33);border:1.5px solid rgba(93,184,245,.25);border-radius:1.15rem;padding:1rem;box-shadow:0 6px 18px rgba(0,0,0,.4);transition:all .18s ease}
+.goal-diet-card.on{border-color:var(--orange);background:linear-gradient(145deg,#1b355c,#11233e);box-shadow:0 8px 24px rgba(217,72,15,.35)}
+.goal-diet-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:.35rem}
+.goal-diet-head b{font-size:1.02rem;color:#fff}
+.goal-diet-badge{font-size:.72rem;font-weight:800;padding:.2rem .55rem;border-radius:99px;background:rgba(217,72,15,.2);color:#ff9b73;border:1px solid rgba(217,72,15,.4)}
+.goal-diet-card p{font-size:.84rem;color:var(--muted);line-height:1.45}
+
+/* Target Area Bar & Gender Focus (Screenshots 46393, 46386) */
+.gender-tabs{display:flex;gap:.4rem;margin:.75rem 0 .5rem}
+.gender-tabs button{flex:1;padding:.6rem .4rem;border-radius:.85rem;font-size:.88rem;font-weight:800;background:var(--card);color:var(--muted);border:1px solid var(--line);cursor:pointer;transition:all .18s ease}
+.gender-tabs button.on{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-color:#60a5fa;box-shadow:0 4px 12px rgba(59,130,246,.35)}
+.eq-tabs{display:flex;gap:.4rem;margin:.5rem 0 .8rem}
+.eq-tabs button{flex:1;padding:.5rem .4rem;border-radius:99px;font-size:.82rem;font-weight:700;background:var(--card);color:var(--muted);border:1px solid var(--line);cursor:pointer}
+.eq-tabs button.on{background:var(--orange);color:#fff;border-color:var(--orange)}
+
+/* Home vs Gym Segmented Control (Screenshot 46381) */
+.mode-toggle-bar{display:flex;background:var(--card);border-radius:1rem;padding:.3rem;gap:.35rem;margin:.4rem 0 1rem;border:1px solid var(--line);box-shadow:0 4px 14px rgba(0,0,0,.3)}
+.mode-toggle-bar button{flex:1;padding:.65rem .4rem;border-radius:.75rem;font-weight:800;font-size:.9rem;color:var(--muted);transition:all .18s ease;cursor:pointer}
+.mode-toggle-bar button.on{background:linear-gradient(135deg,#0284c7,#0369a1);color:#fff;box-shadow:0 4px 12px rgba(2,132,199,.4)}
+
+/* Hit Your Target Areas 4-Card Visual Showcase (Screenshot 46379) */
+.target-area-showcase{display:grid;grid-template-columns:1fr;gap:.75rem;margin:.8rem 0 1.2rem}
+.target-area-tile{background:linear-gradient(145deg,#122543,#0b182d);border:1.5px solid rgba(93,184,245,.25);border-radius:1.15rem;padding:.9rem 1rem;display:flex;align-items:center;justify-content:space-between;cursor:pointer;box-shadow:0 6px 18px rgba(0,0,0,.4);transition:all .18s ease}
+.target-area-tile:active{transform:scale(.98);border-color:var(--orange)}
+.target-area-tile-left{display:flex;align-items:center;gap:.85rem}
+.target-area-tile-left .tile-ico{width:3rem;height:3rem;border-radius:.85rem;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.15);display:flex;align-items:center;justify-content:center;font-size:1.6rem;flex-shrink:0}
+.target-area-tile-text{display:flex;flex-direction:column;line-height:1.25}
+.target-area-tile-text b{font-size:.98rem;color:#fff}
+.target-area-tile-text span{font-size:.78rem;color:var(--muted);margin-top:.2rem}
+.target-area-badge{padding:.25rem .6rem;border-radius:99px;background:rgba(93,184,245,.18);border:1px solid rgba(93,184,245,.35);color:var(--blue);font-weight:800;font-size:.76rem;flex-shrink:0}
+
+/* 3 Immersive Section Themes (Gym, Yoga, Diet) */
+.bg-theme-gym{
+  background: radial-gradient(circle at 10% 4%, rgba(217, 72, 15, 0.18) 0%, transparent 45%),
+              radial-gradient(circle at 92% 24%, rgba(56, 189, 248, 0.15) 0%, transparent 42%),
+              radial-gradient(circle at 50% 85%, rgba(15, 35, 65, 0.6) 0%, transparent 60%),
+              var(--bg);
+}
+
+.bg-theme-diet{
+  background: radial-gradient(circle at 88% 8%, rgba(16, 185, 129, 0.18) 0%, transparent 45%),
+              radial-gradient(circle at 12% 38%, rgba(245, 158, 11, 0.14) 0%, transparent 42%),
+              radial-gradient(circle at 50% 90%, rgba(6, 95, 70, 0.4) 0%, transparent 60%),
+              var(--bg);
+}
+
+.bg-theme-yoga{
+  background: radial-gradient(circle at 50% 0%, rgba(6, 182, 212, 0.24) 0%, transparent 55%),
+              radial-gradient(circle at 92% 42%, rgba(245, 158, 11, 0.15) 0%, transparent 48%),
+              radial-gradient(circle at 10% 80%, rgba(14, 116, 144, 0.4) 0%, transparent 60%),
+              var(--bg);
+}
