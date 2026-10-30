@@ -10,7 +10,12 @@ h1{font-size:1.7rem;line-height:1.25;font-weight:800}h2{font-size:1.3rem;font-we
 .top.clear{background:transparent;backdrop-filter:none}
 .brand{font-weight:800;font-size:1.15rem;letter-spacing:.02em}.brand b{color:var(--orange)}
 .langs{display:flex;gap:.3rem}.langs button{padding:.35rem .7rem;border-radius:99px;background:var(--card);font-weight:700;font-size:.9rem;color:var(--muted)}.langs button.on{background:var(--blue);color:#06182b}
-.page{max-width:30rem;margin:0 auto;padding:4.4rem 1rem 6.2rem}
+html,body{height:100%;overflow-x:hidden;-webkit-overflow-scrolling:touch}
+#app{min-height:100vh;display:flex;flex-direction:column}
+.page{max-width:30rem;width:100%;margin:0 auto;padding:calc(5.4rem + env(safe-area-inset-top)) 1rem calc(7.8rem + env(safe-area-inset-bottom));box-sizing:border-box;min-height:100vh}
+.page::after{content:"";display:block;height:2.5rem;clear:both}
+.pad{max-width:30rem;width:100%;margin:0 auto;padding:calc(5.4rem + env(safe-area-inset-top)) 1rem calc(7.8rem + env(safe-area-inset-bottom));box-sizing:border-box;min-height:100vh}
+.pad::after{content:"";display:block;height:2.5rem;clear:both}
 .nav{position:fixed;bottom:0;left:0;right:0;z-index:30;display:flex;justify-content:center;background:rgba(11,22,38,.96);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom)}
 .nav>div{display:flex;width:100%;max-width:30rem}.nav button{flex:1;padding:.7rem 0 .6rem;font-size:.85rem;color:var(--muted);display:flex;flex-direction:column;align-items:center;gap:.15rem}.nav button.on{color:var(--blue);font-weight:700}.nav svg{width:1.55rem;height:1.55rem}
 .welcome{position:fixed;inset:0;background:#0B1626 center/cover;display:flex;flex-direction:column;justify-content:flex-end}
@@ -222,3 +227,12 @@ h1{font-size:1.7rem;line-height:1.25;font-weight:800}h2{font-size:1.3rem;font-we
 .yoga-breath-box{background:radial-gradient(circle,rgba(6,182,212,.18) 0%,rgba(12,29,51,.85) 75%);border:1.5px solid rgba(6,182,212,.4);border-radius:1.4rem;padding:1.6rem 1rem;text-align:center;margin:1.1rem 0}
 .breath-anim-circle{width:88px;height:88px;margin:0 auto 1rem;border-radius:50%;background:linear-gradient(135deg,#06b6d4,#38bdf8);box-shadow:0 0 25px rgba(6,182,212,.6);animation:breathPulse 8s infinite ease-in-out;display:flex;align-items:center;justify-content:center;font-size:1.8rem}
 @keyframes breathPulse{0%,100%{transform:scale(.78);opacity:.65}50%{transform:scale(1.18);opacity:1;box-shadow:0 0 45px rgba(56,189,248,.85)}}
+
+/* Visual Diet Cards & Superfood Showcase */
+.diet-food-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:.65rem;margin:.75rem 0}
+.diet-food-card{background:linear-gradient(145deg,#132847,#0c1c33);border:1px solid rgba(93,184,245,.2);border-radius:1rem;padding:.75rem;display:flex;align-items:center;gap:.65rem;box-shadow:0 4px 14px rgba(0,0,0,.35);transition:transform .18s ease}
+.diet-food-card:active{transform:scale(.97);border-color:var(--orange)}
+.diet-food-ico{width:2.6rem;height:2.6rem;border-radius:.75rem;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);display:flex;align-items:center;justify-content:center;font-size:1.45rem;flex-shrink:0}
+.diet-food-info{display:flex;flex-direction:column;line-height:1.2}
+.diet-food-info b{font-size:.88rem;color:#fff}
+.diet-food-info span{font-size:.74rem;color:var(--blue);margin-top:.2rem;font-weight:700}

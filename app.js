@@ -707,6 +707,19 @@ function vDiet(){
  ${menu.map(([k,ids])=>`<button class="opt meal ${mt[k]?"on":""}" data-a="mtick" data-v="${d}|${k}"><div class="row"><b>${t(k)}</b><span>${mt[k]?"✓":""}</span></div><div class="muted sm" style="font-weight:400;margin-top:.3rem">${ids.map(i=>FD[i][S.lang]).join(" · ")}</div></button>`).join("")}
  <div class="card"><div class="row"><h3>${t("d_water")}</h3><b class="blue">${gl} / 8</b></div><div class="bar" style="margin:.6rem 0"><i style="width:${Math.min(100,gl/8*100)}%"></i></div><p class="muted sm">${t("d_wtip",{n:lit})}</p><div class="sp2"></div><button class="btn sec" data-a="glass">${t("d_glass")}</button></div>
  <div class="sp"></div>
+ <div class="card" style="margin-top:.8rem">
+  <div class="row"><h3>🍎 ${S.lang===1?"देसी सुपरफूड व प्रोटीन विजुअल्स":S.lang===2?"ਦੇਸੀ ਸੁਪਰਫੂਡ ਗਾਈਡ":"Desi Superfood & Protein Visuals"}</h3><span class="chip">Visual Guide</span></div>
+  <p class="muted sm" style="margin:.3rem 0 .6rem">${S.lang===1?"हर भोजन में शुद्ध देसी डाइट और माँसपेशियों के विकास का सही संतुलन:":S.lang===2?"ਹਰੇਕ ਖਾਣੇ ਵਿੱਚ ਸ਼ੁੱਧ ਦੇਸੀ ਖੁਰਾਕ:":"Key protein & micronutrient essentials for lean muscle & recovery:"}</p>
+  <div class="diet-food-grid">
+   <div class="diet-food-card"><div class="diet-food-ico">🥚</div><div class="diet-food-info"><b>${S.lang===1?"उबले अंडे / भुर्जी":S.lang===2?"ਅੰਡੇ":"Whole Eggs (3–4)"}</b><span>18g Protein</span></div></div>
+   <div class="diet-food-card"><div class="diet-food-ico">🧀</div><div class="diet-food-info"><b>${S.lang===1?"देसी पनीर (100g)":S.lang===2?"ਪਨੀਰ":"Fresh Paneer"}</b><span>18g Protein</span></div></div>
+   <div class="diet-food-card"><div class="diet-food-ico">🌿</div><div class="diet-food-info"><b>${S.lang===1?"धनिया, खीरा, सलाद":S.lang===2?"ਧਨੀਆ ਤੇ ਸਲਾਦ":"Coriander & Salad"}</b><span>Digestive Enzymes</span></div></div>
+   <div class="diet-food-card"><div class="diet-food-ico">🥬</div><div class="diet-food-info"><b>${S.lang===1?"सरसों साग + मक्की":S.lang===2?"ਸਰੋਂ ਦਾ ਸਾਗ ਤੇ ਮੱਕੀ":"Saag & Makki Roti"}</b><span>Iron & Complex Carbs</span></div></div>
+   <div class="diet-food-card"><div class="diet-food-ico">🧆</div><div class="diet-food-info"><b>${S.lang===1?"भीगे काले चने":S.lang===2?"ਕਾਲੇ ਛੋਲੇ":"Soaked Chana"}</b><span>Clean Plant Protein</span></div></div>
+   <div class="diet-food-card"><div class="diet-food-ico">🥣</div><div class="diet-food-info"><b>${S.lang===1?"दही व छाछ / लस्सी":S.lang===2?"ਦਹੀਂ ਤੇ ਲੱਸੀ":"Curd & Chhachh"}</b><span>Gut Health & Whey</span></div></div>
+  </div>
+ </div>
+ <div class="sp"></div>
  <div class="card">
   <div class="row"><h3>🔄 ${t("diet_swaps_h")}</h3><span class="chip">Desi Swaps</span></div>
   <p class="muted sm" style="margin:.3rem 0 .6rem">${t("diet_swaps_s")}</p>
@@ -1125,8 +1138,7 @@ function vYoga(){
   `;
  }
 
- return `
-  <div class="pad">
+ return `${langBar()}<div class="page">
    ${backBtn("shut")}
    <div style="margin-bottom:.8rem">
     <h2 style="font-size:1.35rem;font-weight:900;color:#fff">${t("yoga_h")}</h2>
