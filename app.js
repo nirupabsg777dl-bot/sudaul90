@@ -647,7 +647,7 @@ function vPlan(){
     <!-- Women Card -->
     <div class="gender-card women-card">
      <div class="gender-avatar-wrap">
-      <img src="y_dancer.jpg" alt="Women Fitness">
+      <img src="p_stretch.jpg" alt="Women Fitness" onerror="this.onerror=null;this.src='p_bridge.jpg'">
      </div>
      <div class="gender-card-content">
       <span class="gender-card-badge">Women · महिला</span>
@@ -1494,7 +1494,7 @@ function vYoga(){
     ${masterPoses.map(p=>`
      <div class="yoga-img-card">
       <div class="yoga-img-wrap">
-       <img src="${p.img}" alt="${p.title[0]}" loading="lazy">
+       <img src="${p.img}" alt="${p.title[0]}" loading="lazy" onerror="this.onerror=null;this.parentElement.style.display='none'">
        <span class="yoga-img-badge">${p.badge[S.lang]}</span>
       </div>
       <div class="yoga-img-body">
