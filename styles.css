@@ -291,3 +291,350 @@ html,body{height:100%;overflow-x:hidden;-webkit-overflow-scrolling:touch}
               radial-gradient(circle at 10% 80%, rgba(14, 116, 144, 0.4) 0%, transparent 60%),
               var(--bg);
 }
+
+/* Master Yoga Poses Image Cards */
+.yoga-img-card{background:linear-gradient(145deg,#0c1d33,#081324);border:1.5px solid rgba(6,182,212,.3);border-radius:1.25rem;overflow:hidden;margin-bottom:1.2rem;box-shadow:0 8px 24px rgba(0,0,0,.5)}
+.yoga-img-wrap{position:relative;width:100%;height:14.5rem;overflow:hidden;background:#050c17}
+.yoga-img-wrap img{width:100%;height:100%;object-fit:cover;object-position:50% 25%;display:block;transition:transform .3s ease}
+.yoga-img-badge{position:absolute;top:.75rem;right:.75rem;background:rgba(11,22,38,.85);backdrop-filter:blur(6px);border:1px solid rgba(56,189,248,.4);color:#38bdf8;padding:.25rem .65rem;border-radius:99px;font-size:.72rem;font-weight:800}
+.yoga-img-body{padding:1.1rem}
+.yoga-img-body h4{font-size:1.12rem;font-weight:900;color:#fff;margin:0 0 .35rem}
+.yoga-meta-box{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:.85rem;padding:.75rem;margin:.65rem 0}
+.yoga-meta-box p{font-size:.82rem;line-height:1.45;color:var(--muted);margin-bottom:.35rem}
+.yoga-meta-box p:last-child{margin-bottom:0}
+.yoga-meta-box b{color:#fff}
+
+/* ========================================================
+   PRO UPGRADE: ENLARGED & MODERNIZED BOTTOM NAVIGATION
+======================================================== */
+.nav{
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  z-index:40;
+  display:flex;
+  justify-content:center;
+  background:rgba(8,16,28,.97);
+  backdrop-filter:blur(18px);
+  -webkit-backdrop-filter:blur(18px);
+  border-top:1.5px solid rgba(56,189,248,.25);
+  padding-bottom:calc(.35rem + env(safe-area-inset-bottom));
+  box-shadow:0 -10px 30px rgba(0,0,0,.7);
+}
+.nav>div{
+  display:flex;
+  width:100%;
+  max-width:30rem;
+  padding:.35rem .6rem 0;
+  gap:.35rem;
+}
+.nav button{
+  flex:1;
+  padding:.5rem .2rem .4rem;
+  border-radius:1rem;
+  font-size:.8rem;
+  color:var(--muted);
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:.3rem;
+  transition:all .18s ease;
+  cursor:pointer;
+  border:1px solid transparent;
+}
+.nav button.on{
+  color:#fff;
+  background:linear-gradient(180deg,rgba(56,189,248,.2) 0%,rgba(14,116,144,.1) 100%);
+  border-color:rgba(56,189,248,.4);
+  box-shadow:0 4px 16px rgba(56,189,248,.25);
+  transform:translateY(-2px);
+}
+.nav svg{
+  width:1.95rem;
+  height:1.95rem;
+  stroke-width:2.2;
+  transition:transform .18s ease;
+}
+.nav button.on svg{
+  stroke:#38bdf8;
+  filter:drop-shadow(0 0 8px rgba(56,189,248,.7));
+  transform:scale(1.08);
+}
+.nav button span{
+  font-size:.78rem;
+  font-weight:800;
+  letter-spacing:.02em;
+}
+
+/* ========================================================
+   MEN & WOMEN DUAL TARGET ZONES CARDS (Screenshot 46393)
+======================================================== */
+.gender-showcase-container{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:1rem;
+  margin:.9rem 0 1.3rem;
+}
+.gender-card{
+  position:relative;
+  background:linear-gradient(145deg,#132847,#0c1a32);
+  border:1.5px solid rgba(93,184,245,.28);
+  border-radius:1.35rem;
+  padding:1.1rem;
+  display:flex;
+  align-items:center;
+  gap:1rem;
+  box-shadow:0 10px 28px rgba(0,0,0,.5);
+  overflow:hidden;
+}
+.gender-card.men-card{
+  border-color:rgba(59,130,246,.45);
+  background:linear-gradient(145deg,#0f2442,#0a172c);
+}
+.gender-card.women-card{
+  border-color:rgba(236,72,153,.45);
+  background:linear-gradient(145deg,#231433,#150c20);
+}
+.gender-avatar-wrap{
+  width:6.2rem;
+  height:7.8rem;
+  border-radius:1.05rem;
+  overflow:hidden;
+  flex-shrink:0;
+  border:2px solid rgba(255,255,255,.15);
+  box-shadow:0 6px 18px rgba(0,0,0,.5);
+  background:#091424;
+}
+.gender-avatar-wrap img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:50% 15%;
+  display:block;
+}
+.gender-card-content{
+  flex:1;
+  display:flex;
+  flex-direction:column;
+  gap:.4rem;
+}
+.gender-card-badge{
+  align-self:flex-start;
+  padding:.22rem .65rem;
+  border-radius:99px;
+  font-size:.72rem;
+  font-weight:900;
+  letter-spacing:.06em;
+  text-transform:uppercase;
+}
+.men-card .gender-card-badge{
+  background:linear-gradient(135deg,#1d4ed8,#2563eb);
+  color:#fff;
+  box-shadow:0 3px 10px rgba(37,99,235,.4);
+}
+.women-card .gender-card-badge{
+  background:linear-gradient(135deg,#db2777,#ec4899);
+  color:#fff;
+  box-shadow:0 3px 10px rgba(236,72,153,.4);
+}
+.gender-card-content h3{
+  font-size:1.05rem;
+  font-weight:900;
+  color:#fff;
+  margin:0;
+  line-height:1.2;
+}
+.gender-zones-list{
+  display:flex;
+  flex-wrap:wrap;
+  gap:.35rem;
+  margin-top:.3rem;
+}
+.gender-zone-pill{
+  padding:.3rem .6rem;
+  border-radius:.6rem;
+  font-size:.75rem;
+  font-weight:800;
+  background:rgba(255,255,255,.07);
+  border:1px solid rgba(255,255,255,.12);
+  color:#d0e2f5;
+  cursor:pointer;
+  transition:all .15s ease;
+}
+.gender-zone-pill:active, .gender-zone-pill.on{
+  background:var(--blue);
+  color:#06182b;
+  border-color:var(--blue);
+}
+
+/* ========================================================
+   HOME VS GYM MAJOR SECTION SWITCH (Screenshot 46381)
+======================================================== */
+.master-split-nav{
+  display:flex;
+  background:rgba(12,25,44,.9);
+  border-radius:1.2rem;
+  padding:.35rem;
+  gap:.4rem;
+  margin:.6rem 0 1.2rem;
+  border:1.5px solid rgba(93,184,245,.25);
+  box-shadow:0 6px 20px rgba(0,0,0,.45);
+}
+.master-split-btn{
+  flex:1;
+  padding:.8rem .5rem;
+  border-radius:.95rem;
+  font-size:.92rem;
+  font-weight:900;
+  color:var(--muted);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:.5rem;
+  cursor:pointer;
+  transition:all .2s ease;
+  border:1.5px solid transparent;
+}
+.master-split-btn.on{
+  color:#fff;
+  background:linear-gradient(135deg,#0284c7 0%,#0369a1 100%);
+  border-color:rgba(56,189,248,.5);
+  box-shadow:0 6px 18px rgba(2,132,199,.45);
+}
+
+/* Section Hero Banners */
+.section-hero-banner{
+  background:linear-gradient(145deg,#132847,#0c1a32);
+  border:1px solid rgba(93,184,245,.25);
+  border-radius:1.25rem;
+  padding:1.15rem;
+  margin-bottom:1.15rem;
+  box-shadow:0 8px 24px rgba(0,0,0,.4);
+}
+.section-hero-banner h3{
+  font-size:1.18rem;
+  font-weight:900;
+  color:#fff;
+  margin:0 0 .3rem;
+}
+.section-hero-banner p{
+  font-size:.84rem;
+  color:var(--muted);
+  line-height:1.45;
+  margin:0;
+}
+
+/* ========================================================
+   STRETCHING & MOBILITY STUDIO
+======================================================== */
+.bg-theme-stretch{
+  background: radial-gradient(circle at 12% 8%, rgba(139, 92, 246, 0.22) 0%, transparent 48%),
+              radial-gradient(circle at 88% 30%, rgba(6, 182, 212, 0.16) 0%, transparent 45%),
+              radial-gradient(circle at 50% 85%, rgba(46, 16, 101, 0.45) 0%, transparent 60%),
+              var(--bg);
+}
+.stretch-card{
+  background:linear-gradient(145deg,#17122b,#0f0c1e);
+  border:1.5px solid rgba(139,92,246,.3);
+  border-radius:1.15rem;
+  padding:1rem;
+  margin-bottom:.85rem;
+  box-shadow:0 6px 20px rgba(0,0,0,.45);
+}
+.stretch-head{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:.35rem;
+}
+.stretch-head b{
+  font-size:1rem;
+  color:#fff;
+}
+.stretch-badge{
+  font-size:.72rem;
+  font-weight:800;
+  padding:.2rem .55rem;
+  border-radius:99px;
+  background:rgba(139,92,246,.2);
+  color:#c084fc;
+  border:1px solid rgba(139,92,246,.4);
+}
+.stretch-card p{
+  font-size:.82rem;
+  color:var(--muted);
+  line-height:1.45;
+  margin:.25rem 0 0;
+}
+
+/* ========================================================
+   CALMING YOGA AUDIO SYNTHESIZER HUD
+======================================================== */
+.yoga-music-bar{
+  background:linear-gradient(135deg,rgba(6,182,212,.18),rgba(14,116,144,.12));
+  border:1.5px solid rgba(6,182,212,.4);
+  border-radius:1.15rem;
+  padding:.85rem 1rem;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin:.6rem 0 1.15rem;
+  box-shadow:0 6px 18px rgba(6,182,212,.18);
+}
+.yoga-music-left{
+  display:flex;
+  align-items:center;
+  gap:.65rem;
+}
+.music-wave-ico{
+  width:2.2rem;
+  height:2.2rem;
+  border-radius:50%;
+  background:linear-gradient(135deg,#06b6d4,#0891b2);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:1.1rem;
+  box-shadow:0 0 14px rgba(6,182,212,.5);
+}
+.music-wave-ico.playing{
+  animation:musicPulse 2s infinite ease-in-out;
+}
+@keyframes musicPulse{
+  0%,100%{transform:scale(1);box-shadow:0 0 12px rgba(6,182,212,.4)}
+  50%{transform:scale(1.12);box-shadow:0 0 24px rgba(34,211,238,.8)}
+}
+.yoga-music-text{
+  display:flex;
+  flex-direction:column;
+  line-height:1.2;
+}
+.yoga-music-text b{
+  font-size:.88rem;
+  color:#fff;
+}
+.yoga-music-text span{
+  font-size:.72rem;
+  color:#67e8f9;
+}
+.yoga-music-btn{
+  padding:.45rem .85rem;
+  border-radius:99px;
+  font-size:.8rem;
+  font-weight:900;
+  cursor:pointer;
+  transition:all .18s ease;
+  border:1px solid rgba(255,255,255,.2);
+}
+.yoga-music-btn.play{
+  background:linear-gradient(135deg,#06b6d4,#0891b2);
+  color:#fff;
+  border-color:#22d3ee;
+  box-shadow:0 3px 12px rgba(6,182,212,.4);
+}
+.yoga-music-btn.stop{
+  background:rgba(239,68,68,.2);
+  color:#f87171;
+  border-color:rgba(239,68,68,.4);
+}

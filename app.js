@@ -117,6 +117,27 @@ target_butt_t:["Glutes & Lower Back","सुडौल हिप्स व कम
 target_butt_d:["Glute bridges & reverse lunges for lower body posture","ग्लूट ब्रिज और लंज से हिप्स व लोअर बैक मजबूत करें","ਗਲੂਟ ਬ੍ਰਿਜ ਤੇ ਲੰਜ ਨਾਲ ਹੇਠਲਾ ਹਿੱਸਾ ਮਜ਼ਬੂਤ"],
 target_legs_t:["Toned Legs & Thighs","मजबूत टाँगें व जाँघें (Legs)","ਮਜ਼ਬੂਤ ਲੱਤਾਂ ਤੇ ਪੱਟ"],
 target_legs_d:["Bodyweight squats, goblet squats & calf power","स्क्वाट्स और लंज से पैरों में ताकत व कटिंग लाएँ","ਸਕੁਐਟਸ ਨਾਲ ਲੱਤਾਂ 'ਚ ਤਾਕਤ ਲਿਆਓ"],
+men_zones_h:["Men's Target Zones","👨 पुरुषों के वर्कआउट जोन","👨 ਮਰਦਾਂ ਦੇ ਵਰਕਆਊਟ ਜ਼ੋਨ"],
+women_zones_h:["Women's Toning Zones","👩 महिलाओं के टोनिंग जोन","👩 ਔਰਤਾਂ ਦੇ ਟੋਨਿੰਗ ਜ਼ੋਨ"],
+zone_full:["Full Body","फुल बॉडी","ਪੂਰਾ ਸਰੀਰ"],
+zone_chest:["Chest Power","चौड़ी छाती","ਚੌੜੀ ਛਾਤੀ"],
+zone_arms:["Arms (Biceps/Triceps)","मजबूत बाहें","ਮਜ਼ਬੂਤ ਬਾਹਾਂ"],
+zone_abs:["Six Pack Abs","सिक्स पैक एब्स","ਸਿਕਸ ਪੈਕ ਐਬਸ"],
+zone_legs:["Athletic Legs","मजबूत टाँगें","ਮਜ਼ਬੂਤ ਲੱਤਾਂ"],
+zone_belly:["Flat Belly","सपाट पेट","ਸਪਾਟ ਢਿੱਡ"],
+zone_t_arms:["Toned Arms","सुडौल बाँहें","ਸੁਡੌਲ ਬਾਹਾਂ"],
+zone_glutes:["Shaped Glutes","सुडौल हिप्स","ਸੁਡੌਲ ਕੁੱਲ੍ਹੇ"],
+zone_thighs:["Lean Thighs","मजबूत जाँघें","ਮਜ਼ਬੂਤ ਪੱਟ"],
+home_workouts_h:["Home Workouts (No Equipment)","🏠 घर पर कसरत (बिना सामान)","🏠 ਘਰ 'ਤੇ ਕਸਰਤ (ਬਿਨਾਂ ਸਾਮਾਨ)"],
+home_workouts_s:["100% Bodyweight training using your own body resistance and gravity.","बिना किसी डम्बल या मशीन के अपने शरीर के वजन से पूरी फिटनेस।","ਬਿਨਾਂ ਕਿਸੇ ਡੰਬਲ ਜਾਂ ਮਸ਼ੀਨ ਦੇ ਸਰੀਰਕ ਭਾਰ ਨਾਲ ਪੂਰੀ ਕਸਰਤ।"],
+gym_workouts_h:["Gym Workouts (Dumbbells & Machines)","🏋️‍♂️ जिम कसरत (डम्बल व मशीनें)","🏋️‍♂️ ਜਿਮ ਕਸਰਤ (ਡੰਬਲ ਤੇ ਮਸ਼ੀਨਾਂ)"],
+gym_workouts_s:["Progressive resistance training with free weights, cables and machines.","डम्बल, केबल्स और मशीनों से मांसपेशियों की ताकत और साइज बढ़ाने का प्लान।","ਡੰਬਲ ਅਤੇ ਮਸ਼ੀਨਾਂ ਨਾਲ ਮਾਸਪੇਸ਼ੀਆਂ ਦੀ ਤਾਕਤ ਵਧਾਓ।"],
+stretch_h:["Warm-Up & Stretching Studio","🤸 वॉर्म-अप व स्ट्रेचिंग स्टूडियो","🤸 ਵਾਰਮ-ਅੱਪ ਤੇ ਸਟ੍ਰੈਚਿੰਗ ਸਟੂਡੀਓ"],
+stretch_s:["Pre-workout mobility to prevent injury and post-workout muscle release.","कसरत से पहले चोट से बचाव और कसरत के बाद मांसपेशियों का तनाव खोलने के लिए।","ਕਸਰਤ ਤੋਂ ਪਹਿਲਾਂ ਸੱਟ ਤੋਂ ਬਚਾਅ ਅਤੇ ਬਾਅਦ 'ਚ ਮਾਸਪੇਸ਼ੀਆਂ ਨੂੰ ਖੋਲ੍ਹਣ ਲਈ।"],
+yoga_music_on:["Calming Zen Music: Playing","🎵 शांत योग संगीत: चालू है","🎵 ਸ਼ਾਂਤ ਯੋਗ ਸੰਗੀਤ: ਚੱਲ ਰਿਹਾ ਹੈ"],
+yoga_music_off:["Calming Zen Music: Paused","🎵 शांत योग संगीत: बंद है","🎵 ਸ਼ਾਂਤ ਯੋਗ ਸੰਗੀਤ: ਬੰਦ ਹੈ"],
+yoga_music_btn_play:["▶ Play Calming Music","▶ शांत संगीत चालू करें","▶ ਸ਼ਾਂਤ ਸੰਗੀਤ ਚਲਾਓ"],
+yoga_music_btn_stop:["⏸ Pause Music","⏸ संगीत बंद करें","⏸ ਸੰਗੀਤ ਰੋਕੋ"],
 men_focus:["Men's Focus","पुरुषों के प्रमुख अंग","ਮਰਦਾਂ ਦੇ ਮੁੱਖ ਅੰਗ"],
 womode_home:["🏠 Home (No Equipment)","🏠 घर पर (बिना सामान)","🏠 ਘਰ 'ਤੇ (ਬਿਨਾਂ ਸਾਮਾਨ)"],
 mode_gym:["🏋️ Gym (Weights & Machines)","🏋️ जिम (डम्बल व वजन)","🏋️ ਜਿਮ (ਡੰਬਲ ਤੇ ਵਜ਼ਨ)"],
@@ -130,6 +151,27 @@ target_butt_t:["Glutes & Lower Back","सुडौल हिप्स व कम
 target_butt_d:["Glute bridges & reverse lunges for lower body posture","ग्लूट ब्रिज और लंज से हिप्स व लोअर बैक मजबूत करें","ਗਲੂਟ ਬ੍ਰਿਜ ਤੇ ਲੰਜ ਨਾਲ ਹੇਠਲਾ ਹਿੱਸਾ ਮਜ਼ਬੂਤ"],
 target_legs_t:["Toned Legs & Thighs","मजबूत टाँगें व जाँघें (Legs)","ਮਜ਼ਬੂਤ ਲੱਤਾਂ ਤੇ ਪੱਟ"],
 target_legs_d:["Bodyweight squats, goblet squats & calf power","स्क्वाट्स और लंज से पैरों में ताकत व कटिंग लाएँ","ਸਕੁਐਟਸ ਨਾਲ ਲੱਤਾਂ 'ਚ ਤਾਕਤ ਲਿਆਓ"],
+men_zones_h:["Men's Target Zones","👨 पुरुषों के वर्कआउट जोन","👨 ਮਰਦਾਂ ਦੇ ਵਰਕਆਊਟ ਜ਼ੋਨ"],
+women_zones_h:["Women's Toning Zones","👩 महिलाओं के टोनिंग जोन","👩 ਔਰਤਾਂ ਦੇ ਟੋਨਿੰਗ ਜ਼ੋਨ"],
+zone_full:["Full Body","फुल बॉडी","ਪੂਰਾ ਸਰੀਰ"],
+zone_chest:["Chest Power","चौड़ी छाती","ਚੌੜੀ ਛਾਤੀ"],
+zone_arms:["Arms (Biceps/Triceps)","मजबूत बाहें","ਮਜ਼ਬੂਤ ਬਾਹਾਂ"],
+zone_abs:["Six Pack Abs","सिक्स पैक एब्स","ਸਿਕਸ ਪੈਕ ਐਬਸ"],
+zone_legs:["Athletic Legs","मजबूत टाँगें","ਮਜ਼ਬੂਤ ਲੱਤਾਂ"],
+zone_belly:["Flat Belly","सपाट पेट","ਸਪਾਟ ਢਿੱਡ"],
+zone_t_arms:["Toned Arms","सुडौल बाँहें","ਸੁਡੌਲ ਬਾਹਾਂ"],
+zone_glutes:["Shaped Glutes","सुडौल हिप्स","ਸੁਡੌਲ ਕੁੱਲ੍ਹੇ"],
+zone_thighs:["Lean Thighs","मजबूत जाँघें","ਮਜ਼ਬੂਤ ਪੱਟ"],
+home_workouts_h:["Home Workouts (No Equipment)","🏠 घर पर कसरत (बिना सामान)","🏠 ਘਰ 'ਤੇ ਕਸਰਤ (ਬਿਨਾਂ ਸਾਮਾਨ)"],
+home_workouts_s:["100% Bodyweight training using your own body resistance and gravity.","बिना किसी डम्बल या मशीन के अपने शरीर के वजन से पूरी फिटनेस।","ਬਿਨਾਂ ਕਿਸੇ ਡੰਬਲ ਜਾਂ ਮਸ਼ੀਨ ਦੇ ਸਰੀਰਕ ਭਾਰ ਨਾਲ ਪੂਰੀ ਕਸਰਤ।"],
+gym_workouts_h:["Gym Workouts (Dumbbells & Machines)","🏋️‍♂️ जिम कसरत (डम्बल व मशीनें)","🏋️‍♂️ ਜਿਮ ਕਸਰਤ (ਡੰਬਲ ਤੇ ਮਸ਼ੀਨਾਂ)"],
+gym_workouts_s:["Progressive resistance training with free weights, cables and machines.","डम्बल, केबल्स और मशीनों से मांसपेशियों की ताकत और साइज बढ़ाने का प्लान।","ਡੰਬਲ ਅਤੇ ਮਸ਼ੀਨਾਂ ਨਾਲ ਮਾਸਪੇਸ਼ੀਆਂ ਦੀ ਤਾਕਤ ਵਧਾਓ।"],
+stretch_h:["Warm-Up & Stretching Studio","🤸 वॉर्म-अप व स्ट्रेचिंग स्टूडियो","🤸 ਵਾਰਮ-ਅੱਪ ਤੇ ਸਟ੍ਰੈਚਿੰਗ ਸਟੂਡੀਓ"],
+stretch_s:["Pre-workout mobility to prevent injury and post-workout muscle release.","कसरत से पहले चोट से बचाव और कसरत के बाद मांसपेशियों का तनाव खोलने के लिए।","ਕਸਰਤ ਤੋਂ ਪਹਿਲਾਂ ਸੱਟ ਤੋਂ ਬਚਾਅ ਅਤੇ ਬਾਅਦ 'ਚ ਮਾਸਪੇਸ਼ੀਆਂ ਨੂੰ ਖੋਲ੍ਹਣ ਲਈ।"],
+yoga_music_on:["Calming Zen Music: Playing","🎵 शांत योग संगीत: चालू है","🎵 ਸ਼ਾਂਤ ਯੋਗ ਸੰਗੀਤ: ਚੱਲ ਰਿਹਾ ਹੈ"],
+yoga_music_off:["Calming Zen Music: Paused","🎵 शांत योग संगीत: बंद है","🎵 ਸ਼ਾਂਤ ਯੋਗ ਸੰਗੀਤ: ਬੰਦ ਹੈ"],
+yoga_music_btn_play:["▶ Play Calming Music","▶ शांत संगीत चालू करें","▶ ਸ਼ਾਂਤ ਸੰਗੀਤ ਚਲਾਓ"],
+yoga_music_btn_stop:["⏸ Pause Music","⏸ संगीत बंद करें","⏸ ਸੰਗੀਤ ਰੋਕੋ"],
 men_focus:["Women / Tone Focus","महिलाएँ व टोनिंग","ਔਰਤਾਂ ਅਤੇ ਟੋਨਿੰਗ"],
 target_areas_h:["Target Muscle Areas","🎯 टारगेट बॉडी एरिया (अंग अनुसार)","🎯 ਨਿਸ਼ਾਨਾਬੱਧ ਸਰੀਰਕ ਅੰਗ"],
 flt_noeq:["🚫 No Equipment (Home)","🚫 बिना सामान (घर पर)","🚫 ਬਿਨਾਂ ਸਾਮਾਨ (ਘਰ 'ਤੇ)"],
@@ -340,7 +382,14 @@ function streak(){let d=curDay();if(!S.done[d])d--;let n=0;while(d>=1&&S.done[d]
 const doneCount=()=>Object.keys(S.done).filter(k=>S.done[k]).length;
 const P=()=>{const p=S.p;return{lvl:p.lvl||0,focus:p.focus||0,eq:p.eq||0}};
 /* ---------- views ---------- */
-const IC={coach:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><circle cx="12" cy="10" r="2"/><path d="M8 10h.01M16 10h.01"/></svg>',home:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3 11l9-8 9 8v10h-6v-6H9v6H3z"/></svg>',plan:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>',diet:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 12h18a9 9 0 0 1-18 0zM8 8c0-2 1.5-3 2.5-4M13 8c0-2 1.5-3 2.5-4"/></svg>',rep:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 20V11M12 20V4M19 20v-6"/></svg>',set:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/></svg>'};
+const IC={
+ coach:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a8 8 0 0 0-8 8c0 3 1.5 5.5 4 6.8V19a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-2.2c2.5-1.3 4-3.8 4-6.8a8 8 0 0 0-8-8z"/><path d="M9 10h.01M15 10h.01M9.5 14a4 4 0 0 0 5 0"/></svg>',
+ home:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5L12 3l9 7.5V20a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></svg>',
+ plan:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 5v14M18 5v14M2 9v6M22 9v6M6 12h12"/></svg>',
+ diet:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a9 9 0 0 1 9 9c0 6-6 11-9 11s-9-5-9-11a9 9 0 0 1 9-9z"/><path d="M12 2v4M12 2c2-2 4-2 6 0"/></svg>',
+ rep:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>',
+ set:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>'
+};
 const langBar=(c)=>`<div class="top ${c||""}" id="tour-lang"><div class="brand">
  <div class="brand-badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43 1.43 1.43 2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43 1.43-1.43zM6.29 4.86l1.41-1.41 1.41 1.41-1.41 1.41-1.41-1.41zm11.42 14.28l-1.41 1.41-1.41-1.41 1.41-1.41 1.41 1.41z"/></svg></div>
  <div class="brand-text"><span>SUDA<b>UL</b></span><small>PRO COACH 90</small></div>
@@ -519,6 +568,7 @@ function vPlan(){
  const selW=(S.pw&&S.pw>=wFirst&&S.pw<=wLast)?S.pw:defW;
  const planTab=S.planTab||0;
  const proLvl=S.proLvl!==undefined?S.proLvl:(S.p.lvl||0);
+ const wMode=S.workoutMode||"home";
  
  // Level suggestions text
  const lvlNames=["lvl_beg_t","lvl_int_t","lvl_adv_t"];
@@ -540,7 +590,10 @@ function vPlan(){
  ];
  const curFlt=S.mflt||"all";
  const fltBar=mFlts.map(([k,lbl])=>`<button class="pill ${curFlt===k?"on":""}" data-a="mflt" data-v="${k}">${lbl}</button>`).join("");
- const exLib=Object.keys(EX).filter(id=>curFlt==="all"||(INFO[id]&&INFO[id][0].includes(curFlt))).map(id=>{
+ 
+ // Filter by Home vs Gym mode
+ const modePool = wMode==="home" ? HOME_EX_IDS : wMode==="gym" ? GYM_EX_IDS : Object.keys(EX);
+ const exLib=modePool.filter(id=>curFlt==="all"||(INFO[id]&&INFO[id][0].includes(curFlt))).map(id=>{
   const x=EX[id],I=INFO[id],mKey=I&&I[0]?I[0][0]:"wb";
   const pImg=(PIMG[id]||VID[id])?`p_${id}.jpg`:(id==="tri"?"p_pushup.jpg":"");
   const topVisual=pImg?`<div class="libtop" style="height:7.2rem"><img src="${pImg}" alt="" style="width:100%;height:100%;object-fit:cover;border-radius:.6rem;display:block">${VID[id]?`<span class="vcam">🎥 HD</span>`:""}</div>`:`<div class="libtop">${figSvg(id)}${VID[id]?`<span class="vcam">🎥</span>`:""}</div>`;
@@ -553,97 +606,150 @@ function vPlan(){
 
  let mainContent="";
  if(planTab===1){
-  // EXERCISE CHART STORE VIEW
+  // 1. HOME & GYM WORKOUT STORE VIEW
   mainContent=`
-   <!-- Level Selector (Beginner -> Pro) -->
-   <div class="pro-lvl-bar">
-    <button class="lvl-0 ${proLvl===0?"on":""}" data-a="set_pro_lvl" data-v="0">🟢 ${t("lvl_beg_t").split(" ")[0]}</button>
-    <button class="lvl-1 ${proLvl===1?"on":""}" data-a="set_pro_lvl" data-v="1">🟡 ${t("lvl_int_t").split(" ")[0]}</button>
-    <button class="lvl-2 ${proLvl===2?"on":""}" data-a="set_pro_lvl" data-v="2">🔴 ${t("lvl_adv_t").split(" ")[0]}</button>
-   </div>
-   
-   <!-- Pro Level Guidance Card -->
-   <div class="pro-guidance-card">
-    <div class="pro-guidance-header">
-     <h3 style="font-size:1.02rem;color:#fff">${t("pro_cues_h",{lvl:t(lvlNames[proLvl])})}</h3>
-    </div>
-    <div class="pro-stats-strip">
-     <span class="pro-stat-chip">🏋️ ${t(lvlSets[proLvl])}</span>
-     <span class="pro-stat-chip">⏱ ${t(lvlRests[proLvl])}</span>
-    </div>
-    <p class="muted sm" style="margin-top:.45rem;line-height:1.5;color:#d0e2f5">${t(lvlTips[proLvl])}</p>
+   <!-- Home vs Gym Mode Switcher (Screenshot 46381) -->
+   <div class="master-split-nav">
+    <button class="master-split-btn ${wMode==='home'?'on':''}" data-a="set_wmode" data-v="home">
+     🏠 ${t("home_workouts_h").split(" ")[1]||"Home"}
+    </button>
+    <button class="master-split-btn ${wMode==='gym'?'on':''}" data-a="set_wmode" data-v="gym">
+     🏋️‍♂️ ${t("gym_workouts_h").split(" ")[1]||"Gym"}
+    </button>
    </div>
 
-   
-    <!-- Target Focus & Equipment Filters (Screenshots 46393, 46386) -->
-    <div class="gender-tabs">
-     <button class="${(S.targetGender||'men')==='men'?'on':''}" data-a="set_tgender" data-v="men">👨 ${t("men_focus")}</button>
-     <button class="${S.targetGender==='women'?'on':''}" data-a="set_tgender" data-v="women">👩 ${t("women_focus")}</button>
-    </div>
-    <div class="eq-tabs">
-     <button class="${(S.targetEq||'all')==='all'?'on':''}" data-a="set_teq" data-v="all">⚡ All Exercises</button>
-     <button class="${S.targetEq==='home'?'on':''}" data-a="set_teq" data-v="home">${t("flt_noeq")}</button>
-     <button class="${S.targetEq==='weights'?'on':''}" data-a="set_teq" data-v="weights">${t("flt_eq")}</button>
-    </div>
+   <!-- Mode Hero Banner -->
+   <div class="section-hero-banner">
+    <h3>${wMode==='home'?t("home_workouts_h"):t("gym_workouts_h")}</h3>
+    <p>${wMode==='home'?t("home_workouts_s"):t("gym_workouts_s")}</p>
+   </div>
 
-    
-    <!-- Hit Your Target Areas 4-Card Visual Showcase (Screenshot 46379) -->
-    <div style="margin-top:.85rem">
-     <div class="row"><h3>${t("target_hit_h")}</h3><span class="chip">Focus Areas</span></div>
-     <p class="muted sm" style="margin:.25rem 0 .65rem">${t("target_hit_s")}</p>
-     <div class="target-area-showcase">
-      <div class="target-area-tile" data-a="mflt" data-v="be">
-       <div class="target-area-tile-left">
-        <div class="tile-ico" style="background:rgba(239,68,68,.15);border-color:rgba(239,68,68,.3);color:#ef4444">🔥</div>
-        <div class="target-area-tile-text">
-         <b>${t("target_belly_t")}</b>
-         <span>${t("target_belly_d")}</span>
-        </div>
-       </div>
-       <span class="target-area-badge">Abs ›</span>
-      </div>
-
-      <div class="target-area-tile" data-a="mflt" data-v="bi">
-       <div class="target-area-tile-left">
-        <div class="tile-ico" style="background:rgba(59,130,246,.15);border-color:rgba(59,130,246,.3);color:#3b82f6">💪</div>
-        <div class="target-area-tile-text">
-         <b>${t("target_arms_t")}</b>
-         <span>${t("target_arms_d")}</span>
-        </div>
-       </div>
-       <span class="target-area-badge">Arms ›</span>
-      </div>
-
-      <div class="target-area-tile" data-a="mflt" data-v="gl">
-       <div class="target-area-tile-left">
-        <div class="tile-ico" style="background:rgba(245,158,11,.15);border-color:rgba(245,158,11,.3);color:#f59e0b">🍑</div>
-        <div class="target-area-tile-text">
-         <b>${t("target_butt_t")}</b>
-         <span>${t("target_butt_d")}</span>
-        </div>
-       </div>
-       <span class="target-area-badge">Glutes ›</span>
-      </div>
-
-      <div class="target-area-tile" data-a="mflt" data-v="th">
-       <div class="target-area-tile-left">
-        <div class="tile-ico" style="background:rgba(16,185,129,.15);border-color:rgba(16,185,129,.3);color:#10b981">🦵</div>
-        <div class="target-area-tile-text">
-         <b>${t("target_legs_t")}</b>
-         <span>${t("target_legs_d")}</span>
-        </div>
-       </div>
-       <span class="target-area-badge">Legs ›</span>
+   <!-- Men & Women Dual Target Showcase Cards (Screenshot 46393) -->
+   <div class="gender-showcase-container">
+    <!-- Men Card -->
+    <div class="gender-card men-card">
+     <div class="gender-avatar-wrap">
+      <img src="p_curl.jpg" alt="Men Fitness">
+     </div>
+     <div class="gender-card-content">
+      <span class="gender-card-badge">Men · पुरुष</span>
+      <h3>${t("men_zones_h")}</h3>
+      <div class="gender-zones-list">
+       <span class="gender-zone-pill ${curFlt==='all'?'on':''}" data-a="set_mzone" data-v="all">${t("zone_full")}</span>
+       <span class="gender-zone-pill ${curFlt==='ch'?'on':''}" data-a="set_mzone" data-v="ch">${t("zone_chest")}</span>
+       <span class="gender-zone-pill ${curFlt==='bi'?'on':''}" data-a="set_mzone" data-v="bi">${t("zone_arms")}</span>
+       <span class="gender-zone-pill ${curFlt==='be'?'on':''}" data-a="set_mzone" data-v="be">${t("zone_abs")}</span>
+       <span class="gender-zone-pill ${curFlt==='th'?'on':''}" data-a="set_mzone" data-v="th">${t("zone_legs")}</span>
       </div>
      </div>
     </div>
 
-    <!-- Muscle Group Filter & Grid -->
-   <div class="chips" style="margin-bottom:.85rem">${fltBar}</div>
-   <div class="libgrid">${exLib}</div>
+    <!-- Women Card -->
+    <div class="gender-card women-card">
+     <div class="gender-avatar-wrap">
+      <img src="y_dancer.jpg" alt="Women Fitness">
+     </div>
+     <div class="gender-card-content">
+      <span class="gender-card-badge">Women · महिला</span>
+      <h3>${t("women_zones_h")}</h3>
+      <div class="gender-zones-list">
+       <span class="gender-zone-pill ${curFlt==='be'?'on':''}" data-a="set_mzone" data-v="be">${t("zone_belly")}</span>
+       <span class="gender-zone-pill ${curFlt==='bi'?'on':''}" data-a="set_mzone" data-v="bi">${t("zone_t_arms")}</span>
+       <span class="gender-zone-pill ${curFlt==='gl'?'on':''}" data-a="set_mzone" data-v="gl">${t("zone_glutes")}</span>
+       <span class="gender-zone-pill ${curFlt==='th'?'on':''}" data-a="set_mzone" data-v="th">${t("zone_thighs")}</span>
+       <span class="gender-zone-pill ${curFlt==='all'?'on':''}" data-a="set_mzone" data-v="all">${t("zone_full")}</span>
+      </div>
+     </div>
+    </div>
+   </div>
+
+   <!-- Level Progression Selector (Beginner -> Pro, Screenshot 46384) -->
+   <div style="margin-top:.85rem">
+    <div class="row"><h3>${t("lvl_prog_h")}</h3><span class="chip">Levels</span></div>
+    <p class="muted sm" style="margin:.25rem 0 .55rem">${t("lvl_prog_s")}</p>
+    <div class="pro-lvl-bar">
+     <button class="lvl-0 ${proLvl===0?"on":""}" data-a="set_pro_lvl" data-v="0">🟢 ${t("lvl_beg_t").split(" ")[0]}</button>
+     <button class="lvl-1 ${proLvl===1?"on":""}" data-a="set_pro_lvl" data-v="1">🟡 ${t("lvl_int_t").split(" ")[0]}</button>
+     <button class="lvl-2 ${proLvl===2?"on":""}" data-a="set_pro_lvl" data-v="2">🔴 ${t("lvl_adv_t").split(" ")[0]}</button>
+    </div>
+    
+    <div class="pro-guidance-card">
+     <div class="pro-guidance-header">
+      <h3 style="font-size:1.02rem;color:#fff">${t("pro_cues_h",{lvl:t(lvlNames[proLvl])})}</h3>
+     </div>
+     <div class="pro-stats-strip">
+      <span class="pro-stat-chip">🏋️ ${t(lvlSets[proLvl])}</span>
+      <span class="pro-stat-chip">⏱ ${t(lvlRests[proLvl])}</span>
+     </div>
+     <p class="muted sm" style="margin-top:.45rem;line-height:1.5;color:#d0e2f5">${t(lvlTips[proLvl])}</p>
+    </div>
+   </div>
+
+   <!-- Muscle Group Filter & Grid -->
+   <div style="margin-top:1.1rem">
+    <div class="row" style="margin-bottom:.5rem">
+     <h3>${wMode==='home'?'🏠 Home Exercises':'🏋️‍♂️ Gym Exercises'} (${modePool.length})</h3>
+     <span class="chip">${curFlt==='all'?'All Muscles':curFlt.toUpperCase()}</span>
+    </div>
+    <div class="chips" style="margin-bottom:.85rem">${fltBar}</div>
+    <div class="libgrid">${exLib}</div>
+   </div>
+  `;
+ } else if(planTab===2){
+  // 2. STRETCHING & WARM-UP STUDIO VIEW
+  const stretches = [
+   {
+    title: ["1. Neck Mobility & Gentle Rolls", "1. गर्दन का वॉर्म-अप व रोटेशन", "1. ਧੌਣ ਦਾ ਵਾਰਮ-ਅੱਪ"],
+    badge: ["30 sec", "30 सेकंड", "30 ਸਕਿੰਟ"],
+    desc: ["Slow circular rolls and gentle side-to-side ear-to-shoulder tilts to release cervical stiffness.", "गर्दन को धीरे-धीरे गोल घुमाएँ और दोनों कंधों की तरफ झुकाएँ। गर्दन की अकड़न मिटाता है।", "ਧੌਣ ਨੂੰ ਹੌਲੀ-ਹੌਲੀ ਘੁਮਾਓ।"]
+   },
+   {
+    title: ["2. Arm Circles & Shoulder Openers", "2. कंधों व बाहों का रोटेशन", "2. ਮੋਢਿਆਂ ਦਾ ਰੋਟੇਸ਼ਨ"],
+    badge: ["15 reps each way", "15 बार दोनों तरफ", "15 ਵਾਰ"],
+    desc: ["Dynamic wide circles clockwise and counter-clockwise to lubricate shoulder rotators before pushups or bench.", "बाहों को दोनों तरफ गोल घुमाकर कंधों के जोड़ों को चिकना और तैयार करें।", "ਬਾਹਾਂ ਨੂੰ ਗੋਲ ਘੁਮਾਓ।"]
+   },
+   {
+    title: ["3. Standing Torso Twists", "3. स्टैंडिंग टॉर्सो ट्विस्ट", "3. ਕਮਰ ਦਾ ਟਵਿਸਟ"],
+    badge: ["20 slow twists", "20 बार", "20 ਵਾਰ"],
+    desc: ["Gentle standing spinal rotations with relaxed arms to warm up thoracic core and obliques.", "सीधे खड़े होकर कमर को धीरे-धीरे दोनों तरफ घुमाएँ। रीढ़ की हड्डी खुलती है।", "ਰੀੜ੍ਹ ਦੀ ਹੱਡੀ ਖੋਲ੍ਹਣ ਲਈ।"]
+   },
+   {
+    title: ["4. Standing Quad Stretch", "4. स्टैंडिंग क्वॉड स्ट्रेच", "4. ਪੱਟਾਂ ਦਾ ਖਿੱਚਾਅ"],
+    badge: ["30 sec each leg", "30 सेकंड प्रत्येक पैर", "30 ਸਕਿੰਟ"],
+    desc: ["Pull heel to glute while standing tall, keeping knees together. Prepares knees & quads for squats.", "एक पैर के पंजे को पीछे पकड़कर कूल्हे से लगाएँ। जाँघों के खिंचाव के लिए।", "ਲੱਤਾਂ ਦੀ ਲਚਕ ਲਈ।"]
+   },
+   {
+    title: ["5. Hamstring & Calf Toe Reach", "5. हैमस्ट्रिंग व पिंडलियों का खिंचाव", "5. ਪੈਰ ਛੂਹਣ ਦੀ ਸਟ੍ਰੈਚਿੰਗ"],
+    badge: ["30 sec hold", "30 सेकंड होल्ड", "30 ਸਕਿੰਟ"],
+    desc: ["Soft bend in knees, hinge from hips and reach down towards toes with relaxed neck.", "घुटने हल्के मोड़कर कमर से आगे झुकें और पंजों को छुएँ। पीठ व हैमस्ट्रिंग्स खुलती हैं।", "ਹੈਮਸਟ੍ਰਿੰਗ ਖੋਲ੍ਹਣ ਲਈ।"]
+   },
+   {
+    title: ["6. Deep Butterfly & Hip Opener", "6. बटरफ्लाई व हिप ओपनर", "6. ਬਟਰਫਲਾਈ ਸਟ੍ਰੈਚ"],
+    badge: ["45 sec hold", "45 सेकंड होल्ड", "45 ਸਕਿੰਟ"],
+    desc: ["Seated with soles of feet touching, knees gently pressed towards the floor with straight spine.", "दोनों तलवे जोड़कर बैठें और तितली की तरह घुटनों को ऊपर-नीचे करें। हिप्स को खोलता है।", "ਕੁੱਲ੍ਹਿਆਂ ਦੇ ਲਚਕ ਲਈ।"]
+   }
+  ];
+
+  mainContent=`
+   <div class="section-hero-banner" style="background:linear-gradient(145deg,#1b1532,#100d20);border-color:rgba(139,92,246,.35)">
+    <h3>${t("stretch_h")}</h3>
+    <p>${t("stretch_s")}</p>
+   </div>
+
+   <div style="margin-top:.85rem">
+    ${stretches.map(st=>`
+     <div class="stretch-card">
+      <div class="stretch-head">
+       <b>${st.title[S.lang]}</b>
+       <span class="stretch-badge">${st.badge[S.lang]}</span>
+      </div>
+      <p>${st.desc[S.lang]}</p>
+     </div>
+    `).join("")}
+   </div>
   `;
  } else {
-  // 90-DAY SCHEDULE VIEW
+  // 3. 90-DAY SCHEDULE VIEW
   let cells="";
   for(let n=mStart;n<=mEnd;n++){const q=dayPlan(n,p);cells+=`<button class="cell ${q.rest?"rest":""} ${S.done[n]?"done":""} ${n===cur?"today":""}" data-a="open" data-v="${n}">${S.done[n]?"✓":n}</button>`}
   let wTabs="";
@@ -687,15 +793,17 @@ function vPlan(){
   `;
  }
 
- return `${langBar()}<div class="page">
+ return `${langBar()}<div class="page ${planTab===2?'bg-theme-stretch':'bg-theme-gym'}">
   <div class="itabs" style="margin-bottom:1rem">
    <button class="${planTab===0?"on":""}" data-a="ptab" data-v="0">${t("plan_tab_sched")}</button>
    <button class="${planTab===1?"on":""}" data-a="ptab" data-v="1">${t("plan_tab_lib")}</button>
+   <button class="${planTab===2?"on":""}" data-a="ptab" data-v="2">🤸 ${t("stretch_h").split(" ")[1]||"Stretching"}</button>
   </div>
   ${mainContent}
   <p class="muted sm" style="margin-top:1.2rem;text-align:center">${t("warn")}</p>
  </div>${nav()}`;
 }
+
 function vDay(){
  const d=S.sel,p=P(),dp=dayPlan(d,p),isDone=!!S.done[d],kcal=dp.rest?0:dp.mins*6;
  const heroImg=(!dp.rest&&dp.list.length)?`p_${dp.list[0][0]}.jpg`:"";
@@ -1172,9 +1280,96 @@ function syncTourHighlight(){
  }
 }
 
+
+/* Web Audio API 432Hz Ambient Zen Music Synthesizer */
+let YOGA_AUDIO_CTX = null;
+let YOGA_AUDIO_NODES = [];
+let YOGA_AUDIO_PLAYING = false;
+
+function startYogaAudio() {
+ try {
+  if (YOGA_AUDIO_PLAYING) return;
+  const AudioCtx = window.AudioContext || window.webkitAudioContext;
+  if (!AudioCtx) return;
+  if (!YOGA_AUDIO_CTX) YOGA_AUDIO_CTX = new AudioCtx();
+  if (YOGA_AUDIO_CTX.state === 'suspended') YOGA_AUDIO_CTX.resume();
+
+  const ctx = YOGA_AUDIO_CTX;
+  const masterGain = ctx.createGain();
+  masterGain.gain.setValueAtTime(0.001, ctx.currentTime);
+  masterGain.gain.exponentialRampToValueAtTime(0.18, ctx.currentTime + 3);
+  masterGain.connect(ctx.destination);
+
+  const freqs = [108, 216, 432, 648];
+  YOGA_AUDIO_NODES = [masterGain];
+
+  freqs.forEach((freq, idx) => {
+   const osc = ctx.createOscillator();
+   const gain = ctx.createGain();
+   const filter = ctx.createBiquadFilter();
+
+   osc.type = idx === 0 ? 'sine' : idx === 1 ? 'triangle' : 'sine';
+   osc.frequency.setValueAtTime(freq, ctx.currentTime);
+
+   filter.type = 'lowpass';
+   filter.frequency.setValueAtTime(freq * 1.8, ctx.currentTime);
+
+   const lfo = ctx.createOscillator();
+   const lfoGain = ctx.createGain();
+   lfo.frequency.setValueAtTime(0.12, ctx.currentTime);
+   lfoGain.gain.setValueAtTime(0.04, ctx.currentTime);
+   lfo.connect(lfoGain);
+   lfoGain.connect(gain.gain);
+   lfo.start();
+
+   gain.gain.setValueAtTime(idx === 2 ? 0.08 : 0.05, ctx.currentTime);
+
+   osc.connect(filter);
+   filter.connect(gain);
+   gain.connect(masterGain);
+   osc.start();
+
+   YOGA_AUDIO_NODES.push(osc, gain, lfo, lfoGain, filter);
+  });
+
+  YOGA_AUDIO_PLAYING = true;
+ } catch (e) {
+  console.log("Audio synth error", e);
+ }
+}
+
+function stopYogaAudio() {
+ try {
+  if (!YOGA_AUDIO_PLAYING || !YOGA_AUDIO_CTX) return;
+  const ctx = YOGA_AUDIO_CTX;
+  const master = YOGA_AUDIO_NODES[0];
+  if (master && master.gain) {
+   master.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + 1.2);
+  }
+  setTimeout(() => {
+   YOGA_AUDIO_NODES.forEach(n => {
+    try { if (n.stop) n.stop(); if (n.disconnect) n.disconnect(); } catch(err){}
+   });
+   YOGA_AUDIO_NODES = [];
+   YOGA_AUDIO_PLAYING = false;
+  }, 1200);
+ } catch(e){}
+}
+
+function toggleYogaAudio() {
+ if (YOGA_AUDIO_PLAYING) {
+  stopYogaAudio();
+ } else {
+  startYogaAudio();
+ }
+ save();
+ render();
+}
+
 function vYoga(){
- const curTab = S.yogaTab || "surya";
+ const curTab = S.yogaTab || "master";
  const tabs = [
+  ["master", "📸 Master Poses", "📸 10 मुख्य योगासन", "📸 10 ਮੁੱਖ ਯੋਗਾਸਨ"],
   ["surya", "☀️ Surya Namaskar", "☀️ सूर्य नमस्कार", "☀️ ਸੂਰਜ ਨਮਸਕਾਰ"],
   ["cooldown", "🧘 Cool-Down", "🧘 कूलडाउन व रिकवरी", "🧘 ਕੂਲਡਾਊਨ"],
   ["spine", "🦴 Spine & Back", "🦴 कमर व रीढ़", "🦴 ਕਮਰ ਤੇ ਰੀੜ੍ਹ"],
@@ -1182,7 +1377,140 @@ function vYoga(){
  ];
 
  let content = "";
- if(curTab === "surya"){
+
+ const masterPoses = [
+  {
+   id: "dhanur",
+   img: "y_bow.jpg",
+   badge: ["Men · Core & Spine", "पुरुष · कोर व रीढ़", "ਮਰਦ · ਕੋਰ ਤੇ ਰੀੜ੍ਹ"],
+   title: ["1. Dhanurasana (Bow Pose)", "1. धनुरासन (धनुष मुद्रा)", "1. ਧਨੁਰਾਸਨ"],
+   desc: ["Deep backward bend lifting chest and thighs like an archer's bow.", "छाती व जाँघों को ऊपर खींचकर धनुष का आकार बनाएँ।", "ਛਾਤੀ ਅਤੇ ਪੱਟਾਂ ਨੂੰ ਉੱਪਰ ਚੁੱਕ ਕੇ ਧਨੁੱਖ ਦਾ ਆਕਾਰ ਬਣਾਓ।"],
+   breath: ["Inhale deeply as you lift chest & legs high. Breathe slowly while holding.", "साँस अंदर खींचते हुए ऊपर उठें, पोज़ में धीमी गहरी साँस लें।", "ਸਾਹ ਅੰਦਰ ਲੈਂਦੇ ਹੋਏ ਉੱਪਰ ਉੱਠੋ।"],
+   benefits: ["Stimulates digestion, tones abdomen, strengthens spine extensors.", "पाचन अग्नि तेज करता है, रीढ़ को मजबूत व लचीला बनाता है।", "ਹਾਜ਼ਮਾ ਤੇਜ਼ ਕਰਦਾ ਹੈ ਅਤੇ ਰੀੜ੍ਹ ਨੂੰ ਮਜ਼ਬੂਤ ਕਰਦਾ ਹੈ।"],
+   caution: ["Avoid if experiencing severe lumbar pain or high blood pressure.", "कमर में तेज़ दर्द या हाई बीपी हो तो न करें।", "ਤੇਜ਼ ਕਮਰ ਦਰਦ ਵਿੱਚ ਨਾ ਕਰੋ।"]
+  },
+  {
+   id: "ustra",
+   img: "y_camel.jpg",
+   badge: ["Men · Chest Opener", "पुरुष · सीना व फेफड़े", "ਮਰਦ · ਛਾਤੀ ਤੇ ਫੇਫੜੇ"],
+   title: ["2. Ustrasana (Camel Pose)", "2. उष्ट्रासन (ऊँट मुद्रा)", "2. ਉਸਟ੍ਰਾਸਨ"],
+   desc: ["Kneeling backward extension touching heels with hands, opening chest to the sky.", "घुटनों के बल पीछे झुककर हथेलियों को एड़ियों पर टिकाएँ।", "ਗੋਡਿਆਂ ਭਾਰ ਪਿੱਛੇ ਝੁਕ ਕੇ ਅੱਡੀਆਂ ਨੂੰ ਫੜੋ।"],
+   breath: ["Inhale while expanding chest upward. Normal relaxed breaths in pose.", "साँस अंदर लेते हुए छाती आकाश की ओर खोलें।", "ਸਾਹ ਅੰਦਰ ਲੈਂਦੇ ਹੋਏ ਛਾਤੀ ਉੱਪਰ ਕਰੋ।"],
+   benefits: ["Corrects rounded shoulders, expands ribcage, relieves postural fatigue.", "झुके हुए कंधों को ठीक करता है, छाती व फेफड़े खोलता है।", "ਮੋਢਿਆਂ ਦੀ ਬਣਤਰ ਸੁਧਾਰਦਾ ਹੈ।"],
+   caution: ["Do not drop neck back excessively if having cervical issues.", "गर्दन में दर्द हो तो सिर बहुत पीछे न लटकाएँ।", "ਗਰਦਨ ਦਰਦ ਹੋਵੇ ਤਾਂ ਸੰਭਲ ਕੇ ਕਰੋ।"]
+  },
+  {
+   id: "nata",
+   img: "y_dancer.jpg",
+   badge: ["Women · Grace & Balance", "महिला · संतुलन व नज़ाकत", "ਔਰਤਾਂ · ਸੰਤੁਲਨ ਤੇ ਲਚਕ"],
+   title: ["3. Natarajasana (Lord of the Dance)", "3. नटराजासन (नटराज मुद्रा)", "3. ਨਟਰਾਜਾਸਨ"],
+   desc: ["Balancing on one foot while arching opposite leg overhead with mudra.", "एक पैर पर संतुलन बनाकर दूसरे पैर को पीछे ऊपर धनुषाकार उठाएँ।", "ਇੱਕ ਪੈਰ 'ਤੇ ਸੰਤੁਲਨ ਬਣਾ ਕੇ ਦੂਜਾ ਪੈਰ ਪਿੱਛੇ ਚੁੱਕੋ।"],
+   breath: ["Inhale as you raise leg; exhale to stabilize balance and steady gaze.", "पैर उठाते हुए साँस अंदर, संतुलन बनाते हुए साँस सामान्य।", "ਸਾਹ ਅੰਦਰ ਲੈਂਦੇ ਹੋਏ ਸੰਤੁਲਨ ਬਣਾਓ।"],
+   benefits: ["Builds immense ankle and core stability, elongates spine, tones hips.", "टखनों और कोर को मजबूत करता है, हिप्स व रीढ़ को टोन करता है।", "ਸਰੀਰ ਦਾ ਸੰਤੁਲਨ ਅਤੇ ਲਚਕੀਲਾਪਣ ਵਧਾਉਂਦਾ ਹੈ।"],
+   caution: ["Focus your eyes on a single stationary point to prevent falling.", "सामने किसी एक बिंदु पर नज़र टिकाकर रखें।", "ਸਾਹਮਣੇ ਧਿਆਨ ਟਿਕਾਓ।"]
+  },
+  {
+   id: "gomukh",
+   img: "y_cowface.jpg",
+   badge: ["Women · Posture & Scapula", "महिला · कंधों का खिंचाव", "ਔਰਤਾਂ · ਮੋਢਿਆਂ ਦੀ ਸਟ੍ਰੈਚਿੰਗ"],
+   title: ["4. Gomukhasana (Cow Face Pose)", "4. गोमुखासन (गोमुख मुद्रा)", "4. ਗੋਮੁਖਾਸਨ"],
+   desc: ["Knees stacked with arms interlocked behind back, chest upright.", "घुटने पर घुटना रखकर बैठें और दोनों हाथ पीठ के पीछे आपस में जोड़ें।", "ਗੋਡੇ ਉੱਤੇ ਗੋਡਾ ਰੱਖ ਕੇ ਦੋਵੇਂ ਹੱਥ ਪਿੱਠ ਪਿੱਛੇ ਫੜੋ।"],
+   breath: ["Slow deep diaphragmatic breaths through both nostrils.", "दोनों नथुनों से धीमी और गहरी साँसें लेते रहें।", "ਹੌਲੀ ਅਤੇ ਡੂੰਘਾ ਸਾਹ ਲਓ।"],
+   benefits: ["Releases frozen shoulder tightness, straightens thoracic posture.", "कंधों की जकड़न खोलता है, रीढ़ को सीधा और सीना चौड़ा करता है।", "ਮੋਢਿਆਂ ਦੀ ਅਕੜਾਅ ਦੂਰ ਕਰਦਾ ਹੈ।"],
+   caution: ["Use a small towel if fingers cannot clasp directly behind back.", "अगर हाथ न मिलें तो रुमाल या तौलिए का सहारा लें।", "ਜੇ ਹੱਥ ਨਾ ਪੁੱਜਣ ਤਾਂ ਰੁਮਾਲ ਵਰਤੋ।"]
+  },
+  {
+   id: "sarvang",
+   img: "y_shoulderstand.jpg",
+   badge: ["Men · Thyroid & Rejuvenation", "पुरुष · सर्वांगीण ऊर्जा", "ਮਰਦ · ਪੂਰੇ ਸਰੀਰ ਦੀ ਤਾਕਤ"],
+   title: ["5. Sarvangasana (Shoulder Stand)", "5. सर्वांगासन (कंधों पर संतुलन)", "5. ਸਰਵਾਂਗਾਸਨ"],
+   desc: ["Queen of Asanas: Vertical inverted alignment on shoulders and elbows.", "कोहनियों व कंधों के सहारे पूरे शरीर को सीधा आसमान की ओर खड़ा करें।", "ਮੋਢਿਆਂ ਭਾਰ ਪੂਰੇ ਸਰੀਰ ਨੂੰ ਸਿੱਧਾ ਉੱਪਰ ਕਰੋ।"],
+   breath: ["Smooth abdominal breathing. Do not turn head sideways.", "गर्दन सीधी रखें और पेट से शांत साँसें लेते रहें।", "ਸਾਹ ਆਮ ਰੱਖੋ ਅਤੇ ਸਿਰ ਨਾ ਹਿਲਾਓ।"],
+   benefits: ["Boosts facial circulation, balances thyroid gland, enhances vitality.", "चेहरे पर प्राकृतिक चमक लाता है, थायरॉइड सक्रिय करता है।", "ਚਿਹਰੇ 'ਤੇ ਨੂਰ ਅਤੇ ਊਰਜਾ ਲਿਆਉਂਦਾ ਹੈ।"],
+   caution: ["Avoid during neck injuries or severe retinal pressure.", "गर्दन में मोच या चोट होने पर इसे न करें।", "ਧੌਣ ਵਿੱਚ ਦਰਦ ਹੋਵੇ ਤਾਂ ਨਾ ਕਰੋ।"]
+  },
+  {
+   id: "chakra",
+   img: "y_wheel.jpg",
+   badge: ["Women · Full Arch Vitality", "महिला · रीढ़ का चाप", "ਔਰਤਾਂ · ਪੂਰਾ ਚੱਕਰਾਕਾਰ"],
+   title: ["6. Chakrasana (Wheel Pose)", "6. चक्रासन (चक्र मुद्रा)", "6. ਚੱਕਰਾਸਨ"],
+   desc: ["Full upward wheel arch supported by palms and feet on the ground.", "हथेलियों और पैरों के सहारे पूरे शरीर से चक्र (पहिए) जैसा चाप बनाएँ।", "ਹੱਥਾਂ ਤੇ ਪੈਰਾਂ ਭਾਰ ਸਰੀਰ ਦਾ ਚੱਕਰ ਬਣਾਓ।"],
+   breath: ["Inhale to press up; breathe comfortably into ribcage while holding.", "साँस अंदर भरकर ऊपर उठें और छाती से सामान्य साँस लें।", "ਸਾਹ ਅੰਦਰ ਲੈਂਦੇ ਹੋਏ ਉੱਪਰ ਉੱਠੋ।"],
+   benefits: ["Incredible full spine flexibility, strengthens wrists, combats aging.", "रीढ़ को लचीला बनाता है, कलाइयों को ताकत और नया यौवन देता है।", "ਰੀੜ੍ਹ ਨੂੰ ਲਚਕੀਲਾ ਅਤੇ ਜਵਾਨ ਰੱਖਦਾ ਹੈ।"],
+   caution: ["Warm up wrists and spine thoroughly before attempting full arch.", "पहले कलाइयों और कमर को अच्छी तरह वार्म-अप कर लें।", "ਪਹਿਲਾਂ ਚੰਗੀ ਤਰ੍ਹਾਂ ਵਾਰਮ-ਅੱਪ ਕਰੋ।"]
+  },
+  {
+   id: "sirs",
+   img: "y_headstand.jpg",
+   badge: ["Men · King of Asanas", "पुरुष · आसनों का राजा", "ਮਰਦ · ਆਸਨਾਂ ਦਾ ਰਾਜਾ"],
+   title: ["7. Sirsasana (Headstand)", "7. शीर्षासन (सिर पर संतुलन)", "7. ਸ਼ੀਰਸ਼ਾਸਨ"],
+   desc: ["Master inversion: Crown of head and forearms forming solid base with straight body.", "सिर और कोहनियों के त्रिकोण पर पूरे शरीर को सीधा 90 डिग्री खड़ा करें।", "ਸਿਰ ਅਤੇ ਕੂਹਣੀਆਂ ਭਾਰ ਸਰੀਰ ਸਿੱਧਾ ਕਰੋ।"],
+   breath: ["Calm, rhythmic nasal breathing without strain.", "शांत और नियंत्रित साँस चलती रहे।", "ਸਹਿਜ ਸਾਹ ਲੈਂਦੇ ਰਹੋ।"],
+   benefits: ["Direct oxygen to brain cells, sharpens memory, fires up core strength.", "मस्तिष्क को शुद्ध रक्त देता है, याददाश्त व एकाग्रता बढ़ाता है।", "ਦਿਮਾਗ਼ ਨੂੰ ਤੇਜ਼ ਕਰਦਾ ਹੈ।"],
+   caution: ["Learn near a wall first; avoid during high BP or ear issues.", "शुरू में दीवार के सहारे सीखें, हाई बीपी में न करें।", "ਸ਼ੁਰੂ ਵਿੱਚ ਕੰਧ ਦਾ ਸਹਾਰਾ ਲਓ।"]
+  },
+  {
+   id: "mayur",
+   img: "y_peacock.jpg",
+   badge: ["Men · Detox & Wrist Power", "पुरुष · डिटॉक्स व संतुलन", "ਮਰਦ · ਡੀਟੌਕਸ ਤੇ ਬਾਹਾਂ"],
+   title: ["8. Mayurasana (Peacock Pose)", "8. मयूरासन (मयूर मुद्रा)", "8. ਮਯੂਰਾਸਨ"],
+   desc: ["Body hovering horizontally parallel to the ground like a flying peacock.", "कोहनियों को नाभि पर टिकाकर पूरे शरीर को मोर की तरह हवा में सीधा रखें।", "ਸਰੀਰ ਨੂੰ ਮੋਰ ਵਾਂਗ ਹਵਾ ਵਿੱਚ ਸਿੱਧਾ ਰੱਖੋ।"],
+   breath: ["Hold steady shallow breaths or gentle exhalation while balancing.", "संतुलन के दौरान नियंत्रित और हल्की साँसें लें।", "ਸਾਹ ਕੰਟਰੋਲ ਵਿੱਚ ਰੱਖੋ।"],
+   benefits: ["Powerful abdominal organ detoxification, burns digestive toxins.", "पेट के अंगों को पूरी तरह डिटॉक्स करता है, पाचन अग्नि तेज करता है।", "ਪੇਟ ਦੇ ਅੰਦਰੂਨੀ ਅੰਗਾਂ ਨੂੰ ਸਾਫ਼ ਕਰਦਾ ਹੈ।"],
+   caution: ["Do not practice immediately after eating or with wrist sprains.", "खाना खाने के तुरंत बाद या कलाई में चोट होने पर न करें।", "ਖਾਣਾ ਖਾਣ ਤੋਂ ਤੁਰੰਤ ਬਾਅਦ ਨਾ ਕਰੋ।"]
+  },
+  {
+   id: "ardhachandra",
+   img: "y_halfmoon.jpg",
+   badge: ["Women · Balance & Waist", "महिला · कमर व संतुलन", "ਔਰਤਾਂ · ਕਮਰ ਤੇ ਸੰਤੁਲਨ"],
+   title: ["9. Ardha Chandrasana (Half Moon)", "9. अर्ध चंद्रासन (आधा चाँद)", "9. ਅਰਧ ਚੰਦ੍ਰਾਸਨ"],
+   desc: ["Single-leg balance with open chest and arm extending vertically.", "एक पैर और उंगलियों पर टिककर शरीर और पैर को सीधा क्षैतिज रखें।", "ਇੱਕ ਪੈਰ 'ਤੇ ਸੰਤੁਲਨ ਬਣਾ ਕੇ ਸਰੀਰ ਸਿੱਧਾ ਕਰੋ।"],
+   breath: ["Inhale to open chest wide; steady exhalation to ground standing foot.", "छाती खोलते हुए साँस अंदर, पैर को स्थिर रखते हुए साँस बाहर।", "ਸਾਹ ਅੰਦਰ ਲੈਂਦੇ ਹੋਏ ਛਾਤੀ ਖੋਲ੍ਹੋ।"],
+   benefits: ["Firms outer hips, trims waistline, strengthens quadriceps and ankles.", "कमर के साइड का फैट घटाता है, हिप्स व टखनों को टोन करता है।", "ਲੱਕ ਦੀ ਚਰਬੀ ਘਟਾਉਂਦਾ ਹੈ।"],
+   caution: ["Use a yoga block under bottom hand if hamstrings are tight.", "अगर हाथ ज़मीन पर न पहुँचे तो किसी डिब्बे या ब्लॉक का सहारा लें।", "ਸਹਾਰਾ ਲੈ ਕੇ ਸ਼ੁਰੂ ਕਰੋ।"]
+  },
+  {
+   id: "baka",
+   img: "y_crow.jpg",
+   badge: ["Men · Arm Balance", "पुरुष · बाजुओं की ताकत", "ਮਰਦ · ਬਾਹਾਂ ਦਾ ਸੰਤੁਲਨ"],
+   title: ["10. Bakasana (Crow Pose)", "10. बकासन (कौआ मुद्रा)", "10. ਬਕਾਸਨ"],
+   desc: ["Compact arm balance with knees tucked onto upper triceps, feet airborne.", "हथेलियों पर टिककर घुटनों को बाजुओं पर रखें और दोनों पैर हवा में उठाएँ।", "ਹੱਥਾਂ ਭਾਰ ਗੋਡੇ ਬਾਹਾਂ 'ਤੇ ਰੱਖ ਕੇ ਪੈਰ ਉੱਪਰ ਚੁੱਕੋ।"],
+   breath: ["Steady even breathing while keeping core locked.", "पेट को अंदर खींचकर स्थिर साँस बनाए रखें।", "ਸਾਹ ਬੰਨ੍ਹ ਕੇ ਸੰਤੁਲਨ ਬਣਾਓ।"],
+   benefits: ["Builds immense shoulder & wrist strength, activates core and pelvic floor.", "कंधों, कलाइयों और पेट में गज़ब की ताकत और निडरता भरता है।", "ਬਾਹਾਂ ਅਤੇ ਪੇਟ ਨੂੰ ਬਹੁਤ ਮਜ਼ਬੂਤ ਕਰਦਾ ਹੈ।"],
+   caution: ["Place a soft pillow in front of face when learning to prevent faceplants.", "सीखते समय आगे एक तकिया रख लें ताकि डर न लगे।", "ਅੱਗੇ ਸਿਰਹਾਣਾ ਰੱਖ ਕੇ ਅਭਿਆਸ ਕਰੋ।"]
+  }
+ ];
+
+ if(curTab === "master"){
+  content = `
+   <div style="margin-bottom:1rem">
+    <div class="row">
+     <h3 style="font-size:1.15rem;color:#fff">${S.lang===1?"10 मुख्य योगासन (फोटो व विधि सहित)":S.lang===2?"10 ਮੁੱਖ ਯੋਗਾਸਨ (ਤਸਵੀਰਾਂ ਸਮੇਤ)":"10 Master Yoga Poses (Visual Form)"}</h3>
+     <span class="chip" style="background:rgba(6,182,212,.2);color:#22d3ee;border:1px solid rgba(6,182,212,.4)">HD Visuals</span>
+    </div>
+    <p class="muted sm" style="margin:.3rem 0 .9rem">${S.lang===1?"शांत प्राकृतिक माहौल में 10 प्रमुख आसनों की सही विधि, श्वास का नियम और लाभ:":S.lang===2?"ਸ਼ਾਂਤ ਵਾਤਾਵਰਣ ਵਿੱਚ 10 ਮੁੱਖ ਆਸਨਾਂ ਦੀ ਸਹੀ ਵਿਧੀ ਤੇ ਲਾਭ:":"Complete step-by-step master poses with real visual form, breath cues & benefits:"}</p>
+   </div>
+   <div class="yoga-master-list">
+    ${masterPoses.map(p=>`
+     <div class="yoga-img-card">
+      <div class="yoga-img-wrap">
+       <img src="${p.img}" alt="${p.title[0]}" loading="lazy">
+       <span class="yoga-img-badge">${p.badge[S.lang]}</span>
+      </div>
+      <div class="yoga-img-body">
+       <h4>${p.title[S.lang]}</h4>
+       <p class="muted sm">${p.desc[S.lang]}</p>
+       <div class="yoga-meta-box">
+        <p><b>🌬️ ${S.lang===1?"श्वास का नियम:":S.lang===2?"ਸਾਹ ਦਾ ਨਿਯਮ:":"Breath:"}</b> ${p.breath[S.lang]}</p>
+        <p><b>⚡ ${S.lang===1?"मुख्य लाभ:":S.lang===2?"ਮੁੱਖ ਲਾਭ:":"Benefits:"}</b> ${p.benefits[S.lang]}</p>
+        <p><b>⚠️ ${S.lang===1?"सावधानी:":S.lang===2?"ਸਾਵਧਾਨੀ:":"Caution:"}</b> ${p.caution[S.lang]}</p>
+       </div>
+      </div>
+     </div>
+    `).join("")}
+   </div>
+  `;
+ } else if(curTab === "surya"){
   const steps = [
    ["1. Pranamasana (Prayer Pose)","1. प्रणामासन (प्रणाम मुद्रा)","1. ਪ੍ਰਣਾਮਾਸਨ","Stand tall with palms joined at chest center. Exhale slowly. Calms the mind.","छाती के सामने हाथ जोड़कर सीधे खड़े हों। धीरे साँस छोड़ें। मन को शांत करता है।","ਛਾਤੀ ਸਾਹਮਣੇ ਹੱਥ ਜੋੜ ਕੇ ਸਿੱਧੇ ਖੜ੍ਹੇ ਹੋਵੋ। ਹੌਲੀ ਸਾਹ ਛੱਡੋ।"],
    ["2. Hastauttanasana (Raised Arms)","2. हस्तउत्तानासन (हस्त उत्थान)","2. ਹਸਤਉੱਤਾਨਾਸਨ","Inhale deeply, lift arms overhead, gentle backward arch. Stretches abdomen & chest.","गहरी साँस अंदर लेते हुए हाथ ऊपर उठाएँ, हल्की पीछे की ओर झुकें। छाती और पेट में खिंचाव।","ਡੂੰਘਾ ਸਾਹ ਅੰਦਰ ਲੈਂਦੇ ਹੋਏ ਬਾਹਾਂ ਉੱਪਰ ਚੁੱਕੋ, ਪਿੱਛੇ ਵੱਲ ਝੁਕੋ।"],
@@ -1302,6 +1630,21 @@ function vYoga(){
     <h2 style="font-size:1.35rem;font-weight:900;color:#fff">${t("yoga_h")}</h2>
     <p class="muted sm">${t("yoga_sub")}</p>
    </div>
+   
+   <!-- Ambient 432Hz Zen Music Synthesizer Player -->
+   <div class="yoga-music-bar">
+    <div class="yoga-music-left">
+     <div class="music-wave-ico ${YOGA_AUDIO_PLAYING?'playing':''}">🎵</div>
+     <div class="yoga-music-text">
+      <b>${YOGA_AUDIO_PLAYING?t("yoga_music_on"):t("yoga_music_off")}</b>
+      <span>432Hz Meditative Healing Drone</span>
+     </div>
+    </div>
+    <button class="yoga-music-btn ${YOGA_AUDIO_PLAYING?'stop':'play'}" data-a="toggle_yoga_music">
+     ${YOGA_AUDIO_PLAYING?t("yoga_music_btn_stop"):t("yoga_music_btn_play")}
+    </button>
+   </div>
+
    <div class="yoga-tabs">
     ${tabs.map(tb=>`<button class="${curTab===tb[0]?"on":""}" data-a="yoga_tab" data-v="${tb[0]}">${tb[S.lang+1]||tb[1]}</button>`).join("")}
    </div>
