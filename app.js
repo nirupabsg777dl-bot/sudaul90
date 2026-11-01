@@ -184,6 +184,8 @@ tag_yoga:["Mind & Body","योग व शांति","ਯੋਗ ਤੇ ਮਨ
 tag_visual:["Visual Guide","विजुअल गाइड","ਵਿਜ਼ੂਅਲ ਗਾਈਡ"],
 tag_swaps:["Desi Swaps","देसी स्वैप्स","ਦੇਸੀ ਬਦਲ"],
 tag_hdform:["HD Form","HD फॉर्म","HD ਫਾਰਮ"],
+ lvl_prog_h:["Training Level Progression","ट्रेनिंग लेवल प्रोग्रेशन","ਟ੍ਰੇਨਿੰਗ ਲੈਵਲ ਪ੍ਰੋਗ੍ਰੇਸ਼ਨ"],
+ lvl_prog_s:["Smart rep and set recommendations tailored to your experience.","अपने अनुभव के अनुसार सही सेट, रेप्स और रेस्ट टाइमिंग चुनें।","ਆਪਣੇ ਤਜ਼ਰਬੇ ਅਨੁਸਾਰ ਸਹੀ ਸੈੱਟ ਅਤੇ ਰੈਪਸ ਚੁਣੋ।"],
 diet_goals_h:["Diets & Recipes By Health Goal","🎯 लक्ष्य अनुसार डाइट प्लान (Diets & Recipes)","🎯 ਮਕਸਦ ਅਨੁਸਾਰ ਡਾਈਟ ਪਲਾਨ"],
 diet_goals_s:["Select your fitness goal to view custom food items, portions & macros.","अपने फिटनेस लक्ष्य के अनुसार सही डाइट और प्रोटीन मात्रा चुनें।","ਆਪਣੇ ਫਿਟਨੈੱਸ ਟੀਚੇ ਅਨੁਸਾਰ ਸਹੀ ਖੁਰਾਕ ਅਤੇ ਪ੍ਰੋਟੀਨ ਚੁਣੋ।"],
 diet_bulky_t:["Bulky / Muscle Gain Diet","मसल गेन व वजन बढ़ाने का प्लान","ਮਸਲ ਗੇਨ ਅਤੇ ਭਾਰ ਵਧਾਉਣ ਦਾ ਪਲਾਨ"],
@@ -311,6 +313,8 @@ pullover:[["Dumbbell pullover","डम्बल पुलओवर","ਡੰਬ�
 bench:[["Barbell bench press","बारबेल बेंच प्रेस","ਬਾਰਬੈੱਲ ਬੈਂਚ ਪ੍ਰੈੱਸ"],["Lie flat on the bench. Lower the bar slowly to mid-chest, then press up strong.","सपाट बेंच पर लेटो। बार को धीरे छाती के बीच तक लाओ, फिर मज़बूती से ऊपर उठाओ।","ਸਪਾਟ ਬੈਂਚ 'ਤੇ ਲੇਟੋ। ਬਾਰ ਨੂੰ ਹੌਲੀ ਛਾਤੀ ਦੇ ਵਿਚਕਾਰ ਲਿਆਓ, ਫਿਰ ਤਾਕਤ ਨਾਲ ਉੱਪਰ ਚੁੱਕੋ।"]],
 cablefly:[["Cable chest fly","केबल चेस्ट फ्लाई","ਕੇਬਲ ਚੈਸਟ ਫਲਾਈ"],["Stand in the middle. With a slight bend in elbows, bring handles together in front of your chest.","बीच में खड़े हो। कोहनियाँ हल्की मोड़कर दोनों हैंडल छाती के सामने मिलाओ।","ਵਿਚਕਾਰ ਖੜ੍ਹੇ ਹੋਵੋ। ਕੂਹਣੀਆਂ ਹਲਕੀਆਂ ਮੋੜ ਕੇ ਦੋਵੇਂ ਹੈਂਡਲ ਛਾਤੀ ਦੇ ਸਾਹਮਣੇ ਮਿਲਾਓ।"]]
 };
+const HOME_EX_IDS=["squat","pushup","bridge","plank","lunge","birddog","deadbug","climber","walk","stretch"];
+const GYM_EX_IDS=["bench","incline","cablefly","ohp","raise","curl","tri","row","cablerow","gsquat","legpress","rdl","pullover"];
 /* ---------- the 90-day plan ---------- */
 const TYPES={A:["t_fb_a",["squat","pushup","bridge","plank"]],B:["t_fb_b",["lunge","row","birddog","climber"]],C:["t_fb_c",["squat","pushup","row","bridge","plank"]],
 UA:["t_up_a",["bench","ohp","row","tri","plank"]],LA:["t_lo_a",["gsquat","rdl","lunge","bridge"]],UB:["t_up_b",["pushup","raise","pullover","curl","deadbug"]],LB:["t_lo_b",["gsquat","lunge","rdl","bridge","climber"]],
@@ -1690,6 +1694,10 @@ document.addEventListener("click",e=>{
   else if(v==="yoga"){S.screen="yoga";S.yogaTab=S.yogaTab||"surya"}
  }
    else if(a==="set_diet_goal"){S.dietGoal=+v;save();render()}
+  else if(a==="set_home_gym"){S.p.eq=+v;S.workoutMode=(+v===0?"home":"gym");save();render()}
+  else if(a==="set_wmode"){S.workoutMode=v;S.p.eq=(v==="home"?0:1);save();render()}
+  else if(a==="set_mzone"){S.mflt=v;save();render()}
+  else if(a==="toggle_yoga_music"){toggleYogaAudio()}
   else if(a==="set_tgender"){S.targetGender=v;S.mflt="all";save();render()}
   else if(a==="set_teq"){S.targetEq=v;save();render()}
   else if(a==="yoga_tab"){S.yogaTab=v;save();render()}
