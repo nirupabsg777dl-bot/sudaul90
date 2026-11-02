@@ -1,35 +1,31 @@
-# Sudaul 90-Day Digital Fitness Coach — Release Audit & Changelog (v19.0)
+# Sudaul 90-Day Digital Fitness Coach — Changelog (v22.0)
 
-## 1. Release Folder Hygiene & Structure
-- **Zero Draft Pollutions**: All redundant test files, draft scripts (`app-2/3/4.js`, `index-2..5.html`, `styles-2.css`, `sw-2.js`), duplicate manifests, and temporary artifacts have been completely purged.
-- **Canonical Release Root**: The project root contains strictly the necessary runtime files:
-  - Core App Shell: `index.html`, `app.js`, `styles.css`, `sw.js` (Cache v19), `manifest.json`, `privacy.html`
-  - Icons: Direct references to `icon-192.png` (1.5 KB) and `icon-512.png` (4.4 KB)
-  - Workouts: Exactly 29 verified real athlete exercise photos (`p_*.jpg`) and 16 HD video clips (`v_*.mp4`)
-  - Yoga & Postures: Master yoga poses (`y_*.jpg`) with graceful UI fallbacks
-  - Documentation: `CHANGELOG.md` and `YOGA_MASTER_LOG.md`
+## 1. Men & Women Dedicated Workouts Section
+- **Primary Section**: Elevated Men & Women Workouts to the primary view of the Workouts hub.
+- **1-Tap Gender Switcher**: Instant toggle between 👨 Men's Workouts and 👩 Women's Workouts with custom avatar badges.
+- **Targeted Muscle Zones**:
+  - **Men**: Chest & Arms Power (Bench, Incline, Fly, Pushups, Curls, Kickbacks), Six-Pack Abs & Core (Plank, Deadbug, Climbers, Bird Dog), Athletic Legs (Squats, Goblet, Lunges, Leg Press, RDL), and V-Taper Back & Shoulders (Rows, Cable Rows, Overhead Press, Lateral Raises, Pullover).
+  - **Women**: Flat Belly & Slim Waist (Deadbug, Plank, Bird Dog, Climbers), Toned Arms & Posture (Light Curls, Lateral Raises, Shoulder Press, Knee Pushups, Kickbacks), Glute Sculpt & Booty Lift (Glute Bridge, Reverse Lunges, Squats, Goblet Squats), and Lean Thighs & Mobility (Squats, Gentle Stretch, Brisk Walk, RDL).
+- **Home vs Gym Compatibility**: 1-tap switcher filters both Men's and Women's routines between bodyweight home exercises and gym equipment.
 
-## 2. Service Worker & Zero-404 Cache Integrity
-- **100% Verified Assets**: `sw.js` precache `ASSETS` array lists strictly the 37 essential core assets on disk.
-- **Cache Name Bump**: Bumped to `sudaul-v19` to guarantee immediate refresh and purge of stale worker caches.
-- **Zero Install Failures**: Automated verification script confirmed 0 missing assets during `caches.open().addAll()`, preventing PWA installation drops.
-- **Dynamic Caching**: All videos and supplementary assets are cached on-demand via the fetch handler.
+## 2. Redesigned Modern Exercise Card Display
+- **Spacious & High-Contrast Layout (`.excard-clean`)**: Completely replaced the crowded, confusing legacy layout with clean, modern cards.
+- **Clear Visual Hierarchy**:
+  - High-res photo preview banner with step number badge and `▶ HD` badge.
+  - Dedicated target muscle pill (`🎯 Chest & Arms`, `🎯 Flat Belly`, etc.).
+  - Bold, high-contrast title in the selected language (Hindi, Punjabi, English).
+  - High-visibility Sets & Reps badge (`⚡ 3–4 Sets × 10–12 Reps`) and rest timing (`⏱ 45–60s rest`).
+  - Distinct technique guidance box (`💡 Hips back like sitting on a chair`).
+  - Clear "Watch HD Video & Details ›" action button.
 
-## 3. Truthful Asset Audit
-- **Photos**: Exactly 29 exercise photos (`p_*.jpg`) representing all 23 plan exercises plus dual-angle variations.
-- **Videos**: Exactly 16 MP4 motion demonstrations (`v_*.mp4`) with smooth loop playback.
-- **Yoga Poses**: 10 master yoga postures documented with step-by-step technique, breathing cues, and safety cautions.
-- **Fallbacks**: Universal `onerror` handlers implemented on all images so no broken image box ever renders in the UI.
+## 3. Dedicated Bottom Navigation Sections
+- Reorganized the bottom navigation into 5 distinct, intuitive sections:
+  1. 🏠 **Home (होम)**: Today's workout, streak, 90-day progress bar, 7-day quick calendar.
+  2. 🏋️ **Workouts (कसरत)**: Dedicated Men & Women workouts, 90-day schedule, and stretching studio.
+  3. 🧘 **Yoga (योगा)**: Dedicated Yoga Studio with Surya Namaskar (12 steps), 10 Master Asanas, Cool-down, Spine care, Pranayama breathwork, and 432Hz ambient sound drone.
+  4. 🥗 **Diet (डाइट)**: 5 daily home meals, winter menu, water tracker, and food swaps.
+  5. 🤖 **Coach (कोच)**: Instant answers for muscle soreness, low workout time, outside food, and joint care.
 
-## 4. Strict 90-Day Program Branding
-- **Zero 180 Copy**: Thorough regex audit confirms 0 leftover references to "180" or "180-day" in copy, metadata, tips, comments, and share text.
-- **Consistent Timeline**: Standardized to 90 Days / 12 Weeks across English, Hindi ("90 दिन का प्लान"), and Punjabi ("90 ਦਿਨਾਂ ਦਾ ਪਲਾਨ").
-
-## 5. Visual Consistency (Option B: Real Human Fitness Athletes)
-- Unified visual style across all exercise media: real fitness athletes in dark gym performance wear, crisp contrast, and neutral lighting.
-- Replaced missing external asset references in the Women's training card with canonical athlete photo (`p_stretch.jpg` with `p_bridge.jpg` fallback).
-
-## 6. Multilingual & Platform Hardening
-- **Anti-Auto-Translate**: Enforced `notranslate` tags and class attributes to prevent browsers from overriding selected Hindi or Punjabi text.
-- **Safe-Area Layout**: Mobile notches, dynamic islands, and home indicator bars padded properly with CSS `env(safe-area-inset-*)`.
-- **Offline Readiness**: Full functional support for offline training runner, nutrition tracking, water tracker, and progress logs.
+## 4. Cache & Offline Performance (v22.0)
+- Bumped Service Worker cache name to `sudaul-v22` and asset queries to `?v=22`.
+- Zero 404 cache aborts, resilient offline loading, and automatic PWA installation prompts.

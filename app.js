@@ -390,9 +390,10 @@ const IC={
  coach:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a8 8 0 0 0-8 8c0 3 1.5 5.5 4 6.8V19a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-2.2c2.5-1.3 4-3.8 4-6.8a8 8 0 0 0-8-8z"/><path d="M9 10h.01M15 10h.01M9.5 14a4 4 0 0 0 5 0"/></svg>',
  home:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5L12 3l9 7.5V20a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></svg>',
  plan:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 5v14M18 5v14M2 9v6M22 9v6M6 12h12"/></svg>',
+ yoga:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="4.5" r="2.5"/><path d="M12 9v4M8 13l4-3 4 3M7 20l5-3 5 3"/></svg>',
  diet:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a9 9 0 0 1 9 9c0 6-6 11-9 11s-9-5-9-11a9 9 0 0 1 9-9z"/><path d="M12 2v4M12 2c2-2 4-2 6 0"/></svg>',
  rep:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>',
- set:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>'
+ set:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1 2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83 2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>'
 };
 const langBar=(c)=>`<div class="top ${c||""}" id="tour-lang"><div class="brand">
  <div class="brand-badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43 1.43 1.43 2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43 1.43-1.43zM6.29 4.86l1.41-1.41 1.41 1.41-1.41 1.41-1.41-1.41zm11.42 14.28l-1.41 1.41-1.41-1.41 1.41-1.41 1.41 1.41z"/></svg></div>
@@ -412,10 +413,14 @@ function nav(){
  return `<div class="nav"><div>${[
   ["home","home"],
   ["plan","hub_ex"],
+  ["yoga","tag_yoga"],
   ["diet","diet"],
-  ["coach","coach"],
-  ["rep","report"]
- ].map(n=>`<button id="tour-nav-${n[0]}" data-a="tab" data-v="${n[0]}" class="${S.tab===n[0]?"on":""}">${IC[n[0]]}<span>${t(n[1]).split(" ")[0]}</span></button>`).join("")}</div></div>`;
+  ["coach","coach"]
+ ].map(n=>{
+  const isAct = (n[0]==="yoga") ? (S.tab==="yoga"||S.screen==="yoga") : (S.tab===n[0] && S.screen!=="yoga");
+  const label = n[0]==="plan" ? (S.lang===1?"कसरत":S.lang===2?"ਕਸਰਤ":"Workouts") : n[0]==="yoga" ? (S.lang===1?"योगा":S.lang===2?"ਯੋਗਾ":"Yoga") : t(n[1]).split(" ")[0];
+  return `<button id="tour-nav-${n[0]}" data-a="tab" data-v="${n[0]}" class="${isAct?"on":""}">${IC[n[0]]||IC.coach}<span>${label}</span></button>`;
+ }).join("")}</div></div>`;
 }
 
 function muscleSvg(mKey){
@@ -437,29 +442,27 @@ function exRows(dp){
   const amt=e[3]==="m"?`${e[2]} ${t("min")}`:e[3]==="s"?t("sets_sec",{s:e[1],r:e[2]}):t("sets_lbl",{s:e[1],r:e[2]});
   const mus=I?I[0].map(k=>MU[k][S.lang]).join(" · "):"";
   const photoSrc=(PIMG[id]||VID[id])?`p_${id}.jpg`:(id==="tri"?"p_pushup.jpg":"");
-  const thumbHtml=photoSrc?`<div class="human-thumb-box"><img src="${photoSrc}" alt="" class="human-thumb-img">${VID[id]?`<span class="vplay-pill">▶ HD</span>`:""}</div>`:`<div class="num">${i+1}</div>`;
   const mName=MU[mKey]?MU[mKey][S.lang]:"Full body";
-  return `<div class="excard" data-a="info" data-v="${id}">
-   <div class="exhead">
-    <div class="human-left-box">
-     <span class="exstep">${i+1}</span>
-     ${thumbHtml}
+  return `<div class="excard-clean" data-a="info" data-v="${id}">
+   <div class="excard-clean-top">
+    <div class="excard-clean-media">
+     ${photoSrc?`<img src="${photoSrc}" alt="${x[0][S.lang]}" loading="lazy"><span class="hd-badge">▶ HD</span>`:`<div class="media-placeholder">🏋️</div>`}
+     <span class="step-num">${i+1}</span>
     </div>
-    <div class="exmeta">
+    <div class="excard-clean-info">
+     <div class="target-tag"><span class="t-dot">🎯</span><b>${mName}</b></div>
      <h3>${x[0][S.lang]}</h3>
-     <div class="exbadges">
-      <span class="setsbadge">${amt}</span>
-      ${e[3]==="m"?"":`<span class="restbadge">${t("rest_bw",{n:restSec})}</span>`}
+     <div class="excard-clean-chips">
+      <span class="sets-pill">⚡ ${amt}</span>
+      ${e[3]==="m"?"":`<span class="rest-pill">⏱ ${restSec}s rest</span>`}
      </div>
-     ${mus?`<p class="exmus"><i class="rdot"></i> ${mus}</p>`:""}
-    </div>
-    <div class="exright">
-     <div class="target-badge"><span class="t-dot">🎯</span><b>${mName}</b></div>
-     ${P2[id]?`<div class="exthumb mini2"><img src="p_${id}2.jpg" alt=""></div>`:""}
     </div>
    </div>
-   <p class="excue">${x[1][S.lang]}</p>
-   <div class="exfoot"><span>${t("tap_vid")}</span></div>
+   <p class="excard-clean-cue">💡 ${x[1][S.lang]}</p>
+   <div class="excard-clean-foot">
+    <span class="excard-clean-mus">${mus?`<b>${S.lang===1?"अंग:":S.lang===2?"ਅੰਗ:":"Target:"}</b> ${mus}`:""}</span>
+    <span class="excard-clean-cta">${t("tap_vid")} ›</span>
+   </div>
   </div>`;
  }).join("");
 }
@@ -1664,7 +1667,7 @@ function render(){
  else if(S.screen==="run"&&R)h=vRun();
  else if(S.screen==="cal")h=vCal();
  else if(S.screen==="info")h=vInfo();
- else if(S.screen==="yoga")h=vYoga();
+ else if(S.screen==="yoga"||S.tab==="yoga")h=vYoga();
  else if(S.screen==="day"||S.screen==="run")h=vDay();
  else h=(S.tab==="plan"?vPlan():S.tab==="coach"?vCoach():S.tab==="diet"?vDiet():S.tab==="rep"?vReport():S.tab==="set"?vSettings():vHome())+vTour();
  $app.innerHTML=h;
@@ -1685,7 +1688,7 @@ document.addEventListener("click",e=>{
  else if(a==="tour_next"){if(S.tour<TOUR_STEPS.length){S.tour++;S.tab=TOUR_STEPS[S.tour-1].tab}else{S.tour=0;S.tourDone=true;S.tab="home"}}
  else if(a==="tour_prev"){if(S.tour>1){S.tour--;S.tab=TOUR_STEPS[S.tour-1].tab}}
  else if(a==="tour_skip"){S.tour=0;S.tourDone=true;S.tab="home"}
- else if(a==="tab"){S.tab=v;S.screen="home"}
+ else if(a==="tab"){S.tab=v;if(v==="yoga"){S.screen="yoga"}else{S.screen="home"};save();render()}
  else if(a==="open_hub"){
   if(v==="ex"){S.tab="plan";S.planTab=1}
   else if(v==="diet"){S.tab="diet"}
@@ -1696,6 +1699,7 @@ document.addEventListener("click",e=>{
    else if(a==="set_diet_goal"){S.dietGoal=+v;save();render()}
   else if(a==="set_home_gym"){S.p.eq=+v;S.workoutMode=(+v===0?"home":"gym");save();render()}
   else if(a==="set_wmode"){S.workoutMode=v;S.p.eq=(v==="home"?0:1);save();render()}
+  else if(a==="set_gender_tab"){S.genderTab=v;save();render()}
   else if(a==="set_mzone"){S.mflt=v;save();render()}
   else if(a==="toggle_yoga_music"){toggleYogaAudio()}
   else if(a==="set_tgender"){S.targetGender=v;S.mflt="all";save();render()}
