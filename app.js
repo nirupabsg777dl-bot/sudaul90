@@ -1,3 +1,108 @@
+const FORM_SEQ = {
+ pushup: {
+  steps: [
+   ["1. शुरुआत (Setup)", "1. ਸ਼ੁਰੂਆਤ (Setup)", "1. Setup Position"],
+   ["हथेलियाँ कंधों के नीचे, उंगलियां फैली हुई, पैर पंजों पर सीधे और कोर पूरी तरह टाइट।", "ਹੱਥ ਮੋਢਿਆਂ ਹੇਠਾਂ, ਪੈਰ ਪੰਜਿਆਂ 'ਤੇ ਸਿੱਧੇ ਅਤੇ ਪੇਟ ਕੱਸਿਆ।", "Hands beneath shoulders, body in a rigid straight plank on toes."],
+   ["2. नीचे की पोज़िशन (Lowering)", "2. ਹੇਠਾਂ ਦੀ ਪੋਜ਼ੀਸ਼ਨ (Lowering)", "2. Lowering Phase (Eccentric)"],
+   ["2-3 सेकंड में धीरे नीचे आएं; कोहनियां 45-डिग्री पीछे मुड़ें (तीर के आकार में); छाती फर्श से 1 इंच ऊपर रहे।", "2-3 ਸਕਿੰਟਾਂ ਵਿੱਚ ਹੌਲੀ ਹੇਠਾਂ ਆਓ; ਕੂਹਣੀਆਂ 45-ਡਿਗਰੀ ਪਿੱਛੇ ਮੁੜਨ; ਛਾਤੀ ਜ਼ਮੀਨ ਤੋਂ 1 ਇੰਚ ਉੱਪਰ।", "Lower slowly for 2-3s with elbows at 45 degrees until chest is 1 inch off floor."],
+   ["3. ऊपर की पोज़िशन (Peak Push)", "3. ਉੱਪਰ ਦੀ ਪੋਜ਼ੀਸ਼ਨ (Peak Push)", "3. Push Phase (Concentric)"],
+   ["हथेलियों से ज़मीन को दबाते हुए छाती व बाहों की ताकत से ऊपर उठें; साँस बाहर छोड़ें।", "ਜ਼ਮੀਨ ਨੂੰ ਹੱਥਾਂ ਨਾਲ ਦਬਾ ਕੇ ਤਾਕਤ ਨਾਲ ਉੱਪਰ ਉੱਠੋ; ਸਾਹ ਬਾਹਰ ਛੱਡੋ।", "Press floor away explosively through palms, exhaling at the top."],
+   ["4. वापसी (Reset)", "4. ਵਾਪਸੀ (Reset)", "4. Controlled Reset"],
+   ["ऊपर कोहनियों को हल्का नरम (soft lockout) रखें, बिना कमर लटकाए अगली रेप के लिए रीसेट हों।", "ਕੂਹਣੀਆਂ ਨੂੰ ਪੂਰਾ ਲੌਕ ਨਾ ਕਰੋ, ਕਮਰ ਸਿੱਧੀ ਰੱਖ ਕੇ ਅਗਲੇ ਰੈਪ ਲਈ ਤਿਆਰ ਹੋਵੋ।", "Maintain neutral spine and soft lockout without sagging hips before next rep."]
+  ],
+  checks: [
+   ["कलाई (Wrists)", "हथेलियों पर वजन समान रहे, कलाई पीछे अत्यधिक न मुड़े।", "Wrists stacked neutral under shoulders."],
+   ["पीठ व कमर (Spine)", "पेट या कमर नीचे न लटके; सिर से एड़ी तक एक सीधी रेखा।", "Zero hip sagging; solid neutral core."],
+   ["कोहनियाँ (Elbows)", "कोहनियों को 'T' की तरह बाहर न फैलाएं, 45-डिग्री कोण रखें।", "Elbows tucked at 45 degrees, never flared at 90."]
+  ]
+ },
+ squat: {
+  steps: [
+   ["1. शुरुआत (Setup)", "1. ਸ਼ੁਰੂਆਤ (Setup)", "1. Setup Stance"],
+   ["पैर कंधों की चौड़ाई पर, पंजे 15-डिग्री बाहर, छाती तनी हुई, रीढ़ बिल्कुल सीधी।", "ਪੈਰ ਮੋਢਿਆਂ ਜਿੰਨੇ ਚੌੜੇ, ਪੰਜੇ 15-ਡਿਗਰੀ ਬਾਹਰ, ਛਾਤੀ ਸਿੱਧੀ।", "Feet shoulder-width apart, toes flared 15 degrees, proud chest."],
+   ["2. नीचे की पोज़िशन (Lowering)", "2. ਹੇਠਾਂ ਦੀ ਪੋਜ਼ੀਸ਼ਨ (Lowering)", "2. Squat Descent"],
+   ["कूल्हों को कुर्सी पर बैठने जैसे पीछे धकेलें; घुटनों को पंजों की सीध में मोड़ें; जाँघें फर्श के समानांतर आएं।", "ਕੁੱਲ੍ਹੇ ਪਿੱਛੇ ਲੈ ਜਾਓ; ਗੋਡੇ ਪੰਜਿਆਂ ਦੀ ਸੇਧ ਵਿੱਚ; ਪੱਟ ਜ਼ਮੀਨ ਦੇ ਬਰਾਬਰ।", "Hinge hips back and down, knees tracking over toes until thighs reach parallel."],
+   ["3. ऊपर की पोज़िशन (Peak Stand)", "3. ਉੱਪਰ ਦੀ ਪੋਜ਼ੀਸ਼ਨ (Peak Stand)", "3. Drive to Stand"],
+   ["एड़ियों से फर्श को दबाते हुए खड़े हों; ऊपर पहुंचकर ग्लूट्स को 1 सेकंड कसें।", "ਅੱਡੀਆਂ ਨਾਲ ਜ਼ੋਰ ਦੇ ਕੇ ਉੱਪਰ ਉੱਠੋ; ਉੱਪਰ ਕੁੱਲ੍ਹੇ ਕੱਸੋ।", "Drive through whole foot and heels, squeezing glutes at the top."],
+   ["4. वापसी (Reset)", "4. ਵਾਪਸੀ (Reset)", "4. Top Reset"],
+   ["घुटनों को झटके से पीछे लॉक किए बिना सीधी रीढ़ के साथ अगली रेप के लिए सांस लें।", "ਗੋਡਿਆਂ ਨੂੰ ਝਟਕਾ ਦਿੱਤੇ ਬਿਨਾਂ ਸਿੱਧੇ ਖੜ੍ਹੇ ਹੋਵੋ।", "Stand tall with neutral pelvis, taking a diaphragmatic breath before next rep."]
+  ],
+  checks: [
+   ["घुटने (Knees)", "घुटने अंदर की तरफ न धँसें (No Knee Valgus); पंजों की दिशा में रहें।", "Knees track over toes, never caving inward."],
+   ["एड़ियाँ (Heels)", "ज़मीन से एड़ियां बिल्कुल न उठें; पूरा पैर जमा रहे।", "Heels firmly glued to the floor."],
+   ["पीठ (Lower Back)", "छाती झुकाएं नहीं; कमर में गोल मोड़ (Butt wink) न आने दें।", "Chest tall, neutral lumbar spine throughout."]
+  ]
+ },
+ gsquat: {
+  steps: [
+   ["1. शुरुआत (Setup)", "1. ਸ਼ੁਰੂਆਤ (Setup)", "1. Goblet Setup"],
+   ["पैर कंधों की चौड़ाई पर, डम्बल को दोनों हाथों से छाती के बिल्कुल पास पकड़ें।", "ਪੈਰ ਮੋਢਿਆਂ ਜਿੰਨੇ ਚੌੜੇ, ਡੰਬਲ ਨੂੰ ਛਾਤੀ ਕੋਲ ਫੜੋ।", "Feet shoulder-width apart, dumbbell held vertically close to chest."],
+   ["2. नीचे की पोज़िशन (Descent)", "2. ਹੇਠਾਂ ਦੀ ਪੋਜ਼ੀਸ਼ਨ (Descent)", "2. Squat Descent"],
+   ["कूल्हों को पीछे व नीचे ले जाएं, छाती सीधी रखें, जाँघें फर्श के समानांतर आएं।", "ਕੁੱਲ੍ਹੇ ਪਿੱਛੇ ਲੈ ਜਾਓ, ਛਾਤੀ ਸਿੱਧੀ ਰੱਖੋ।", "Hips down and back, chest proud, thighs reaching parallel."],
+   ["3. ऊपर की पोज़िशन (Ascent)", "3. ਉੱਪਰ ਦੀ ਪੋਜ਼ੀਸ਼ਨ (Ascent)", "3. Drive Up"],
+   ["एड़ियों से फर्श को दबाते हुए सीधे खड़े हों और ऊपर हिप्स कसें।", "ਅੱਡੀਆਂ ਨਾਲ ਜ਼ੋਰ ਦੇ ਕੇ ਸਿੱਧੇ ਖੜ੍ਹੇ ਹੋਵੋ।", "Drive up through heels, engaging glutes at top."],
+   ["4. वापसी (Reset)", "4. ਵਾਪਸੀ (Reset)", "4. Reset"],
+   ["रीढ़ सीधी रखकर सांस लें और अगली रेप के लिए तैयार हों।", "ਸਿੱਧੇ ਖੜ੍ਹੇ ਹੋ ਕੇ ਸਾਹ ਲਓ।", "Reset spine alignment before next rep."]
+  ],
+  checks: [
+   ["डम्बल पोजीशन", "डम्बल छाती से दूर न ले जाएं, छाती से सटाकर रखें।", "Keep dumbbell pinned close to chest."],
+   ["घुटने (Knees)", "घुटने पंजों की सीध में रहें, अंदर न झुकें।", "Knees aligned with toes, no valgus cave."],
+   ["कमर (Back)", "कमर बिल्कुल सीधी रहे, आगे न झुकें।", "Maintain tall upright torso."]
+  ]
+ },
+ curl: {
+  steps: [
+   ["1. शुरुआत (Setup)", "1. ਸ਼ੁਰੂਆਤ (Setup)", "1. Setup Position"],
+   ["रीढ़ सीधी, कंधे पीछे व नीचे, डम्बल जाँघों के पास, कोहनियाँ पसलियों से चिपकी हुईं।", "ਪਿੱਠ ਸਿੱਧੀ, ਮੋਢੇ ਪਿੱਛੇ, ਡੰਬਲ ਪੱਟਾਂ ਕੋਲ, ਕੂਹਣੀਆਂ ਪਾਸਿਆਂ ਨਾਲ ਲੱਗੀਆਂ।", "Stand tall with neutral spine, holding dumbbells with elbows pinned at ribs."],
+   ["2. ऊपर की पोज़िशन (Concentric Curl)", "2. ਉੱਪਰ ਦੀ ਪੋਜ਼ੀਸ਼ਨ (Curl)", "2. Upward Curl"],
+   ["कोहनियों को स्थिर रखकर डम्बल्स को कंधों की ओर मोड़ें; ऊपर 1 सेकंड बाइसेप्स कसें।", "ਕੂਹਣੀਆਂ ਸਥਿਰ ਰੱਖ ਕੇ ਡੰਬਲ ਮੋਢਿਆਂ ਵੱਲ ਚੁੱਕੋ; ਉੱਪਰ ਬਾਈਸੈਪ ਕੱਸੋ।", "Curl dumbbells upward keeping elbows fixed, squeezing peak biceps at top."],
+   ["3. नीचे की पोज़िशन (Eccentric Lowering)", "3. ਹੇਠਾਂ ਦੀ ਪੋਜ਼ੀਸ਼ਨ (Lowering)", "3. Controlled Lowering"],
+   ["3 सेकंड में डम्बल्स को नियंत्रित गति से धीरे नीचे लाएं (ग्रेविटी के भरोसे न छोड़ें)।", "3 ਸਕਿੰਟਾਂ ਵਿੱਚ ਹੌਲੀ ਹੇਠਾਂ ਲਿਆਓ।", "Lower slowly over 3 seconds under full muscular control."],
+   ["4. वापसी (Reset)", "4. ਵਾਪਸੀ (Reset)", "4. Arm Extension"],
+   ["नीचे बाहों को पूरा सीधा करें, शरीर को झुलाए बिना अगली रेप शुरू करें।", "ਹੱਥ ਪੂਰੇ ਸਿੱਧੇ ਕਰੋ, ਸਰੀਰ ਨੂੰ ਝਟਕਾ ਨਾ ਦਿਓ।", "Full elbow extension without swinging torso before commencing next rep."]
+  ],
+  checks: [
+   ["कोहनियाँ (Elbows)", "कोहनियाँ आगे या पीछे न हिलें; पसलियों के पास लॉक रहें।", "Elbows remain pinned at ribs, no forward drift."],
+   ["धड़ व पीठ (Torso)", "भारी वजन के लिए कमर को पीछे न झुलाएं (No Torso Swing)।", "Zero swinging or backward torso momentum."],
+   ["कलाई (Wrists)", "कलाई सीधी और न्यूट्रल रहे, ऊपर लाते समय अंदर न मोड़ें।", "Wrists strictly straight and neutral."]
+  ]
+ },
+ ohp: {
+  steps: [
+   ["1. शुरुआत (Setup)", "1. ਸ਼ੁਰੂਆਤ (Setup)", "1. Overhead Setup"],
+   ["सीधे खड़े हों, डम्बल्स कान के स्तर पर, हथेलियाँ आगे, कोहनियाँ 90-डिग्री पर।", "ਸਿੱਧੇ ਖੜ੍ਹੇ ਹੋਵੋ, ਡੰਬਲ ਕੰਨਾਂ ਕੋਲ, ਕੂਹਣੀਆਂ 90-ਡਿਗਰੀ 'ਤੇ।", "Dumbbells held at ear level, palms forward, elbows stacked at 90 degrees."],
+   ["2. ऊपर की पोज़िशन (Overhead Press)", "2. ਉੱਪਰ ਦੀ ਪੋਜ਼ੀਸ਼ਨ (Press)", "2. Vertical Press"],
+   ["डम्बल्स को सिर के ऊपर सीधा वर्टिकल लाइन में धकेलें; ऊपर डम्बल्स को टकराएं नहीं।", "ਡੰਬਲ ਸਿਰ ਉੱਪਰ ਸਿੱਧੇ ਧੱਕੋ, ਆਪਸ ਵਿੱਚ ਨਾ ਟਕਰਾਓ।", "Press straight up overhead in a vertical plane without clanging dumbbells."],
+   ["3. नीचे की पोज़िशन (Lowering)", "3. ਹੇਠਾਂ ਦੀ ਪੋਜ਼ੀਸ਼ਨ (Lowering)", "3. Controlled Lower"],
+   ["2.5 सेकंड में डम्बल्स को नियंत्रित गति से वापस कान के स्तर तक लाएं।", "2.5 ਸਕਿੰਟਾਂ ਵਿੱਚ ਹੌਲੀ ਕੰਨਾਂ ਕੋਲ ਲਿਆਓ।", "Lower smoothly over 2.5s back to ear level."],
+   ["4. वापसी (Reset)", "4. ਵਾਪਸੀ (Reset)", "4. Mid-Air Reset"],
+   ["कोहनियों को बहुत नीचे गिराए बिना 90-डिग्री पर रोकें और कोर टाइट रखें।", "ਕੂਹਣੀਆਂ ਨੂੰ ਬਹੁਤ ਹੇਠਾਂ ਨਾ ਸੁੱਟੋ, ਕੋਰ ਕੱਸਿਆ ਰੱਖੋ।", "Stop at 90 degrees with core braced for next press."]
+  ],
+  checks: [
+   ["कमर (Lower Back)", "वजन धकेलते समय कमर को पीछे न मोड़ें (No Lumbar Arching)।", "Ribcage down, no hyperextending lower back."],
+   ["कलाई (Wrists)", "कलाई कोहनी के ठीक लंबवत रहे, पीछे मुड़ी न हो।", "Wrists strictly stacked over elbows vertically."],
+   ["पाथ (Path)", "डम्बल्स का रास्ता सीधा लंबवत रहे, आगे न जाए।", "True vertical bar/dumbbell trajectory."]
+  ]
+ },
+ deadbug: {
+  steps: [
+   ["1. शुरुआत (Setup)", "1. ਸ਼ੁਰੂਆਤ (Setup)", "1. Dead Bug Setup"],
+   ["पीठ के बल लेटें; दोनों हाथ ऊपर सीधे; घुटने 90-डिग्री पर मुड़े; कमर फर्श से चिपकी हुई।", "ਪਿੱਠ ਭਾਰ ਲੇਟੋ; ਦੋਵੇਂ ਹੱਥ ਉੱਪਰ; ਗੋਡੇ 90-ਡਿਗਰੀ; ਕਮਰ ਜ਼ਮੀਨ ਨਾਲ ਚਿਪਕੀ।", "Lie on back, arms pointing to ceiling, knees bent at 90 over hips, flat back."],
+   ["2. नीचे की पोज़िशन (Extension)", "2. ਹੇਠਾਂ ਦੀ ਪੋਜ਼ੀਸ਼ਨ (Extension)", "2. Diagonal Extension"],
+   ["साँस छोड़ते हुए दायाँ हाथ सिर के पीछे और बायाँ पैर सामने फर्श से 2 इंच ऊपर तक फैलाएं।", "ਸਾਹ ਛੱਡਦੇ ਹੋਏ ਸੱਜਾ ਹੱਥ ਪਿੱਛੇ ਅਤੇ ਖੱਬਾ ਪੈਰ ਅੱਗੇ ਫੈਲਾਓ।", "Extend opposite arm overhead and leg forward hovering 2 inches off floor."],
+   ["3. होल्ड पोज़िशन (Peak Hold)", "3. ਹੋਲਡ ਪੋਜ਼ੀਸ਼ਨ (Peak Hold)", "3. Isometric Squeeze"],
+   ["फैली हुई स्थिति में कोर को 1 सेकंड ज़ोर से दबाकर रखें; पैर या हाथ फर्श को न छुए।", "ਕੋਰ ਨੂੰ 1 ਸਕਿੰਟ ਕੱਸ ਕੇ ਰੱਖੋ; ਹੱਥ-ਪੈਰ ਜ਼ਮੀਨ ਨਾ ਛੂਹਣ।", "Lock deep core for 1s with lower back glued to floor."],
+   ["4. वापसी (Reset)", "4. ਵਾਪਸੀ (Reset)", "4. Center Reset"],
+   ["पेट की ताकत से हाथ और पैर को वापस 90-डिग्री की शुरुआती स्थिति में लाएं, फिर उल्टी तरफ दोहराएं।", "ਹੌਲੀ ਵਾਪਸ ਸ਼ੁਰੂਆਤੀ ਸਥਿਤੀ ਵਿੱਚ ਲਿਆਓ, ਫਿਰ ਦੂਜੇ ਪਾਸੇ ਕਰੋ।", "Draw limbs back to 90 degrees under core control before switching sides."]
+  ],
+  checks: [
+   ["लोअर बैक (Spine)", "पैर फैलाते समय कमर और फर्श के बीच कोई गैप नहीं बनना चाहिए।", "Zero lumbar gap; lower back glued to mat."],
+   ["गर्दन (Neck)", "गर्दन में तनाव न आए, सिर मैट पर रिलैक्स रहे।", "Head and neck relaxed on mat; no strain."],
+   ["गति (Tempo)", "जल्दबाजी न करें; 2 सेकंड का धीमा विस्तार और स्थिरता रखें।", "Deliberate 2-second tempo, zero momentum."]
+  ]
+ }
+};
+
 "use strict";
 const IMG_COACH="data:image/webp;base64,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RTui+gKgbWVXBZSX5K7FCqk0vcHPQD/pMJzFg11a8AjbKwJtwuCKw3X3JOCRxdKXseA3wLSKMO+i20IMgZngHEeSz6wujCUqb+JVeNPIaP/HGwL2a/yhO3/6cYa/qAAAQzJQQX8WAAAAABZ/anVtYgAAAB5qdW1kYzJwYQARABCAAACqADibcQNjMnBhAAAAFllqdW1iAAAAR2p1bWRjMm1hABEAEIAAAKoAOJtxA3VybjpjMnBhOmQ2ZTExYzQ3LWU0YTgtNGM0OS04NDM4LTkyNDA0ZmI2YmNiZgAAAAOUanVtYgAAAClqdW1kYzJhcwARABCAAACqADibcQNjMnBhLmFzc2VydGlvbnMAAAAAuWp1bWIAAABEanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5pbmdyZWRpZW50LnYzAAAAABhjMnNo3bYSOs64KU769mLWFRxIuAAAAG1jYm9yo2lkYzpmb3JtYXRqaW1hZ2Uvd2VicGppbnN0YW5jZUlEeCx4bXA6aWlkOjdlY2QwMzU5LTU2NjMtNDlhNi1hNWRkLWRhYTBmZjc1ZTRjNWxyZWxhdGlvbnNoaXBocGFyZW50T2YAAAHianVtYgAAAEFqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmFjdGlvbnMudjIAAAAAGGMyc2jbPn5g2CFOvjBXxw6ME/IUAAABmWNib3KiZ2FjdGlvbnOComZhY3Rpb25rYzJwYS5vcGVuZWRqcGFyYW1ldGVyc6FraW5ncmVkaWVudHOBomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCDgF2NGeFxoE4PNeigik0dxdUNL/iL7GKvxOWGMWQOP7KRmYWN0aW9ueB1jb20uYW50aHJvcGljLmNsYXVkZS5wcm92aWRlZGpwYXJhbWV0ZXJzoXgfY29tLmFudGhyb3BpYy5vcmlnaW4tY29uZmlkZW5jZWd1bmtub3dua2Rlc2NyaXB0aW9ueGZDbGF1ZGUgcHJvdmlkZWQgdGhpcyBmaWxlIGF0IHRoZSByZXF1ZXN0IG9mIGEgdXNlciBhbmQgbWF5IGhhdmUgY3JlYXRlZCBvciBtb2RpZmllZCB0aGUgZmlsZSBjb250ZW50cy5tc29mdHdhcmVBZ2VudKFkbmFtZWZDbGF1ZGVyYWxsQWN0aW9uc0luY2x1ZGVk9QAAAMhqdW1iAAAAQGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaGFzaC5kYXRhAAAAABhjMnNob9KqUmCHj9qh/0WL3HTiiQAAAIBjYm9ypWNhbGdmc2hhMjU2Y3BhZEwAAAAAAAAAAAAAAABkaGFzaFggQPgu0EZHU4aQZwd+qp+JsFoZf/keirFxFCAIbui4aBRkbmFtZW5qdW1iZiBtYW5pZmVzdGpleGNsdXNpb25zgaJlc3RhcnQZSjRmbGVuZ3RoGRaHAAACPmp1bWIAAAAnanVtZGMyY2wAEQAQgAAAqgA4m3EDYzJwYS5jbGFpbS52MgAAAAIPY2JvcqVjYWxnZnNoYTI1NmlzaWduYXR1cmV4TXNlbGYjanVtYmY9L2MycGEvdXJuOmMycGE6ZDZlMTFjNDctZTRhOC00YzQ5LTg0MzgtOTI0MDRmYjZiY2JmL2MycGEuc2lnbmF0dXJlamluc3RhbmNlSUR4LHhtcDppaWQ6YTM0ZDA2MGMtZDY5YS00MDdmLWEwOTktY2MxNTllOTVmNGVmcmNyZWF0ZWRfYXNzZXJ0aW9uc4OiY3VybHgtc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5pbmdyZWRpZW50LnYzZGhhc2hYIOAXY0Z4XGgTg816KCKTR3F1Q0v+IvsYq/E5YYxZA4/somN1cmx4KnNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuYWN0aW9ucy52MmRoYXNoWCB1yBVGPmW9OVcmKHAzF7E0pSkiBWPqlKmhRbj+Kw/8i6JjdXJseClzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmhhc2guZGF0YWRoYXNoWCCMI1DD02rCzIjy+tX7GNpqBOmbE03W8S5viHC3552RMXRjbGFpbV9nZW5lcmF0b3JfaW5mb6NkbmFtZW9BbnRocm9waWMgRmlsZXNndmVyc2lvbmUxLjAuMGtzcGVjVmVyc2lvbmUyLjQuMAAAEDhqdW1iAAAAKGp1bWRjMmNzABEAEIAAAKoAOJtxA2MycGEuc2lnbmF0dXJlAAAAEAhjYm9y0oRZAhKiASYYIVkCCjCCAgYwggGNoAMCAQICFEDloAruwjnQvriD+gZCBT1nVRMAMAoGCCqGSM49BAMDMEkxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMS4wLAYDVQQDEyVBbnRocm9waWMgQ29udGVudCBDcmVkZW50aWFscyBSb290IENBMB4XDTI2MDgwNzE4NDM1NloXDTI4MDgwNjE5NDM1NlowRDEXMBUGA1UEChMOQW50aHJvcGljLCBQQkMxKTAnBgNVBAMTIEFudGhyb3BpYyBDbGF1ZGUgQ29udGVudCBTaWduaW5nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmHoKa8tQGAUU1TS9QqU5W0Tp2N3XsvlK7BfQt6YWKwEzd2R3/dzKPEUDdCjlLjp9fT+KFjRVnuZ9v0oXvTe3k6NYMFYwDgYDVR0PAQH/BAQDAgeAMBUGA1UdJQQOMAwGCisGAQQBg+heAgEwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBTOUeIEgU5kWyP448TPmj6cwddcwjAKBggqhkjOPQQDAwNnADBkAjAxcx0UngF60stVjs5G4T2eiptsBk5mf9oCtfJPAUBl8qs/PEXa8+gk1/X5QJ2DVcYCMHBfXN31YapiSqYvlIWrDVDJKOvXMl+kkz37Wt0PBI8sw486Mq6JeOhT+lRR4b1HCaFjcGFkWQ2eAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9lhA+q3HQp6VIo9BtVs57XIXWUY8JtYEeBvd4nVVJ+1O1ppuI4x00DsXpBT6hhdzyXSHXBqTGj7itV0J/LOFEa/YwAA=",IMG_GYM="data:image/webp;base64,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OmMycGE6NmUxOTZlZWItNzk0MC00MzczLWEwZmEtNWU2NTQ3YTNlODc3AAAAA5RqdW1iAAAAKWp1bWRjMmFzABEAEIAAAKoAOJtxA2MycGEuYXNzZXJ0aW9ucwAAAAC5anVtYgAAAERqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmluZ3JlZGllbnQudjMAAAAAGGMyc2ifJozZPk9eLAT5/65yTudSAAAAbWNib3KjaWRjOmZvcm1hdGppbWFnZS93ZWJwamluc3RhbmNlSUR4LHhtcDppaWQ6MzAzNWY2ZDctYzExYS00Yjc4LTk2MjItMzI0YjM1NzdhZjJlbHJlbGF0aW9uc2hpcGhwYXJlbnRPZgAAAeJqdW1iAAAAQWp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuYWN0aW9ucy52MgAAAAAYYzJzaCBfk4Hzx8ATQCjnhofxNR4AAAGZY2JvcqJnYWN0aW9uc4KiZmFjdGlvbmtjMnBhLm9wZW5lZGpwYXJhbWV0ZXJzoWtpbmdyZWRpZW50c4GiY3VybHgtc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5pbmdyZWRpZW50LnYzZGhhc2hYIGCurciLgZEhvlBF8aRsCTHtShA3mc4+hM342yF0HEvJpGZhY3Rpb254HWNvbS5hbnRocm9waWMuY2xhdWRlLnByb3ZpZGVkanBhcmFtZXRlcnOheB9jb20uYW50aHJvcGljLm9yaWdpbi1jb25maWRlbmNlZ3Vua25vd25rZGVzY3JpcHRpb254ZkNsYXVkZSBwcm92aWRlZCB0aGlzIGZpbGUgYXQgdGhlIHJlcXVlc3Qgb2YgYSB1c2VyIGFuZCBtYXkgaGF2ZSBjcmVhdGVkIG9yIG1vZGlmaWVkIHRoZSBmaWxlIGNvbnRlbnRzLm1zb2Z0d2FyZUFnZW50oWRuYW1lZkNsYXVkZXJhbGxBY3Rpb25zSW5jbHVkZWT1AAAAyGp1bWIAAABAanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5oYXNoLmRhdGEAAAAAGGMyc2i6cnhGREW4qrwlBcksMNXUAAAAgGNib3KlY2FsZ2ZzaGEyNTZjcGFkTAAAAAAAAAAAAAAAAGRoYXNoWCA9nXp4typIqgmV/1IKioV+ZKxsUnLYIivre2ryv5WRE2RuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBki1mZsZW5ndGgZFocAAAI+anVtYgAAACdqdW1kYzJjbAARABCAAACqADibcQNjMnBhLmNsYWltLnYyAAAAAg9jYm9ypWNhbGdmc2hhMjU2aXNpZ25hdHVyZXhNc2VsZiNqdW1iZj0vYzJwYS91cm46YzJwYTo2ZTE5NmVlYi03OTQwLTQzNzMtYTBmYS01ZTY1NDdhM2U4NzcvYzJwYS5zaWduYXR1cmVqaW5zdGFuY2VJRHgseG1wOmlpZDowYzFiOGFlYy01MTM5LTRjNjItYjA1ZS05YmQ4YjA5OGU2YzByY3JlYXRlZF9hc3NlcnRpb25zg6JjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggYK6tyIuBkSG+UEXxpGwJMe1KEDeZzj6EzfjbIXQcS8miY3VybHgqc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5hY3Rpb25zLnYyZGhhc2hYIIlmCiIG0JTPGk4PsSV8Ihh7KjwaBMzQvoG9liRU/NrOomN1cmx4KXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaGFzaC5kYXRhZGhhc2hYIDdevHCrqI9AHVR+XOA4DDyktPegxhMhmGqHe+frCkWEdGNsYWltX2dlbmVyYXRvcl9pbmZvo2RuYW1lb0FudGhyb3BpYyBGaWxlc2d2ZXJzaW9uZTEuMC4wa3NwZWNWZXJzaW9uZTIuNC4wAAAQOGp1bWIAAAAoanVtZGMyY3MAEQAQgAAAqgA4m3EDYzJwYS5zaWduYXR1cmUAAAAQCGNib3LShFkCEqIBJhghWQIKMIICBjCCAY2gAwIBAgIUQOWgCu7COdC+uIP6BkIFPWdVEwAwCgYIKoZIzj0EAwMwSTEXMBUGA1UEChMOQW50aHJvcGljLCBQQkMxLjAsBgNVBAMTJUFudGhyb3BpYyBDb250ZW50IENyZWRlbnRpYWxzIFJvb3QgQ0EwHhcNMjYwODA3MTg0MzU2WhcNMjgwODA2MTk0MzU2WjBEMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEpMCcGA1UEAxMgQW50aHJvcGljIENsYXVkZSBDb250ZW50IFNpZ25pbmcwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAASYegpry1AYBRTVNL1CpTlbROnY3dey+UrsF9C3phYrATN3ZHf93Mo8RQN0KOUuOn19P4oWNFWe5n2/She9N7eTo1gwVjAOBgNVHQ8BAf8EBAMCB4AwFQYDVR0lBA4wDAYKKwYBBAGD6F4CATAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFM5R4gSBTmRbI/jjxM+aPpzB11zCMAoGCCqGSM49BAMDA2cAMGQCMDFzHRSeAXrSy1WOzkbhPZ6Km2wGTmZ/2gK18k8BQGXyqz88Rdrz6CTX9flAnYNVxgIwcF9c3fVhqmJKpi+UhasNUMko69cyX6STPfta3Q8EjyzDjzoyrol46FP6VFHhvUcJoWNwYWRZDZ4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD2WEAcRaNlr8pqTgvt+wZUEPyRBo1fejHz6xB9++1u2LU9MH38S02YiG2eEmL41zn0R2eAa5JSBjaH3malEgr51Of0AA==";
 /* ---------- text (0=English, 1=Hindi, 2=Punjabi) ---------- */
@@ -505,15 +610,31 @@ function vHome(){
    <h3>🏛️ ${t("hub_title")}</h3>
   </div>
   <div class="hub-grid">
-   <!-- Hub 1: Exercise Chart Store -->
-   <div class="hub-card hub-blue" data-a="open_hub" data-v="ex">
-    <span class="hub-tag">${t("tag_lib")}</span>
+   <!-- Hub 1: Men's Workout Store -->
+   <div class="hub-card hub-blue" data-a="open_hub" data-v="men">
+    <span class="hub-tag">Men · पुरुष</span>
     <div class="hub-icon-3d">🏋️‍♂️</div>
-    <b>${t("hub_ex")}</b>
-    <span>${t("hub_ex_s")}</span>
+    <b>${S.lang===1?"पुरुष वर्कआउट स्टोर":S.lang===2?"ਮਰਦ ਵਰਕਆਊਟ ਸਟੋਰ":"Men's Workouts"}</b>
+    <span>${S.lang===1?"सीना, बाहें, एब्स व टाँगों की कसरत":S.lang===2?"ਛਾਤੀ, ਬਾਹਾਂ ਤੇ ਐਬਸ ਕਸਰਤ":"Chest, Arms, Abs & Legs Power"}</span>
+   </div>
+
+   <!-- Hub 2: Women's Fitness Studio (Completely Separate!) -->
+   <div class="hub-card hub-pink" data-a="open_hub" data-v="women">
+    <span class="hub-tag">Women · महिला</span>
+    <div class="hub-icon-3d">💃</div>
+    <b>${S.lang===1?"महिला फिटनेस स्टूडियो":S.lang===2?"ਔਰਤਾਂ ਦਾ ਫਿਟਨੈੱਸ ਸਟੂਡੀਓ":"Women's Fitness"}</b>
+    <span>${S.lang===1?"सपाट पेट, सुडौल बाहें, हिप्स व लेग्स टोनिंग":S.lang===2?"ਸਪਾਟ ਢਿੱਡ, ਸੁਡੌਲ ਬਾਹਾਂ ਤੇ ਕੁੱਲ੍ਹੇ":"Flat Belly, Toned Arms & Glutes"}</span>
+   </div>
+
+   <!-- Hub 3: Yoga & Recovery Studio -->
+   <div class="hub-card hub-teal" data-a="open_hub" data-v="yoga">
+    <span class="hub-tag">${t("tag_yoga")}</span>
+    <div class="hub-icon-3d">🧘‍♀️</div>
+    <b>${t("hub_yoga")}</b>
+    <span>${t("hub_yoga_s")}</span>
    </div>
    
-   <!-- Hub 2: Diet & Nutrition Store -->
+   <!-- Hub 4: Diet & Nutrition Store -->
    <div class="hub-card hub-green" data-a="open_hub" data-v="diet">
     <span class="hub-tag">${t("tag_5meals")}</span>
     <div class="hub-icon-3d">🥗</div>
@@ -521,29 +642,14 @@ function vHome(){
     <span>${t("hub_diet_s")}</span>
    </div>
    
-   <!-- Hub 3: Digital Fitness Coach -->
-   <div class="hub-card hub-purple" data-a="open_hub" data-v="coach">
+   <!-- Hub 5: Digital Fitness Coach -->
+   <div class="hub-card hub-purple hub-wide" data-a="open_hub" data-v="coach">
     <span class="hub-tag">${t("tag_ai")}</span>
-    <div class="hub-icon-3d">🤖</div>
-    <b>${t("hub_coach")}</b>
-    <span>${t("hub_coach_s")}</span>
-   </div>
-   
-   <!-- Hub 4: Progress & Weight Record -->
-   <div class="hub-card hub-gold" data-a="open_hub" data-v="rep">
-    <span class="hub-tag">${t("tag_stats")}</span>
-    <div class="hub-icon-3d">📊</div>
-    <b>${t("hub_rep")}</b>
-    <span>${t("hub_rep_s")}</span>
-   </div>
-     <!-- Hub 5: Yoga & Recovery Studio -->
-   <div class="hub-card hub-teal hub-wide" data-a="open_hub" data-v="yoga">
-    <span class="hub-tag">${t("tag_yoga")}</span>
     <div style="display:flex;align-items:center;gap:.9rem">
-     <div class="hub-icon-3d" style="margin-bottom:0">🧘‍♀️</div>
+     <div class="hub-icon-3d" style="margin-bottom:0">🤖</div>
      <div>
-      <b style="font-size:1.02rem">${t("hub_yoga")}</b>
-      <div style="font-size:.78rem;color:var(--muted);margin-top:.2rem">${t("hub_yoga_s")}</div>
+      <b style="font-size:1.02rem">${t("hub_coach")}</b>
+      <div style="font-size:.78rem;color:var(--muted);margin-top:.2rem">${t("hub_coach_s")}</div>
      </div>
     </div>
    </div>
@@ -576,187 +682,174 @@ function vPlan(){
  const planTab=S.planTab||0;
  const proLvl=S.proLvl!==undefined?S.proLvl:(S.p.lvl||0);
  const wMode=S.workoutMode||"home";
- 
- // Level suggestions text
- const lvlNames=["lvl_beg_t","lvl_int_t","lvl_adv_t"];
- const lvlSets=["cue_beg_sets","cue_int_sets","cue_adv_sets"];
- const lvlRests=["cue_beg_rest","cue_int_rest","cue_adv_rest"];
- const lvlTips=["cue_beg_tip","cue_int_tip","cue_adv_tip"];
 
- // Exercise Library Filter
- const mFlts=[
-  ["all",t("flt_all")],
-  ["ch",MU.ch[S.lang]],
-  ["ba",MU.ba[S.lang]],
-  ["sh",MU.sh[S.lang]],
-  ["bi",MU.bi[S.lang]],
-  ["tr",MU.tr[S.lang]],
-  ["be",MU.be[S.lang]],
-  ["th",MU.th[S.lang]],
-  ["gl",MU.gl[S.lang]]
- ];
- const curFlt=S.mflt||"all";
- const fltBar=mFlts.map(([k,lbl])=>`<button class="pill ${curFlt===k?"on":""}" data-a="mflt" data-v="${k}">${lbl}</button>`).join("");
- 
- // Filter by Home vs Gym mode
- const modePool = wMode==="home" ? HOME_EX_IDS : wMode==="gym" ? GYM_EX_IDS : Object.keys(EX);
- const exLib=modePool.filter(id=>curFlt==="all"||(INFO[id]&&INFO[id][0].includes(curFlt))).map(id=>{
-  const x=EX[id],I=INFO[id],mKey=I&&I[0]?I[0][0]:"wb";
-  const pImg=(PIMG[id]||VID[id])?`p_${id}.jpg`:(id==="tri"?"p_pushup.jpg":"");
-  const topVisual=pImg?`<div class="libtop" style="height:7.2rem"><img src="${pImg}" alt="" style="width:100%;height:100%;object-fit:cover;border-radius:.6rem;display:block">${VID[id]?`<span class="vcam">🎥 HD</span>`:""}</div>`:`<div class="libtop">${figSvg(id)}${VID[id]?`<span class="vcam">🎥</span>`:""}</div>`;
-  return `<div class="libcard" data-a="info" data-v="${id}">
-   ${topVisual}
-   <b>${x[0][S.lang]}</b>
-   <span><i class="rdot"></i> ${MU[mKey]?MU[mKey][S.lang]:""}</span>
+ function renderExCard(id, idx, isWomen){
+  const x=EX[id]; if(!x) return "";
+  const I=INFO[id], mKey=I&&I[0]?I[0][0]:"wb";
+  const mName=MU[mKey]?MU[mKey][S.lang]:"Target Muscle";
+  const photoSrc=isWomen?(WIMG[id]||`p_${id}.jpg`):((PIMG[id]||VID[id])?`p_${id}.jpg`:(id==="tri"?"p_pushup.jpg":""));
+  const mus=I?I[0].map(k=>MU[k][S.lang]).join(" · "):"";
+  const setsTxt=proLvl===0?t("cue_beg_sets"):proLvl===1?t("cue_int_sets"):t("cue_adv_sets");
+  const restSec=proLvl===0?"60–90":proLvl===1?"45–60":"30–45";
+  return `<div class="excard-clean" data-a="info" data-v="${id}">
+   <div class="excard-clean-top">
+    <div class="excard-clean-media">
+     ${photoSrc?`<img src="${photoSrc}" alt="${x[0][S.lang]}" loading="lazy"><span class="hd-badge">▶ HD</span>`:`<div class="media-placeholder">🏋️</div>`}
+     <span class="step-num">${idx+1}</span>
+    </div>
+    <div class="excard-clean-info">
+     <div class="target-tag"><span class="t-dot">🎯</span><b>${mName}</b></div>
+     <h3>${x[0][S.lang]}</h3>
+     <div class="excard-clean-chips">
+      <span class="sets-pill">⚡ ${setsTxt.split(" (")[0]}</span>
+      <span class="rest-pill">⏱ ${restSec}s rest</span>
+     </div>
+    </div>
+   </div>
+   <p class="excard-clean-cue">💡 ${x[1][S.lang]}</p>
+   <div class="excard-clean-foot">
+    <span class="excard-clean-mus">${mus?`<b>${S.lang===1?"अंग:":S.lang===2?"ਅੰਗ:":"Target:"}</b> ${mus}`:""}</span>
+    <span class="excard-clean-cta">${t("tap_vid")} ›</span>
+   </div>
   </div>`;
- }).join("");
+ }
 
  let mainContent="";
- if(planTab===1){
-  // 1. HOME & GYM WORKOUT STORE VIEW
-  mainContent=`
-   <!-- Home vs Gym Mode Switcher (Screenshot 46381) -->
-   <div class="master-split-nav">
-    <button class="master-split-btn ${wMode==='home'?'on':''}" data-a="set_wmode" data-v="home">
-     🏠 ${t("home_workouts_h").split(" ")[1]||"Home"}
-    </button>
-    <button class="master-split-btn ${wMode==='gym'?'on':''}" data-a="set_wmode" data-v="gym">
-     🏋️‍♂️ ${t("gym_workouts_h").split(" ")[1]||"Gym"}
-    </button>
-   </div>
 
-   <!-- Mode Hero Banner -->
-   <div class="section-hero-banner">
-    <h3>${wMode==='home'?t("home_workouts_h"):t("gym_workouts_h")}</h3>
-    <p>${wMode==='home'?t("home_workouts_s"):t("gym_workouts_s")}</p>
-   </div>
-
-   <!-- Men & Women Dual Target Showcase Cards (Screenshot 46393) -->
-   <div class="gender-showcase-container">
-    <!-- Men Card -->
-    <div class="gender-card men-card">
-     <div class="gender-avatar-wrap">
-      <img src="p_curl.jpg" alt="Men Fitness">
-     </div>
-     <div class="gender-card-content">
-      <span class="gender-card-badge">Men · पुरुष</span>
-      <h3>${t("men_zones_h")}</h3>
-      <div class="gender-zones-list">
-       <span class="gender-zone-pill ${curFlt==='all'?'on':''}" data-a="set_mzone" data-v="all">${t("zone_full")}</span>
-       <span class="gender-zone-pill ${curFlt==='ch'?'on':''}" data-a="set_mzone" data-v="ch">${t("zone_chest")}</span>
-       <span class="gender-zone-pill ${curFlt==='bi'?'on':''}" data-a="set_mzone" data-v="bi">${t("zone_arms")}</span>
-       <span class="gender-zone-pill ${curFlt==='be'?'on':''}" data-a="set_mzone" data-v="be">${t("zone_abs")}</span>
-       <span class="gender-zone-pill ${curFlt==='th'?'on':''}" data-a="set_mzone" data-v="th">${t("zone_legs")}</span>
-      </div>
-     </div>
-    </div>
-
-    <!-- Women Card -->
-    <div class="gender-card women-card">
-     <div class="gender-avatar-wrap">
-      <img src="p_stretch.jpg" alt="Women Fitness" onerror="this.onerror=null;this.src='p_bridge.jpg'">
-     </div>
-     <div class="gender-card-content">
-      <span class="gender-card-badge">Women · महिला</span>
-      <h3>${t("women_zones_h")}</h3>
-      <div class="gender-zones-list">
-       <span class="gender-zone-pill ${curFlt==='be'?'on':''}" data-a="set_mzone" data-v="be">${t("zone_belly")}</span>
-       <span class="gender-zone-pill ${curFlt==='bi'?'on':''}" data-a="set_mzone" data-v="bi">${t("zone_t_arms")}</span>
-       <span class="gender-zone-pill ${curFlt==='gl'?'on':''}" data-a="set_mzone" data-v="gl">${t("zone_glutes")}</span>
-       <span class="gender-zone-pill ${curFlt==='th'?'on':''}" data-a="set_mzone" data-v="th">${t("zone_thighs")}</span>
-       <span class="gender-zone-pill ${curFlt==='all'?'on':''}" data-a="set_mzone" data-v="all">${t("zone_full")}</span>
-      </div>
-     </div>
-    </div>
-   </div>
-
-   <!-- Level Progression Selector (Beginner -> Pro, Screenshot 46384) -->
-   <div style="margin-top:.85rem">
-    <div class="row"><h3>${t("lvl_prog_h")}</h3><span class="chip">Levels</span></div>
-    <p class="muted sm" style="margin:.25rem 0 .55rem">${t("lvl_prog_s")}</p>
-    <div class="pro-lvl-bar">
-     <button class="lvl-0 ${proLvl===0?"on":""}" data-a="set_pro_lvl" data-v="0">🟢 ${t("lvl_beg_t").split(" ")[0]}</button>
-     <button class="lvl-1 ${proLvl===1?"on":""}" data-a="set_pro_lvl" data-v="1">🟡 ${t("lvl_int_t").split(" ")[0]}</button>
-     <button class="lvl-2 ${proLvl===2?"on":""}" data-a="set_pro_lvl" data-v="2">🔴 ${t("lvl_adv_t").split(" ")[0]}</button>
-    </div>
-    
-    <div class="pro-guidance-card">
-     <div class="pro-guidance-header">
-      <h3 style="font-size:1.02rem;color:#fff">${t("pro_cues_h",{lvl:t(lvlNames[proLvl])})}</h3>
-     </div>
-     <div class="pro-stats-strip">
-      <span class="pro-stat-chip">🏋️ ${t(lvlSets[proLvl])}</span>
-      <span class="pro-stat-chip">⏱ ${t(lvlRests[proLvl])}</span>
-     </div>
-     <p class="muted sm" style="margin-top:.45rem;line-height:1.5;color:#d0e2f5">${t(lvlTips[proLvl])}</p>
-    </div>
-   </div>
-
-   <!-- Muscle Group Filter & Grid -->
-   <div style="margin-top:1.1rem">
-    <div class="row" style="margin-bottom:.5rem">
-     <h3>${wMode==='home'?'🏠 Home Exercises':'🏋️‍♂️ Gym Exercises'} (${modePool.length})</h3>
-     <span class="chip">${curFlt==='all'?'All Muscles':curFlt.toUpperCase()}</span>
-    </div>
-    <div class="chips" style="margin-bottom:.85rem">${fltBar}</div>
-    <div class="libgrid">${exLib}</div>
-   </div>
-  `;
- } else if(planTab===2){
-  // 2. STRETCHING & WARM-UP STUDIO VIEW
-  const stretches = [
+ if(planTab===0){
+  // TAB 0: EXCLUSIVE MEN'S WORKOUT SECTION
+  const menZones=[
    {
-    title: ["1. Neck Mobility & Gentle Rolls", "1. गर्दन का वॉर्म-अप व रोटेशन", "1. ਧੌਣ ਦਾ ਵਾਰਮ-ਅੱਪ"],
-    badge: ["30 sec", "30 सेकंड", "30 ਸਕਿੰਟ"],
-    desc: ["Slow circular rolls and gentle side-to-side ear-to-shoulder tilts to release cervical stiffness.", "गर्दन को धीरे-धीरे गोल घुमाएँ और दोनों कंधों की तरफ झुकाएँ। गर्दन की अकड़न मिटाता है।", "ਧੌਣ ਨੂੰ ਹੌਲੀ-ਹੌਲੀ ਘੁਮਾਓ।"]
+    title: ["🛡️ Chest & Arms Power", "🛡️ सीना व मजबूत बाहें (Chest & Arms)", "🛡️ ਛਾਤੀ ਤੇ ਬਾਹਾਂ ਦੀ ਤਾਕਤ"],
+    ids: ["bench","incline","cablefly","pushup","curl","tri"]
    },
    {
-    title: ["2. Arm Circles & Shoulder Openers", "2. कंधों व बाहों का रोटेशन", "2. ਮੋਢਿਆਂ ਦਾ ਰੋਟੇਸ਼ਨ"],
-    badge: ["15 reps each way", "15 बार दोनों तरफ", "15 ਵਾਰ"],
-    desc: ["Dynamic wide circles clockwise and counter-clockwise to lubricate shoulder rotators before pushups or bench.", "बाहों को दोनों तरफ गोल घुमाकर कंधों के जोड़ों को चिकना और तैयार करें।", "ਬਾਹਾਂ ਨੂੰ ਗੋਲ ਘੁਮਾਓ।"]
+    title: ["🔥 Six Pack Abs & Core", "🔥 सिक्स पैक एब्स व कोर (Abs & Core)", "🔥 ਸਿਕਸ ਪੈਕ ਐਬਸ ਤੇ ਕੋਰ"],
+    ids: ["plank","deadbug","climber","birddog"]
    },
    {
-    title: ["3. Standing Torso Twists", "3. स्टैंडिंग टॉर्सो ट्विस्ट", "3. ਕਮਰ ਦਾ ਟਵਿਸਟ"],
-    badge: ["20 slow twists", "20 बार", "20 ਵਾਰ"],
-    desc: ["Gentle standing spinal rotations with relaxed arms to warm up thoracic core and obliques.", "सीधे खड़े होकर कमर को धीरे-धीरे दोनों तरफ घुमाएँ। रीढ़ की हड्डी खुलती है।", "ਰੀੜ੍ਹ ਦੀ ਹੱਡੀ ਖੋਲ੍ਹਣ ਲਈ।"]
+    title: ["🦵 Athletic Legs & Glutes", "🦵 मजबूत टाँगें व क्वाड्स (Legs & Glutes)", "🦵 ਮਜ਼ਬੂਤ ਲੱਤਾਂ ਤੇ ਪੱਟ"],
+    ids: ["squat","gsquat","lunge","legpress","rdl"]
    },
    {
-    title: ["4. Standing Quad Stretch", "4. स्टैंडिंग क्वॉड स्ट्रेच", "4. ਪੱਟਾਂ ਦਾ ਖਿੱਚਾਅ"],
-    badge: ["30 sec each leg", "30 सेकंड प्रत्येक पैर", "30 ਸਕਿੰਟ"],
-    desc: ["Pull heel to glute while standing tall, keeping knees together. Prepares knees & quads for squats.", "एक पैर के पंजे को पीछे पकड़कर कूल्हे से लगाएँ। जाँघों के खिंचाव के लिए।", "ਲੱਤਾਂ ਦੀ ਲਚਕ ਲਈ।"]
-   },
-   {
-    title: ["5. Hamstring & Calf Toe Reach", "5. हैमस्ट्रिंग व पिंडलियों का खिंचाव", "5. ਪੈਰ ਛੂਹਣ ਦੀ ਸਟ੍ਰੈਚਿੰਗ"],
-    badge: ["30 sec hold", "30 सेकंड होल्ड", "30 ਸਕਿੰਟ"],
-    desc: ["Soft bend in knees, hinge from hips and reach down towards toes with relaxed neck.", "घुटने हल्के मोड़कर कमर से आगे झुकें और पंजों को छुएँ। पीठ व हैमस्ट्रिंग्स खुलती हैं।", "ਹੈਮਸਟ੍ਰਿੰਗ ਖੋਲ੍ਹਣ ਲਈ।"]
-   },
-   {
-    title: ["6. Deep Butterfly & Hip Opener", "6. बटरफ्लाई व हिप ओपनर", "6. ਬਟਰਫਲਾਈ ਸਟ੍ਰੈਚ"],
-    badge: ["45 sec hold", "45 सेकंड होल्ड", "45 ਸਕਿੰਟ"],
-    desc: ["Seated with soles of feet touching, knees gently pressed towards the floor with straight spine.", "दोनों तलवे जोड़कर बैठें और तितली की तरह घुटनों को ऊपर-नीचे करें। हिप्स को खोलता है।", "ਕੁੱਲ੍ਹਿਆਂ ਦੇ ਲਚਕ ਲਈ।"]
+    title: ["🔙 V-Taper Back & Shoulders", "🔙 चौड़ी पीठ व कंधे (Back & Shoulders)", "🔙 ਚੌੜੀ ਪਿੱਠ ਤੇ ਮੋਢੇ"],
+    ids: ["row","cablerow","ohp","raise","pullover"]
    }
   ];
 
   mainContent=`
-   <div class="section-hero-banner" style="background:linear-gradient(145deg,#1b1532,#100d20);border-color:rgba(139,92,246,.35)">
-    <h3>${t("stretch_h")}</h3>
-    <p>${t("stretch_s")}</p>
+      <!-- Men's Beast Mode Gym Workout Music Bar -->
+   <div class="workout-music-bar men">
+    <div class="workout-music-left">
+     <div class="music-wave-ico ${CURRENT_PLAYING_KEY==='men'?'playing':''}">🎧</div>
+     <div class="workout-music-text">
+      <b>${CURRENT_PLAYING_KEY==='men' ? "▶ " + TRACKS.men.title[S.lang] : TRACKS.men.title[S.lang]}</b>
+      <span>${TRACKS.men.vibe[S.lang]}</span>
+     </div>
+    </div>
+    <button class="workout-music-btn ${CURRENT_PLAYING_KEY==='men'?'stop':'play'}" data-a="play_track" data-v="men">
+     ${CURRENT_PLAYING_KEY==='men' ? (S.lang===1?"⏸ बंद करें":"⏸ Pause") : (S.lang===1?"▶ गाना बजाएँ":"▶ Play Song")}
+    </button>
    </div>
 
-   <div style="margin-top:.85rem">
-    ${stretches.map(st=>`
-     <div class="stretch-card">
-      <div class="stretch-head">
-       <b>${st.title[S.lang]}</b>
-       <span class="stretch-badge">${st.badge[S.lang]}</span>
-      </div>
-      <p>${st.desc[S.lang]}</p>
-     </div>
-    `).join("")}
+   <div class="section-hero-banner" style="background:linear-gradient(145deg,#132847,#0d1a30);border-color:rgba(56,189,248,.35)">
+    <h3>👨 ${S.lang===1?"पुरुष वर्कआउट व स्ट्रेंथ स्टोर":S.lang===2?"ਮਰਦ ਵਰਕਆਊਟ ਸਟੋਰ":"Men's Strength & Workout Store"}</h3>
+    <p>${S.lang===1?"चौड़ी छाती, मजबूत बाहें, सिक्स-पैक एब्स और एथलेटिक शरीर बनाने के लिए विशेष कसरत।":S.lang===2?"ਮਜ਼ਬੂਤ ਸਰੀਰ ਅਤੇ ਮਾਸਪੇਸ਼ੀਆਂ ਬਣਾਉਣ ਲਈ ਵਿਸ਼ੇਸ਼ ਕਸਰਤ।":"Targeted workouts for broad chest, sculpted arms, defined abs and athletic legs."}</p>
    </div>
+
+   <div class="mode-toggle-bar" style="margin-bottom:.85rem">
+    <button class="${wMode==='home'?'on':''}" data-a="set_wmode" data-v="home">🏠 ${t("mode_home")}</button>
+    <button class="${wMode==='gym'?'on':''}" data-a="set_wmode" data-v="gym">🏋️ ${t("mode_gym")}</button>
+   </div>
+
+   <div class="pro-lvl-bar" style="margin-bottom:.9rem">
+    <button class="lvl-0 ${proLvl===0?'on':''}" data-a="set_pro_lvl" data-v="0">🟢 ${t("lvl_beg_t").split(" ")[0]}</button>
+    <button class="lvl-1 ${proLvl===1?'on':''}" data-a="set_pro_lvl" data-v="1">🟡 ${t("lvl_int_t").split(" ")[0]}</button>
+    <button class="lvl-2 ${proLvl===2?'on':''}" data-a="set_pro_lvl" data-v="2">🔴 ${t("lvl_adv_t").split(" ")[0]}</button>
+   </div>
+
+   ${menZones.map(z=>{
+    const filteredIds = z.ids.filter(id => wMode==="home" ? HOME_EX_IDS.includes(id) : GYM_EX_IDS.includes(id));
+    const activeIds = filteredIds.length ? filteredIds : z.ids;
+    return `
+     <div class="zone-header-card">
+      <h4>${z.title[S.lang]}</h4>
+      <span class="zone-count">${activeIds.length} ${t("exs")}</span>
+     </div>
+     <div class="zone-ex-list">
+      ${activeIds.map((id, idx) => renderExCard(id, idx, false)).join("")}
+     </div>
+    `;
+   }).join("")}
   `;
- } else {
-  // 3. 90-DAY SCHEDULE VIEW
+ } else if(planTab===1){
+  // TAB 1: EXCLUSIVE WOMEN'S WORKOUT SECTION
+  const womenZones=[
+   {
+    title: ["🌟 Flat Belly & Slim Waist", "🌟 सपाट पेट व पतली कमर (Flat Belly)", "🌟 ਸਪਾਟ ਢਿੱਡ ਤੇ ਪਤਲੀ ਕਮਰ"],
+    ids: ["deadbug","plank","birddog","climber"]
+   },
+   {
+    title: ["💃 Toned Arms & Posture", "💃 सुडौल बाहें व कंधे (Toned Arms)", "💃 ਸੁਡੌਲ ਬਾਹਾਂ ਤੇ ਮੋਢੇ"],
+    ids: ["curl","raise","ohp","pushup","tri"]
+   },
+   {
+    title: ["🍑 Glute Sculpt & Booty Lift", "🍑 सुडौल हिप्स व ग्लूट्स (Glute Sculpt)", "🍑 ਸੁਡੌਲ ਕੁੱਲ੍ਹੇ ਤੇ ਲਚਕ"],
+    ids: ["bridge","lunge","squat","gsquat"]
+   },
+   {
+    title: ["🦵 Lean Thighs & Flexibility", "🦵 सुडौल जाँघें व स्ट्रेचिंग (Thighs & Mobility)", "🦵 ਸੁਡੌਲ ਪੱਟ ਤੇ ਸਟ੍ਰੈਚਿੰਗ"],
+    ids: ["squat","stretch","walk","rdl"]
+   }
+  ];
+
+  mainContent=`
+      <!-- Women's High-Energy Workout Music Bar -->
+   <div class="workout-music-bar women">
+    <div class="workout-music-left">
+     <div class="music-wave-ico ${CURRENT_PLAYING_KEY==='women'?'playing':''}">🎵</div>
+     <div class="workout-music-text">
+      <b>${CURRENT_PLAYING_KEY==='women' ? "▶ " + TRACKS.women.title[S.lang] : TRACKS.women.title[S.lang]}</b>
+      <span>${TRACKS.women.vibe[S.lang]}</span>
+     </div>
+    </div>
+    <button class="workout-music-btn ${CURRENT_PLAYING_KEY==='women'?'stop':'play'}" data-a="play_track" data-v="women">
+     ${CURRENT_PLAYING_KEY==='women' ? (S.lang===1?"⏸ बंद करें":"⏸ Pause") : (S.lang===1?"▶ गाना बजाएँ":"▶ Play Song")}
+    </button>
+   </div>
+
+   <div class="women-hero-banner">
+    <h3>👩 ${S.lang===1?"महिला फिटनेस व टोनिंग स्टूडियो":S.lang===2?"ਔਰਤਾਂ ਦਾ ਫਿਟਨੈੱਸ ਸਟੂਡੀਓ":"Women's Fitness & Toning Studio"}</h3>
+    <p>${S.lang===1?"सपाट पेट, सुडौल बाहें, टाइट हिप्स और टोंड पैरों के लिए विशेष सुरक्षित घरेलू व जिम कसरत।":S.lang===2?"ਸਪਾਟ ਢਿੱਡ, ਸੁਡੌਲ ਬਾਹਾਂ ਅਤੇ ਲਚਕੀਲੇ ਸਰੀਰ ਲਈ ਖਾਸ ਕਸਰਤਾਂ।":"Safe, joint-friendly workouts to burn belly fat, tone arms, lift glutes and slim thighs."}</p>
+   </div>
+
+   <div class="mode-toggle-bar" style="margin-bottom:.85rem">
+    <button class="${wMode==='home'?'on':''}" data-a="set_wmode" data-v="home">🏠 ${t("mode_home")}</button>
+    <button class="${wMode==='gym'?'on':''}" data-a="set_wmode" data-v="gym">🏋️ ${t("mode_gym")}</button>
+   </div>
+
+   <div class="pro-lvl-bar" style="margin-bottom:.9rem">
+    <button class="lvl-0 ${proLvl===0?'on':''}" data-a="set_pro_lvl" data-v="0">🟢 ${t("lvl_beg_t").split(" ")[0]}</button>
+    <button class="lvl-1 ${proLvl===1?'on':''}" data-a="set_pro_lvl" data-v="1">🟡 ${t("lvl_int_t").split(" ")[0]}</button>
+    <button class="lvl-2 ${proLvl===2?'on':''}" data-a="set_pro_lvl" data-v="2">🔴 ${t("lvl_adv_t").split(" ")[0]}</button>
+   </div>
+
+   ${womenZones.map(z=>{
+    const filteredIds = z.ids.filter(id => wMode==="home" ? HOME_EX_IDS.includes(id) : GYM_EX_IDS.includes(id));
+    const activeIds = filteredIds.length ? filteredIds : z.ids;
+    return `
+     <div class="zone-header-card" style="border-color:rgba(236,72,153,.35);background:rgba(236,72,153,.08)">
+      <h4 style="color:#f472b6">${z.title[S.lang]}</h4>
+      <span class="zone-count" style="background:rgba(236,72,153,.25);color:#f472b6">${activeIds.length} ${t("exs")}</span>
+     </div>
+     <div class="zone-ex-list">
+      ${activeIds.map((id, idx) => renderExCard(id, idx, true)).join("")}
+     </div>
+    `;
+   }).join("")}
+  `;
+ } else if(planTab===2){
+  // TAB 2: 90-DAY SCHEDULE
   let cells="";
   for(let n=mStart;n<=mEnd;n++){const q=dayPlan(n,p);cells+=`<button class="cell ${q.rest?"rest":""} ${S.done[n]?"done":""} ${n===cur?"today":""}" data-a="open" data-v="${n}">${S.done[n]?"✓":n}</button>`}
   let wTabs="";
@@ -798,13 +891,80 @@ function vPlan(){
    <div class="chips" style="margin-bottom:.8rem">${wTabs}</div>
    ${dayCards}
   `;
+ } else {
+  // TAB 3: STRETCHING STUDIO
+  const stretches = [
+   {
+    title: ["1. Neck Mobility & Gentle Rolls", "1. गर्दन का वॉर्म-अप व रोटेशन", "1. ਧੌਣ ਦਾ ਵਾਰਮ-ਅੱਪ"],
+    badge: ["30 sec", "30 सेकंड", "30 ਸਕਿੰਟ"],
+    desc: ["Slow circular rolls and gentle side-to-side ear-to-shoulder tilts to release cervical stiffness.", "गर्दन को धीरे-धीरे गोल घुमाएँ और दोनों कंधों की तरफ झुकाएँ। गर्दन की अकड़न मिटाता है।", "ਧੌਣ ਨੂੰ ਹੌਲੀ-ਹੌਲੀ ਘੁਮਾਓ।"]
+   },
+   {
+    title: ["2. Arm Circles & Shoulder Openers", "2. कंधों व बाहों का रोटेशन", "2. ਮੋਢਿਆਂ ਦਾ ਰੋਟੇਸ਼ਨ"],
+    badge: ["15 reps each way", "15 बार दोनों तरफ", "15 ਵਾਰ"],
+    desc: ["Dynamic wide circles clockwise and counter-clockwise to lubricate shoulder rotators before pushups or bench.", "बाहों को दोनों तरफ गोल घुमाकर कंधों के जोड़ों को चिकना और तैयार करें।", "ਬਾਹਾਂ ਨੂੰ ਗੋਲ ਘੁਮਾਓ।"]
+   },
+   {
+    title: ["3. Standing Torso Twists", "3. स्टैंडिंग टॉर्सो ट्विस्ट", "3. ਕਮਰ ਦਾ ਟਵਿਸਟ"],
+    badge: ["20 slow twists", "20 बार", "20 ਵਾਰ"],
+    desc: ["Gentle standing spinal rotations with relaxed arms to warm up thoracic core and obliques.", "सीधे खड़े होकर कमर को धीरे-धीरे दोनों तरफ घुमाएँ। रीढ़ की हड्डी खुलती है।", "ਰੀੜ੍ਹ ਦੀ ਹੱਡੀ ਖੋਲ੍ਹਣ ਲਈ।"]
+   },
+   {
+    title: ["4. Standing Quad Stretch", "4. स्टैंडिंग क्वॉड स्ट्रेच", "4. ਪੱਟਾਂ ਦਾ ਖਿੱਚਾਅ"],
+    badge: ["30 sec each leg", "30 सेकंड प्रत्येक पैर", "30 ਸਕਿੰਟ"],
+    desc: ["Pull heel to glute while standing tall, keeping knees together. Prepares knees & quads for squats.", "एक पैर के पंजे को पीछे पकड़कर कूल्हे से लगाएँ। जाँघों के खिंचाव के लिए।", "ਲੱਤਾਂ ਦੀ ਲਚਕ ਲਈ।"]
+   },
+   {
+    title: ["5. Hamstring & Calf Toe Reach", "5. हैमस्ट्रिंग व पिंडलियों का खिंचाव", "5. ਪੈਰ ਛੂਹਣ ਦੀ ਸਟ੍ਰੈਚਿੰਗ"],
+    badge: ["30 sec hold", "30 सेकंड होल्ड", "30 ਸਕਿੰਟ"],
+    desc: ["Soft bend in knees, hinge from hips and reach down towards toes with relaxed neck.", "घुटने हल्के मोड़कर कमर से आगे झुकें और पंजों को छुएँ। पीठ व हैमस्ट्रिंग्स खुलती हैं।", "ਹੈਮਸਟ੍ਰਿੰਗ ਖੋਲ੍ਹਣ ਲਈ।"]
+   },
+   {
+    title: ["6. Deep Butterfly & Hip Opener", "6. बटरफ्लाई व हिप ओपनर", "6. ਬਟਰਫਲਾਈ ਸਟ੍ਰੈਚ"],
+    badge: ["45 sec hold", "45 सेकंड होल्ड", "45 ਸਕਿੰਟ"],
+    desc: ["Seated with soles of feet touching, knees gently pressed towards the floor with straight spine.", "दोनों तलवे जोड़कर बैठें और तितली की तरह घुटनों को ऊपर-नीचे करें। हिप्स को खोलता है।", "ਕੁੱਲ੍ਹਿਆਂ ਦੇ ਲਚਕ ਲਈ।"]
+   }
+  ];
+
+  mainContent=`
+      <!-- Stretching & Cool-Down Music Bar -->
+   <div class="workout-music-bar stretch" style="background:linear-gradient(135deg,rgba(16,185,129,.2) 0%,rgba(11,22,38,.85) 100%);border-color:rgba(16,185,129,.35)">
+    <div class="workout-music-left">
+     <div class="music-wave-ico ${CURRENT_PLAYING_KEY==='stretch'?'playing':''}">🌿</div>
+     <div class="workout-music-text">
+      <b>${CURRENT_PLAYING_KEY==='stretch' ? "▶ " + TRACKS.stretch.title[S.lang] : TRACKS.stretch.title[S.lang]}</b>
+      <span style="color:#34d399">${TRACKS.stretch.vibe[S.lang]}</span>
+     </div>
+    </div>
+    <button class="workout-music-btn ${CURRENT_PLAYING_KEY==='stretch'?'stop':'play'}" style="${CURRENT_PLAYING_KEY==='stretch'?'':'background:linear-gradient(135deg,#10b981,#059669);border-color:#34d399'}" data-a="play_track" data-v="stretch">
+     ${CURRENT_PLAYING_KEY==='stretch' ? (S.lang===1?"⏸ बंद करें":"⏸ Pause") : (S.lang===1?"▶ म्यूजिक चलाएँ":"▶ Play Flow")}
+    </button>
+   </div>
+
+   <div class="section-hero-banner" style="background:linear-gradient(145deg,#1b1532,#100d20);border-color:rgba(139,92,246,.35)">
+    <h3>${t("stretch_h")}</h3>
+    <p>${t("stretch_s")}</p>
+   </div>
+   <div style="margin-top:.85rem">
+    ${stretches.map(st=>`
+     <div class="stretch-card">
+      <div class="stretch-head">
+       <b>${st.title[S.lang]}</b>
+       <span class="stretch-badge">${st.badge[S.lang]}</span>
+      </div>
+      <p>${st.desc[S.lang]}</p>
+     </div>
+    `).join("")}
+   </div>
+  `;
  }
 
- return `${langBar()}<div class="page ${planTab===2?'bg-theme-stretch':'bg-theme-gym'}">
+ return `${langBar()}<div class="page ${planTab===1?'bg-theme-women':planTab===3?'bg-theme-stretch':'bg-theme-gym'}">
   <div class="itabs" style="margin-bottom:1rem">
-   <button class="${planTab===0?"on":""}" data-a="ptab" data-v="0">${t("plan_tab_sched")}</button>
-   <button class="${planTab===1?"on":""}" data-a="ptab" data-v="1">${t("plan_tab_lib")}</button>
-   <button class="${planTab===2?"on":""}" data-a="ptab" data-v="2">🤸 ${t("stretch_h").split(" ")[1]||"Stretching"}</button>
+   <button class="${planTab===0?"on":""}" data-a="ptab" data-v="0">👨 ${S.lang===1?"पुरुष":S.lang===2?"ਮਰਦ":"Men"}</button>
+   <button class="${planTab===1?"on":""}" data-a="ptab" data-v="1" style="${planTab===1?'background:#ec4899;border-color:#f472b6;color:#fff':''}">👩 ${S.lang===1?"महिला":S.lang===2?"ਔਰਤਾਂ":"Women"}</button>
+   <button class="${planTab===2?"on":""}" data-a="ptab" data-v="2">📅 ${t("plan_tab_sched").split(" ")[0]}</button>
+   <button class="${planTab===3?"on":""}" data-a="ptab" data-v="3">🤸 ${t("stretch_h").split(" ")[1]||"Stretch"}</button>
   </div>
   ${mainContent}
   <p class="muted sm" style="margin-top:1.2rem;text-align:center">${t("warn")}</p>
@@ -1113,40 +1273,111 @@ const MS={knin:["Knees falling inward","घुटने अंदर की त�
 sq:["Bending the knees too much, like a squat","घुटने ज़्यादा मोड़कर स्क्वाट बना देना","ਗੋਡੇ ਜ਼ਿਆਦਾ ਮੋੜ ਕੇ ਸਕੁਐਟ ਬਣਾ ਦੇਣਾ"],lback:["Leaning back","पीछे झुकना","ਪਿੱਛੇ ਝੁਕਣਾ"],heavy:["Using a weight that is too heavy","बहुत भारी वज़न लेना","ਬਹੁਤ ਭਾਰਾ ਵਜ਼ਨ ਲੈਣਾ"],swing:["Swinging the body","शरीर झुलाना","ਸਰੀਰ ਝੁਲਾਉਣਾ"],elb:["Moving the elbows forward and back","कोहनियाँ आगे-पीछे करना","ਕੂਹਣੀਆਂ ਅੱਗੇ-ਪਿੱਛੇ ਕਰਨੀਆਂ"],elbm:["Elbow moving up and down","कोहनी ऊपर-नीचे हिलना","ਕੂਹਣੀ ਉੱਪਰ-ਹੇਠਾਂ ਹਿੱਲਣੀ"],swingw:["Swinging the weights","झटका देकर उठाना","ਝਟਕਾ ਦੇ ਕੇ ਚੁੱਕਣਾ"],above:["Lifting above shoulder height","कंधे से ऊपर उठाना","ਮੋਢੇ ਤੋਂ ਉੱਪਰ ਚੁੱਕਣਾ"],lbup:["Lower back lifting off the floor","कमर ज़मीन से उठना","ਕਮਰ ਜ਼ਮੀਨ ਤੋਂ ਉੱਠਣੀ"],fast:["Moving too fast","जल्दी-जल्दी करना","ਜਲਦੀ-ਜਲਦੀ ਕਰਨਾ"],twist:["Twisting the hips","कूल्हे घूमना","ਕੁੱਲ੍ਹੇ ਘੁੰਮਣੇ"],legh:["Lifting the leg too high","पैर बहुत ऊपर उठाना","ਪੈਰ ਬਹੁਤ ਉੱਪਰ ਚੁੱਕਣਾ"],tfast:["Starting too fast","शुरू से ही बहुत तेज़ चलना","ਸ਼ੁਰੂ ਤੋਂ ਹੀ ਬਹੁਤ ਤੇਜ਼ ਤੁਰਨਾ"],tslow:["Walking so slowly that your breathing does not rise","इतना धीमे चलना कि साँस बढ़े ही नहीं","ਇੰਨਾ ਹੌਲੀ ਤੁਰਨਾ ਕਿ ਸਾਹ ਵਧੇ ਹੀ ਨਾ"],bounce:["Bouncing in the stretch","झटके देकर खींचना","ਝਟਕੇ ਦੇ ਕੇ ਖਿੱਚਣਾ"],pain:["Stretching until it hurts","दर्द की हद तक खींचना","ਦਰਦ ਦੀ ਹੱਦ ਤੱਕ ਖਿੱਚਣਾ"],lock:["Locking the knees straight at the top","ऊपर घुटने पूरी तरह सीधे लॉक करना","ਉੱਪਰ ਗੋਡੇ ਪੂਰੀ ਤਰ੍ਹਾਂ ਸਿੱਧੇ ਲੌਕ ਕਰਨਾ"]};
 const INFO={squat:[["th","gl"],["knin","heel"]],gsquat:[["th","gl"],["knin","heel"]],pushup:[["ch","sh","tr"],["sag","flare"]],bridge:[["gl","ha"],["arch","toes"]],plank:[["be","sh"],["hips","breath"]],lunge:[["th","gl"],["kpast","lean"]],row:[["ba","bi"],["round","jerk"]],rdl:[["ha","gl","lb"],["round","sq"]],ohp:[["sh","tr"],["lback","heavy"]],curl:[["bi"],["swing","elb"]],tri:[["tr"],["elbm","jerk"]],raise:[["sh"],["swingw","above"]],deadbug:[["be"],["lbup","fast"]],birddog:[["be","gl","lb"],["twist","legh"]],walk:[["he","th"],["tfast","tslow"]],stretch:[["wb"],["bounce","pain"]],cablerow:[["ba","bi"],["round","jerk"]],legpress:[["th","gl"],["knin","lock"]],incline:[["ch","sh","tr"],["flare","heavy"]],climber:[["be","he","sh"],["hips","breath"]],pullover:[["ba","ch"],["arch","heavy"]]};
 function vInfo(){
- const id=S.info,x=EX[id],I=INFO[id],itab=S.itab||0,mKey=I&&I[0]?I[0][0]:"wb";
- return `${langBar()}<div class="page">${backBtn("iback")}
- <div class="infotitle"><h1>${x[0][S.lang]}</h1><span class="chip" style="background:var(--blue);color:#06182b;font-weight:800">${t("tag_hdform")}</span></div>
- ${(VID[id]||PIMG[id]||POSES[id])?`<div style="width:min(26rem,100%);margin:.6rem auto">${figOrVid(id)}${P2[id]?`<div class="gap" style="margin-top:.5rem"><img class="vid" style="flex:1;max-height:22vh" src="p_${id}2.jpg" alt=""><img class="vid" style="flex:1;max-height:22vh" src="p_${id}.jpg" alt=""></div>`:""}</div>`:""}
- <div class="itabs">
-  <button class="${itab===0?"on":""}" data-a="itab" data-v="0">${t("tab_muscle")}</button>
-  <button class="${itab===1?"on":""}" data-a="itab" data-v="1">${t("tab_howto")}</button>
- </div>
- ${itab===0?`
-  <div class="card">
-   <h3>${t("focus_area")}</h3>
-   <div class="chips" style="margin-top:.55rem">${I?I[0].map(k=>`<span class="fchip"><i class="rdot"></i>${MU[k][S.lang]}</span>`).join(""):""}</div>
-   <div class="musshowcase">
-    <div class="musbig-clean">
-     <span class="focus-title-tag">🎯 Target Muscles</span>
-     <div class="chips" style="margin-top:.4rem;justify-content:center">${I?I[0].map(k=>`<span class="chipb" style="background:#1d385e;color:#fff"><i class="rdot"></i>${MU[k][S.lang]}</span>`).join(""):""}</div>
+ const id=S.info, x=EX[id], I=INFO[id], itab=S.itab||0, mKey=I&&I[0]?I[0][0]:"wb";
+ const F = FORM_SEQ[id];
+ const mName = MU[mKey]?MU[mKey][S.lang]:"Target Muscle";
+
+ let content = "";
+
+ if(itab===0){
+  // TAB 0: PREVIEW & MOTION DEMO LOOP
+  content = `
+   ${(VID[id]||PIMG[id]||POSES[id])?`<div style="width:min(26rem,100%);margin:.6rem auto">${figOrVid(id)}${P2[id]?`<div class="gap" style="margin-top:.5rem"><img class="vid" style="flex:1;max-height:22vh" src="p_${id}2.jpg" alt=""><img class="vid" style="flex:1;max-height:22vh" src="p_${id}.jpg" alt=""></div>`:""}</div>`:""}
+   <div class="card">
+    <div class="row">
+     <h3>🎯 ${t("focus_area")}</h3>
+     <span class="chip" style="background:#1d385e;color:#fff">${mName}</span>
     </div>
-    ${(PIMG[id]||VID[id])?`<div class="musbig-clean" style="overflow:hidden;padding:0"><img src="p_${id}.jpg" alt="" style="width:100%;height:100%;max-height:8.5rem;object-fit:cover;border-radius:.85rem"></div>`:""}
+    <div class="chips" style="margin-top:.6rem">${I?I[0].map(k=>`<span class="fchip"><i class="rdot"></i>${MU[k][S.lang]}</span>`).join(""):""}</div>
    </div>
-  </div>
-  <div class="sp2"></div>
-  <div class="card"><h3>${t("info_how")}</h3><p style="margin-top:.4rem">${x[1][S.lang]}</p></div>
- `:`
-  <div class="card"><h3>${t("info_how")}</h3><p style="margin-top:.4rem">${x[1][S.lang]}</p></div>
-  ${I?`<div class="sp2"></div><div class="card"><h3>⚠️ ${t("info_mist")}</h3>${I[1].map(k=>`<p style="margin-top:.45rem">• ${MS[k][S.lang]}</p>`).join("")}</div>`:""}
- `}
- <div class="sp"></div>
- <div class="card" style="margin-top:.8rem">
-  <h3>🔄 ${t("a_beg")}</h3>
-  <p class="muted sm" style="margin-top:.25rem">${id==="pushup"?"Knee push-up or wall push-up":id==="squat"||id==="gsquat"?"Chair-assisted squat":id==="lunge"?"Static split squat or glute bridge":id==="bench"||id==="incline"?"Floor dumbbell press":id==="cablerow"||id==="row"?"Chest-supported row or band row":"Perform movement slowly with light bodyweight"}</p>
-  <div class="sp2"></div>
-  <h3>⚡ ${t("a_hard")}</h3>
-  <p class="muted sm" style="margin-top:.25rem">${id==="pushup"?"Decline push-up or diamond push-up":id==="squat"||id==="gsquat"?"Pause squat (2s at bottom) or jump squat":id==="plank"?"Plank with alternating shoulder taps":id==="curl"?"Zottman curl (slow eccentric)":"Increase weight or add a 2-second squeeze at the top"}</p>
+   <div class="sp2"></div>
+   <div class="card">
+    <h3>💡 ${S.lang===1?"त्वरित तकनीक निर्देश":S.lang===2?"ਤਕਨੀਕ ਨਿਰਦੇਸ਼":"Quick Form Cue"}</h3>
+    <p style="margin-top:.4rem;line-height:1.5">${x[1][S.lang]}</p>
+   </div>
+   <div class="sp2"></div>
+   <div class="card">
+    <h3>🔄 ${t("a_beg")}</h3>
+    <p class="muted sm" style="margin-top:.25rem">${id==="pushup"?"Knee push-up or wall push-up":id==="squat"||id==="gsquat"?"Chair-assisted squat":id==="lunge"?"Static split squat or glute bridge":id==="bench"||id==="incline"?"Floor dumbbell press":id==="cablerow"||id==="row"?"Chest-supported row or band row":"Perform movement slowly with light bodyweight"}</p>
+    <div class="sp2"></div>
+    <h3>⚡ ${t("a_hard")}</h3>
+    <p class="muted sm" style="margin-top:.25rem">${id==="pushup"?"Decline push-up or diamond push-up":id==="squat"||id==="gsquat"?"Pause squat (2s at bottom) or jump squat":id==="plank"?"Plank with alternating shoulder taps":id==="curl"?"Zottman curl (slow eccentric)":"Increase weight or add a 2-second squeeze at the top"}</p>
+   </div>
+  `;
+ } else if(itab===1){
+  // TAB 1: 4-STEP CORRECT FORM SEQUENCE
+  if(F){
+   content = `
+    <div class="section-hero-banner" style="background:linear-gradient(145deg,#132847,#0d1a30);border-color:rgba(56,189,248,.35)">
+     <h3>🎯 ${S.lang===1?"4-चरण सही फॉर्म सीक्वेंस":S.lang===2?"4-ਕਦਮ ਸਹੀ ਫਾਰਮ ਸੀਕੁਐਂਸ":"4-Step Correct Form Sequence"}</h3>
+     <p>${S.lang===1?"शुरुआत से लेकर वापसी तक हर रेप को इन 4 चरणों में नियंत्रित गति से पूरा करें:":S.lang===2?"ਸ਼ੁਰੂਆਤ ਤੋਂ ਵਾਪਸੀ ਤੱਕ ਹਰੇਕ ਰੈਪ ਦੇ 4 ਕਦਮ:": "Execute every single rep with deliberate control through these 4 distinct phases:"}</p>
+    </div>
+    <div class="seq-timeline">
+     <div class="seq-card step-1">
+      <h4><span>🔵</span> ${F.steps[0][S.lang]}</h4>
+      <p>${F.steps[1][S.lang]}</p>
+     </div>
+     <div class="seq-card step-2">
+      <h4><span>🟠</span> ${F.steps[2][S.lang]}</h4>
+      <p>${F.steps[3][S.lang]}</p>
+     </div>
+     <div class="seq-card step-3">
+      <h4><span>🔴</span> ${F.steps[4][S.lang]}</h4>
+      <p>${F.steps[5][S.lang]}</p>
+     </div>
+     <div class="seq-card step-4">
+      <h4><span>🟢</span> ${F.steps[6][S.lang]}</h4>
+      <p>${F.steps[7][S.lang]}</p>
+     </div>
+    </div>
+   `;
+  } else {
+   content = `
+    <div class="card">
+     <h3>🎯 ${S.lang===1?"कसरत करने की सही विधि":S.lang===2?"ਕਸਰਤ ਦਾ ਸਹੀ ਤਰੀਕਾ":"Correct Execution Form"}</h3>
+     <p style="margin-top:.5rem;line-height:1.55">${x[1][S.lang]}</p>
+    </div>
+   `;
+  }
+ } else {
+  // TAB 2: BIOMECHANICAL AUDIT & MISTAKES
+  content = `
+   <div class="section-hero-banner" style="background:linear-gradient(145deg,#251717,#170d0d);border-color:rgba(239,68,68,.35)">
+    <h3>🛡️ ${S.lang===1?"बायोमैकेनिकल सुरक्षा व फॉर्म चेक":S.lang===2?"ਬਾਇਓਮੈਕੇਨੀਕਲ ਸੁਰੱਖਿਆ ਚੈੱਕ":"Biomechanical Safety & Joint Care"}</h3>
+    <p>${S.lang===1?"जोड़ों की सुरक्षा और चोट से बचाव के लिए इन प्रमुख बिंदुओं की जाँच करें:":S.lang===2?"ਸੱਟ ਤੋਂ ਬਚਾਅ ਲਈ ਜ਼ਰੂਰੀ ਨੁਕਤੇ:":"Critical alignment checklist for joints, spine and equipment trajectory:"}</p>
+   </div>
+   <div style="margin-top:.85rem">
+    ${F&&F.checks?F.checks.map(c=>`
+     <div class="check-card">
+      <div class="check-head"><span>🔍</span> ${c[0]}</div>
+      <p class="check-body">${c[S.lang+1]||c[1]}</p>
+     </div>
+    `).join(""):""}
+   </div>
+   <div class="sp2"></div>
+   <div class="card" style="border-color:rgba(245,158,11,.3)">
+    <h3 style="color:#f59e0b">⚠️ ${t("info_mist")}</h3>
+    <div style="margin-top:.5rem">
+     ${I?I[1].map(k=>`<p style="margin-top:.45rem;color:#cbd5e1">• ${MS[k][S.lang]}</p>`).join(""):""}
+    </div>
+   </div>
+  `;
+ }
+
+ return `${langBar()}<div class="page">${backBtn("iback")}
+ <div class="infotitle">
+  <h1>${x[0][S.lang]}</h1>
+  <span class="chip" style="background:var(--blue);color:#06182b;font-weight:800">${t("tag_hdform")}</span>
  </div>
+
+ <div class="itabs" style="margin-bottom:1rem">
+  <button class="${itab===0?"on":""}" data-a="itab" data-v="0">📸 ${S.lang===1?"डेमो व रूपरेखा":S.lang===2?"ਡੈਮੋ ਲੂਪ":"Demo"}</button>
+  <button class="${itab===1?"on":""}" data-a="itab" data-v="1">🎯 ${S.lang===1?"4-चरण सही तकनीक":S.lang===2?"4-ਕਦਮ ਫਾਰਮ":"4-Step Form"}</button>
+  <button class="${itab===2?"on":""}" data-a="itab" data-v="2">🛡️ ${S.lang===1?"सुरक्षा चेकलिस्ट":S.lang===2?"ਸੁਰੱਖਿਆ ਚੈੱਕ":"Safety"}</button>
+ </div>
+
+ ${content}
+
  <div class="sp2"></div>
  <div class="gap">
   <button class="btn sec smbtn" data-a="share_ex" data-v="${id}">📤 ${t("share_ex")}</button>
@@ -1156,6 +1387,7 @@ function vInfo(){
  <button class="btn" data-a="iback">✓ ${t("p_done")}</button>
  <p class="muted sm" style="margin-top:1rem">${t("warn")}</p></div>`;
 }
+const WIMG={bridge:"w_bridge.jpg",deadbug:"w_deadbug.jpg",gsquat:"w_gsquat.jpg",squat:"w_gsquat.jpg",curl:"w_curl.jpg",rdl:"w_rdl.jpg",raise:"w_raise.jpg",tri:"w_tri.jpg",birddog:"w_birddog.jpg",pushup:"w_pushup.jpg",climber:"w_climber.jpg",calf:"w_calf.jpg",stretch:"w_stretch.jpg"};
 const VID={birddog:1,bridge:1,ohp:1,row:1,plank:1,lunge:1,curl:1,raise:1,walk:1,deadbug:1,rdl:1,cablerow:1,legpress:1,climber:1,pullover:1,bench:1},PIMG={squat:1,gsquat:1,pushup:1,incline:1,cablefly:1,stretch:1},P2={ohp:1,cablerow:1,rdl:1,lunge:1,curl:1,incline:1,stretch:1};
 const vidHtml=id=>`<video class="vid" src="v_${id}.mp4" poster="p_${id}.jpg" autoplay loop ${S.snd?"":"muted"} controls playsinline preload="metadata"></video>`;
 const figOrVid=id=>VID[id]?vidHtml(id):PIMG[id]?`<img class="vid" src="p_${id}.jpg" alt="">`:(id==="tri"?`<img class="vid" src="p_pushup.jpg" alt="">`:`<div class="vid-placeholder">🏋️</div>`);
@@ -1288,90 +1520,91 @@ function syncTourHighlight(){
 }
 
 
-/* Web Audio API 432Hz Ambient Zen Music Synthesizer */
-let YOGA_AUDIO_CTX = null;
-let YOGA_AUDIO_NODES = [];
-let YOGA_AUDIO_PLAYING = false;
+/* ========================================================
+   DEDICATED SECTION-BY-SECTION WORKOUT MUSIC PLAYER ENGINE
+   - Men: "One Sound" (Heavy Iron Beast Mode Pump Anthem · Male Vocal)
+   - Women: "Earn Every Drop" (High Energy Cardio & Toning Anthem · Female Vocal)
+   - Yoga: "Pranayama Peace" (Serene Bamboo Flute & Meditation Drone)
+   - Stretch: "Serene Flow" (Acoustic Strings & Cool-Down Recovery Flow)
+   ======================================================== */
+const TRACKS = {
+ men: {
+  src: "music_men.mp3",
+  title: ["One Sound (Male Vocal Pump)", "वन साउंड (पुरुष जिम एंथम)", "ਵਨ ਸਾਊਂਡ (ਮਰਦ ਪੰਪ ਗੀਤ)"],
+  vibe: ["Heavy Beast Mode Pump · Male Vocal Anthem", "हैवी जिम पम्प · मेल वोकल रॉक एंथम", "ਭਾਰੀ ਜਿਮ ਪੰਪ · ਮੇਲ ਵੋਕਲ ਐਂਥਮ"],
+  ico: "🎧"
+ },
+ women: {
+  src: "music_women.mp3",
+  title: ["Earn Every Drop (Cardio Anthem)", "अर्न एव्री ड्रॉप (महिला वर्कआउट एंथम)", "ਅਰਨ ਐਵਰੀ ਡ੍ਰੌਪ (ਕਸਰਤ ਗੀਤ)"],
+  vibe: ["High-Energy Cardio & Toning · Female Vocal", "हाई-एनर्जी कार्डियो व टोनिंग · फीमेल वोकल", "ਹਾਈ-ਐਨਰਜੀ ਕਾਰਡੀਓ ਤੇ ਟੋਨਿੰਗ"],
+  ico: "🎵"
+ },
+ yoga: {
+  src: "music_yoga.mp3",
+  title: ["Pranayama Peace (Zen Flute)", "प्राणायाम पीस (शांत बाँसुरी व ध्यान)", "ਪ੍ਰਾਣਾਯਾਮ ਪੀਸ (ਸ਼ਾਂਤ ਬੰਸਰੀ)"],
+  vibe: ["Serene Bamboo Flute & Meditative Calm", "शांत बाँसुरी व ध्यान संगीत (मन की शांति)", "ਸ਼ਾਂਤ ਬੰਸਰੀ ਤੇ ਧਿਆਨ ਸੰਗੀਤ"],
+  ico: "🧘‍♀️"
+ },
+ stretch: {
+  src: "music_stretch.mp3",
+  title: ["Serene Flow (Acoustic Calm)", "सिरीन फ्लो (कूलडाउन व स्ट्रेचिंग)", "ਸਿਰੀਨ ਫਲੋ (ਕੂਲਡਾਊਨ)"],
+  vibe: ["Acoustic Strings & Cool-Down Recovery", "वर्कआउट के बाद मांसपेशियों की रिलैक्सेशन", "ਕਸਰਤ ਤੋਂ ਬਾਅਦ ਰਿਲੈਕਸੇਸ਼ਨ"],
+  ico: "🌿"
+ }
+};
 
-function startYogaAudio() {
+let CURRENT_AUDIO_PLAYER = null;
+let CURRENT_PLAYING_KEY = null;
+
+function playAudioTrack(key) {
+ if (CURRENT_PLAYING_KEY === key && CURRENT_AUDIO_PLAYER && !CURRENT_AUDIO_PLAYER.paused) {
+  pauseAudioTrack();
+  return;
+ }
+ stopAudioPlayer();
+ const track = TRACKS[key];
+ if (!track) return;
+
  try {
-  if (YOGA_AUDIO_PLAYING) return;
-  const AudioCtx = window.AudioContext || window.webkitAudioContext;
-  if (!AudioCtx) return;
-  if (!YOGA_AUDIO_CTX) YOGA_AUDIO_CTX = new AudioCtx();
-  if (YOGA_AUDIO_CTX.state === 'suspended') YOGA_AUDIO_CTX.resume();
-
-  const ctx = YOGA_AUDIO_CTX;
-  const masterGain = ctx.createGain();
-  masterGain.gain.setValueAtTime(0.001, ctx.currentTime);
-  masterGain.gain.exponentialRampToValueAtTime(0.18, ctx.currentTime + 3);
-  masterGain.connect(ctx.destination);
-
-  const freqs = [108, 216, 432, 648];
-  YOGA_AUDIO_NODES = [masterGain];
-
-  freqs.forEach((freq, idx) => {
-   const osc = ctx.createOscillator();
-   const gain = ctx.createGain();
-   const filter = ctx.createBiquadFilter();
-
-   osc.type = idx === 0 ? 'sine' : idx === 1 ? 'triangle' : 'sine';
-   osc.frequency.setValueAtTime(freq, ctx.currentTime);
-
-   filter.type = 'lowpass';
-   filter.frequency.setValueAtTime(freq * 1.8, ctx.currentTime);
-
-   const lfo = ctx.createOscillator();
-   const lfoGain = ctx.createGain();
-   lfo.frequency.setValueAtTime(0.12, ctx.currentTime);
-   lfoGain.gain.setValueAtTime(0.04, ctx.currentTime);
-   lfo.connect(lfoGain);
-   lfoGain.connect(gain.gain);
-   lfo.start();
-
-   gain.gain.setValueAtTime(idx === 2 ? 0.08 : 0.05, ctx.currentTime);
-
-   osc.connect(filter);
-   filter.connect(gain);
-   gain.connect(masterGain);
-   osc.start();
-
-   YOGA_AUDIO_NODES.push(osc, gain, lfo, lfoGain, filter);
+  CURRENT_AUDIO_PLAYER = new Audio(track.src);
+  CURRENT_AUDIO_PLAYER.loop = true;
+  CURRENT_AUDIO_PLAYER.volume = 0.9;
+  CURRENT_PLAYING_KEY = key;
+  CURRENT_AUDIO_PLAYER.play().then(() => {
+   save(); render();
+  }).catch(err => {
+   console.warn("Audio play prevented or needs gesture", err);
+   save(); render();
   });
-
-  YOGA_AUDIO_PLAYING = true;
- } catch (e) {
-  console.log("Audio synth error", e);
+ } catch(e) {
+  console.warn("Audio init error", e);
  }
+ save(); render();
 }
 
-function stopYogaAudio() {
- try {
-  if (!YOGA_AUDIO_PLAYING || !YOGA_AUDIO_CTX) return;
-  const ctx = YOGA_AUDIO_CTX;
-  const master = YOGA_AUDIO_NODES[0];
-  if (master && master.gain) {
-   master.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + 1.2);
-  }
-  setTimeout(() => {
-   YOGA_AUDIO_NODES.forEach(n => {
-    try { if (n.stop) n.stop(); if (n.disconnect) n.disconnect(); } catch(err){}
-   });
-   YOGA_AUDIO_NODES = [];
-   YOGA_AUDIO_PLAYING = false;
-  }, 1200);
- } catch(e){}
-}
-
-function toggleYogaAudio() {
- if (YOGA_AUDIO_PLAYING) {
-  stopYogaAudio();
- } else {
-  startYogaAudio();
+function pauseAudioTrack() {
+ if (CURRENT_AUDIO_PLAYER) {
+  try { CURRENT_AUDIO_PLAYER.pause(); } catch(e){}
  }
- save();
- render();
+ CURRENT_PLAYING_KEY = null;
+ save(); render();
 }
+
+function stopAudioPlayer() {
+ if (CURRENT_AUDIO_PLAYER) {
+  try {
+   CURRENT_AUDIO_PLAYER.pause();
+   CURRENT_AUDIO_PLAYER.currentTime = 0;
+  } catch(e){}
+  CURRENT_AUDIO_PLAYER = null;
+ }
+ CURRENT_PLAYING_KEY = null;
+}
+
+function toggleYogaAudio() { playAudioTrack('yoga'); }
+function startYogaAudio() { playAudioTrack('yoga'); }
+function stopYogaAudio() { stopAudioPlayer(); }
 
 function vYoga(){
  const curTab = S.yogaTab || "master";
@@ -1638,17 +1871,17 @@ function vYoga(){
     <p class="muted sm">${t("yoga_sub")}</p>
    </div>
    
-   <!-- Ambient 432Hz Zen Music Synthesizer Player -->
+   <!-- Yoga Studio Music Bar (Pranayama Peace - Flute & Zen) -->
    <div class="yoga-music-bar">
     <div class="yoga-music-left">
-     <div class="music-wave-ico ${YOGA_AUDIO_PLAYING?'playing':''}">🎵</div>
+     <div class="music-wave-ico ${CURRENT_PLAYING_KEY==='yoga'?'playing':''}">🧘‍♀️</div>
      <div class="yoga-music-text">
-      <b>${YOGA_AUDIO_PLAYING?t("yoga_music_on"):t("yoga_music_off")}</b>
-      <span>432Hz Meditative Healing Drone</span>
+      <b>${CURRENT_PLAYING_KEY==='yoga' ? "▶ " + TRACKS.yoga.title[S.lang] : TRACKS.yoga.title[S.lang]}</b>
+      <span>${TRACKS.yoga.vibe[S.lang]}</span>
      </div>
     </div>
-    <button class="yoga-music-btn ${YOGA_AUDIO_PLAYING?'stop':'play'}" data-a="toggle_yoga_music">
-     ${YOGA_AUDIO_PLAYING?t("yoga_music_btn_stop"):t("yoga_music_btn_play")}
+    <button class="yoga-music-btn ${CURRENT_PLAYING_KEY==='yoga'?'stop':'play'}" data-a="play_track" data-v="yoga">
+     ${CURRENT_PLAYING_KEY==='yoga' ? (S.lang===1?"⏸ बंद करें":"⏸ Pause") : (S.lang===1?"▶ बाँसुरी चलाएँ":"▶ Play Music")}
     </button>
    </div>
 
@@ -1690,18 +1923,21 @@ document.addEventListener("click",e=>{
  else if(a==="tour_skip"){S.tour=0;S.tourDone=true;S.tab="home"}
  else if(a==="tab"){S.tab=v;if(v==="yoga"){S.screen="yoga"}else{S.screen="home"};save();render()}
  else if(a==="open_hub"){
-  if(v==="ex"){S.tab="plan";S.planTab=1}
-  else if(v==="diet"){S.tab="diet"}
-  else if(v==="coach"){S.tab="coach"}
-  else if(v==="rep"){S.tab="rep"}
-  else if(v==="yoga"){S.screen="yoga";S.yogaTab=S.yogaTab||"surya"}
- }
+   if(v==="men"){S.tab="plan";S.screen="home";S.planTab=0;S.genderTab="men"}
+   else if(v==="women"){S.tab="plan";S.screen="home";S.planTab=1;S.genderTab="women"}
+   else if(v==="ex"){S.tab="plan";S.screen="home";S.planTab=0}
+   else if(v==="diet"){S.tab="diet";S.screen="home"}
+   else if(v==="coach"){S.tab="coach";S.screen="home"}
+   else if(v==="rep"){S.tab="rep";S.screen="home"}
+   else if(v==="yoga"){S.tab="yoga";S.screen="yoga";S.yogaTab=S.yogaTab||"surya"}
+   save();render();
+  }
    else if(a==="set_diet_goal"){S.dietGoal=+v;save();render()}
   else if(a==="set_home_gym"){S.p.eq=+v;S.workoutMode=(+v===0?"home":"gym");save();render()}
   else if(a==="set_wmode"){S.workoutMode=v;S.p.eq=(v==="home"?0:1);save();render()}
   else if(a==="set_gender_tab"){S.genderTab=v;save();render()}
   else if(a==="set_mzone"){S.mflt=v;save();render()}
-  else if(a==="toggle_yoga_music"){toggleYogaAudio()}
+  else if(a==="play_track"||a==="toggle_yoga_music"){playAudioTrack(v||"yoga")}
   else if(a==="set_tgender"){S.targetGender=v;S.mflt="all";save();render()}
   else if(a==="set_teq"){S.targetEq=v;save();render()}
   else if(a==="yoga_tab"){S.yogaTab=v;save();render()}

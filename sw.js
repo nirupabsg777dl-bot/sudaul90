@@ -1,4 +1,4 @@
-const CACHE="sudaul-v22";
+const CACHE="sudaul-v26";
 const CORE=[
   './',
   './index.html',
